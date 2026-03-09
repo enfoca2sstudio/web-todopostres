@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   =>  Template Name    : Edukate - Online Education Website Template
 
   =>  Template Link    : https://htmlcodex.com/online-education-website-template
@@ -6,4 +7,14 @@
 
   =>  Template Author  : HTML Codex
 
+=======
+  =>  Template Name    : Edukate - Online Education Website Template
+
+  =>  Template Link    : https://htmlcodex.com/online-education-website-template
+
+  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
+
+  =>  Template Author  : HTML Codex
+
+>>>>>>> 50881c9ddaa29f1cedc15824f51753dc77befb60
   =>  Author Website   : https://htmlcodex.com
