@@ -13,9 +13,10 @@ A.  Home
   4.  Hero home
   5.  Contador
   6.  Cursos/Talleres home
-  7.  Ebooks
-  8.  Valores
-  9.  Testimonios
+  7.  Novedades
+  8.  Ebooks
+  9.  Valores
+  10.  Testimonios
 B.  Quienes somos
   xx. Somos Hero
   xx. Contenido somos
@@ -424,12 +425,190 @@ input[type="checkbox"] {
 }
 
 /*-------------------------------------
-    4.  Hero home
+    5.  Contador
 --------------------------------------*/
 .container-cursos-home {
   margin-top: -1px !important;
 }
 
+.txt-noso-home {
+  font-size: var(--parrafo);
+  color: var(--fucsia);
+}
+
+.txt-noso-home::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 100% !important;
+  height: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  border-top: 2px dashed var(--fucsia) !important;
+}
+
+.titu-noso-home {
+  font-size: var(--titulo);
+  color: var(--negro);
+}
+
+.txt-nos-home {
+  font-size: var(--parrafo);
+  color: var(--negro);
+}
+
+.contain-contador:nth-child(1) .bg-contador,
+.contain-contador:nth-child(3) .bg-contador {
+  background-color: var(--fucsia);
+}
+
+.contain-contador:nth-child(2) .bg-contador,
+.contain-contador:nth-child(4) .bg-contador {
+  background-color: var(--fucsia-cla);
+}
+
+.txt-contado {
+  font-size: 13px;
+}
+
+/*-------------------------------------
+    6.  Cursos/Talleres home
+--------------------------------------*/
+.item-curs-home {
+  width: 560px;
+  height: 700px;
+  margin: auto !important;
+}
+
+.contain-front-cursos {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: transparent;
+}
+
+.img_cursos_home {
+  display: block;
+  margin: auto !important;
+  width: 100%;
+  height: 100%;
+}
+
+.contain-back-cursos {
+  padding: 17px 52px;
+  background: var(--fucsia-cla);
+}
+
+.titu-cursos-back {
+  padding-top: 19px !important;
+  font-size: var(--titulo);
+  line-height: 42px;
+  text-align: center;
+  color: var(--blanco);
+}
+
+.txt-descrip-cursos {
+  margin: 0 !important;
+  margin-top: 38px !important;
+  font-size: var(--parrafo);
+  font-weight: 400;
+  text-align: center;
+  line-height: 21px;
+  color: var(--blanco);
+}
+
+.item-descrip-back {
+  margin: 0 !important;
+  font-size: var(--parrafo);
+  font-weight: 400;
+  text-align: left;
+  line-height: 21px;
+  color: var(--blanco);
+}
+
+.cont-precio {
+  width: 379px;
+  margin: auto !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-precio-back {
+  -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+  max-width: 100%;
+}
+
+.col-precio-back p {
+  margin: 0 !important;
+  font-size: var(--parrafo);
+  font-weight: 700;
+  text-align: center;
+  line-height: 21px;
+  color: var(--blanco);
+}
+
+.col-precio-back a {
+  display: block;
+  width: 170px;
+  margin: auto !important;
+  padding: 10px;
+  font-size: var(--parrafo);
+  font-weight: 400;
+  text-align: center;
+  color: var(--blanco);
+  border: 2px solid var(--fucsia);
+  border-radius: 10px;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+.col-precio-back a:hover {
+  color: var(--blanco);
+  border: 2px solid var(--fucsia);
+  background-color: var(--fucsia);
+}
+
+/*-------------------------------------
+    7.  Novedades
+--------------------------------------*/
+.txt-novedades {
+  font-size: var(--parrafo);
+  color: var(--fucsia);
+}
+.txt-novedades::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 100% !important;
+  height: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  border-top: 2px dashed var(--fucsia) !important;
+}
+
+.titu-novedades {
+  font-size: var(--titulo);
+  color: var(--negro);
+}
+
+.courses-list-item img {
+  position: relative;
+  transition: .5s;
+}
+
+.courses-item .courses-text,
+.courses-list-item .courses-text {
+  position: absolute;
+  width: 100%;
+  height: calc(100% + 86px);
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: linear-gradient(to bottom, rgba(18, 15, 45, 0), #d92a7f);
+  transition: .5s;
+  z-index: 1;
+}
 
 
 
@@ -9945,26 +10124,7 @@ h6,
   transition: .5s;
 }
 
-.courses-list-item img {
-  position: relative;
-  transition: .5s;
-}
 
-.courses-item .courses-text,
-.courses-list-item .courses-text {
-  position: absolute;
-  width: 100%;
-  height: calc(100% + 86px);
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  background: linear-gradient(to bottom, rgba(18, 15, 45, 0), #120f2d);
-  transition: .5s;
-  z-index: 1;
-}
 
 .courses-list-item .courses-text {
   height: 100%;
