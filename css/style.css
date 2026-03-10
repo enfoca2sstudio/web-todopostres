@@ -336,6 +336,10 @@ input[type="checkbox"] {
   display: none !important;
 }
 
+.txt-acento {
+  font-weight: 700 !important;
+}
+
 /*=====================================
   2.  Header
 =======================================*/
@@ -610,6 +614,397 @@ input[type="checkbox"] {
   z-index: 1;
 }
 
+.btn-noveda {
+  font-size: var(--parrafo) !important;
+  color: var(--blanco) !important;
+  border: 2px solid var(--fucsia) !important;
+  border-radius: 5px !important;
+  background-color: var(--fucsia) !important;
+  transition: all .3s ease-in-out;
+}
+.btn-noveda:hover {
+  color: var(--fucsia) !important;
+  border: 2px solid var(--fucsia) !important;
+  background-color: transparent !important;
+}
+
+/*-------------------------------------
+    8.  Ebooks
+--------------------------------------*/
+.txt-ebooks {
+  font-size: var(--parrafo);
+  color: var(--fucsia);
+}
+.txt-ebooks::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 100% !important;
+  height: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  border-top: 2px dashed var(--fucsia) !important;
+}
+
+.titu-ebooks {
+  font-size: var(--titulo);
+  color: var(--negro);
+}
+
+.container-ebooks {
+  display: flex;
+  margin-top: 100px;
+}
+
+#carousel-container {
+  display: flex;
+  justify-content: center;
+  perspective: 1000px;
+  width: 300px;
+  height: 200px;
+}
+
+#carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform-origin: center;
+}
+
+.carousel-ebook {
+  position: absolute;
+  width: 300px;
+  height: 375px;
+  transform-style: preserve-3d;
+  transform-origin: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  font-size: 2em;
+  color: white;
+  background-color: #3498db;
+  border-radius: 5px;
+  cursor: grab;
+  user-select: none;
+}
+
+.cont-ebook {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 29px 0;
+  background: #ffffff;
+  background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(217, 42, 127, 0.71) 80%);
+  background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(217, 42, 127, 0.71) 80%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(217, 42, 127, 0.71) 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#D92A7F", GradientType=0);
+}
+
+.carousel-ebook:nth-child(1) {
+  background: url("../img/ebooks-01.webp") no-repeat center;
+  background-size: contain;
+}
+.carousel-ebook:nth-child(2) {
+  background: url("../img/ebooks-02.webp") no-repeat center;
+  background-size: contain;
+}
+.carousel-ebook:nth-child(3) {
+  background: url("../img/ebooks-03.webp") no-repeat center;
+  background-size: contain;
+}
+.carousel-ebook:nth-child(4) {
+  background: url("../img/ebooks-04.webp") no-repeat center;
+  background-size: contain;
+}
+.carousel-ebook:nth-child(5) {
+  background: url("../img/ebooks-05.webp") no-repeat center;
+  background-size: contain;
+}
+.carousel-ebook:nth-child(6) {
+  background: url("../img/ebooks-06.webp") no-repeat center;
+  background-size: contain;
+}
+
+.btn-ebook {
+  width: 38%;
+  padding: 6px !important;
+  font-size: var(--parrafo) !important;
+  text-align: center !important;
+  color: var(--fucsia) !important;
+  border: 2px solid var(--blanco) !important;
+  border-radius: 5px !important;
+  background-color: var(--blanco) !important;
+  transition: all .5s ease-in-out !important;
+}
+.btn-ebook:hover {
+  color: var(--blanco) !important;
+  border: 2px solid var(--blanco) !important;
+  background-color: transparent !important;
+}
+
+/*-------------------------------------
+    9.  Valores
+--------------------------------------*/
+.wrapper-valor {
+  margin-top: 215px;
+}
+
+.txt-valores {
+  font-size: var(--parrafo);
+  color: var(--fucsia);
+}
+.txt-valores::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 100% !important;
+  height: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  border-top: 2px dashed var(--fucsia) !important;
+}
+
+.titu-valores {
+  font-size: var(--titulo);
+  color: var(--negro);
+}
+
+.container-valores {
+  justify-content: space-evenly;
+  margin-bottom: 28px;
+}
+
+.col-list-valo {
+  padding: 23px;
+  border-radius: 27px;
+  -webkit-box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
+     -moz-box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
+          box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
+  background: var(--fucsia-cla);
+}
+
+.cont-img-valor {
+  display: block;
+  margin: auto;
+  margin-bottom: 34px;
+  padding: 33px;
+  width: 159px;
+  height: auto;
+  border-radius: 100px;
+  -webkit-box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
+     -moz-box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
+          box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
+  background: var(--blanco);
+  transition: all .5s ease-in-out;
+}
+
+.cont-img-valor:hover {
+  transform: rotate(360deg);
+}
+
+.txt-info-valor {
+  margin-bottom: 0 !important;
+  font-size: var(--parrafo);
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center;
+  color: var(--blanco);
+}
+
+.valor-carousel {
+  margin-top: 73px;
+}
+
+.team-item {
+  padding: 17px;
+  border: 2px dashed var(--fucsia);
+  border-radius: 14px;
+}
+
+
+.contain-valo-carru .cont-img-valor {
+  width: 141px;
+  height: auto;
+  padding: 27px;
+}
+
+.titu-carru-valor {
+  height: 66px;
+  margin-bottom: 0 !important;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+  color: var(--fucsia);
+}
+
+.contain-valo-carru .txt-info-valor {
+  height: 94px;
+  margin-bottom: 0 !important;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: center;
+  color: var(--fucsia);
+}
+
+.valor-carousel .owl-nav {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  top: calc(50% - 30px);
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.valor-carousel .owl-nav .owl-prev,
+.valor-carousel .owl-nav .owl-next {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #FFFFFF;
+  border: 2px solid var(--fucsia);
+  border-radius: 100%;
+  background: var(--fucsia);
+  transition: .5s;
+}
+
+.valor-carousel .owl-nav .owl-prev {
+  margin-left: -17px;
+}
+.valor-carousel .owl-nav .owl-next {
+  margin-right: -17px;
+}
+
+.valor-carousel .owl-nav .owl-prev:hover,
+.valor-carousel .owl-nav .owl-next:hover {
+  color: var(--fucsia);
+  border: 2px solid var(--fucsia);
+  background: var(--blanco);
+}
+
+/*-------------------------------------
+    10.  Testimonios
+--------------------------------------*/
+.txt-testimo, .txt-info-testimo {
+  font-size: var(--parrafo);
+  color: var(--fucsia);
+}
+.txt-testimo::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 100% !important;
+  height: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  border-top: 2px dashed var(--fucsia) !important;
+}
+
+.titu-testimo {
+  font-size: var(--titulo);
+  color: var(--negro);
+}
+
+.testimonial-carousel i {
+  color: var(--fucsia);
+}
+
+.testimonial-carousel .owl-item img {
+  width: 80px;
+  height: 80px;
+}
+
+.testimonial-carousel .owl-nav {
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  top: 0;
+  right: 0;
+  display: flex;
+  z-index: 1;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+  position: relative;
+  width: 47px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 6px;
+  font-size: 22px;
+  color: #FFFFFF;
+  border: 2px solid var(--fucsia);
+  border-radius: 100%;
+  background: var(--fucsia);
+  transition: .5s;
+}
+
+.testimonial-carousel .owl-nav .owl-prev:hover,
+.testimonial-carousel .owl-nav .owl-next:hover {
+  color: var(--fucsia);
+  border: 2px solid var(--fucsia);
+  background: var(--blanco);
+}
+
+/*-------------------------------------
+    10.  Testimonios
+--------------------------------------*/
+.contain-sucrp {
+  display: block;
+  width: 77%;
+  margin: auto;
+}
+
+.txt-suscrip {
+  font-size: var(--parrafo);
+  color: var(--fucsia);
+}
+.txt-suscrip::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 100% !important;
+  height: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  border-top: 2px dashed var(--fucsia) !important;
+}
+
+.titu-suscrip {
+  font-size: var(--titulo);
+  color: var(--negro);
+}
+
+.info-suscript {
+  font-size: var(--subtitulo);
+  color: var(--fucsia);
+}
+
+.btn-form {
+  display: block;
+  width: 100%;
+  margin: auto !important;
+  padding: 6px !important;
+  font-size: var(--parrafo) !important;
+  text-align: center !important;
+  color: var(--blanco) !important;
+  border: 2px solid var(--fucsia) !important;
+  border-radius: 5px !important;
+  background-color: var(--fucsia) !important;
+  transition: all .5s ease-in-out !important;
+}
+.btn-form:hover {
+  color: var(--fucsia) !important;
+  border: 2px solid var(--fucsia) !important;
+  background-color: transparent !important;
+}
 
 
 
@@ -10142,7 +10537,6 @@ h6,
   height: calc(100% + 40px);
 }
 
-.team-carousel .owl-nav,
 .related-carousel .owl-nav {
   position: absolute;
   width: 100%;
@@ -10154,8 +10548,6 @@ h6,
   z-index: 1;
 }
 
-.team-carousel .owl-nav .owl-prev,
-.team-carousel .owl-nav .owl-next,
 .related-carousel .owl-nav .owl-prev,
 .related-carousel .owl-nav .owl-next {
   position: relative;
@@ -10170,47 +10562,7 @@ h6,
   transition: .5s;
 }
 
-.team-carousel .owl-nav .owl-prev:hover,
-.team-carousel .owl-nav .owl-next:hover,
 .related-carousel .owl-nav .owl-prev:hover,
 .related-carousel .owl-nav .owl-next:hover {
   background: #F14D5D;
-}
-
-.testimonial-carousel .owl-item img {
-  width: 80px;
-  height: 80px;
-}
-
-.testimonial-carousel .owl-nav {
-  position: absolute;
-  width: 120px;
-  height: 60px;
-  top: 0;
-  right: 0;
-  display: flex;
-  z-index: 1;
-}
-
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next {
-  position: relative;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #FFFFFF;
-  background: #2878EB;
-  font-size: 22px;
-  transition: .5s;
-}
-
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next:hover {
-  background: #F14D5D;
-}
-
-.testimonial-carousel .owl-nav .owl-prev:hover {
-  background: #2878EB;
 }
