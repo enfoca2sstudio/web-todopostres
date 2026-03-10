@@ -1006,6 +1006,48 @@ input[type="checkbox"] {
   background-color: transparent !important;
 }
 
+/*=====================================
+    Footer
+=======================================*/
+.container-footer {
+  background: var(--blanco);
+}
+.row-footer-top {
+  border: 1px solid red;
+}
+.col-footer-top {
+  border: 1px solid green;
+}
+.col-footer-top:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-footer {
+  width: 134px;
+  height: auto;
+}
+
+.titu-footer-top {
+  font-size: var(--titulo);
+  color: var(--fucsia);
+}
+
+.col-footer-top p,
+.link-footer {
+  font-size: var(--parrafo);
+  color: var(--fucsia);
+}
+
+.rrss-foter {
+  font-size: 11px;
+  color: var(--fucsia);
+}
+
+.container-footer-bot {
+  background-color: var(--fucsia);
+}
+
 
 
 textarea {
