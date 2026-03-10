@@ -16,17 +16,18 @@ A.  Home
   7.  Novedades
   8.  Ebooks
   9.  Valores
-  10.  Testimonios
-B.  Quienes somos
-  xx. Somos Hero
-  xx. Contenido somos
-C.  Cursos
-  xx. Cursos Hero
-  xx. Cursos Online
+  10. Testimonios
+  11. Sucripción
+B.  Cursos
+  12. Cursos Hero
+  13. Contenido somos
+C.  Talleres
+  14. Talleres Hero
+  15. Talleres Online
   xx. Cursos presenciales
-D.  Talleres
-  xx. Talleres Hero
-  xx. Talleres Contendio
+D.  Ebooks
+  16. Ebooks Hero
+  17. Ebooks Contendio
 E.  Ebooks
   xx. Ebooks Hero
   xx. Ebooks Contendio
@@ -955,7 +956,7 @@ input[type="checkbox"] {
 }
 
 /*-------------------------------------
-    10.  Testimonios
+    11. Sucripción
 --------------------------------------*/
 .contain-sucrp {
   display: block;
@@ -1007,16 +1008,173 @@ input[type="checkbox"] {
 }
 
 /*=====================================
-    Footer
+  B.  Cursos
+=======================================*/
+/*-------------------------------------
+    12. Cursos Hero
+--------------------------------------*/
+.hero-cursos.page-header {
+  background: linear-gradient(rgba(217, 42, 127, 0.9), rgba(217, 42, 127, 0.9)), url(../img/bg-header.webp), no-repeat center center;
+  background-size: cover;
+}
+
+.btn-form-curso {
+  color: var(--blanco) !important;
+  border: 1px solid var(--fucsia-cla) !important;
+  background-color: var(--fucsia-cla) !important;
+}
+
+/*-------------------------------------
+    13. Contenido somos
+--------------------------------------*/
+.txt-curso {
+  font-size: var(--parrafo);
+  color: var(--fucsia);
+}
+.txt-curso::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 100% !important;
+  height: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  border-top: 2px dashed var(--fucsia) !important;
+}
+
+.titu-curso {
+  font-size: var(--titulo);
+  color: var(--negro);
+}
+
+.cursos-carousel {
+  display: block;
+  width: 750px;
+  height: 750px;
+  margin: auto;
+}
+
+.curso-item {
+  display: block;
+  width: 750px;
+  height: 750px;
+}
+
+.img-cursos {
+  width: 100%;
+  height: auto;
+}
+
+.courses-list-item img {
+  position: relative;
+  transition: .5s;
+}
+
+.curso-item .cursos-text,
+.courses-list-item .cursos-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: linear-gradient(to bottom, rgba(18, 15, 45, 0), #d92a7f);
+  transition: .5s;
+  z-index: 1;
+}
+
+.btn-curso {
+  font-size: var(--parrafo) !important;
+  color: var(--blanco) !important;
+  border: 2px solid var(--fucsia) !important;
+  border-radius: 5px !important;
+  background-color: var(--fucsia) !important;
+  transition: all .3s ease-in-out;
+}
+.btn-curso:hover {
+  color: var(--fucsia) !important;
+  border: 2px solid var(--fucsia) !important;
+  background-color: transparent !important;
+}
+
+.nav-carru-curso {
+  width: 650px;
+  margin: auto !important;
+  margin-top: 40px !important;
+}
+
+.contain-nav {
+  display: block;
+  width: 130px;
+  height: auto;
+  margin: auto;
+  border: 2px solid var(--fucsia);
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.img-nav-curso {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  filter: grayscale(100);
+  transition: .5s ease-in-out;
+}
+
+.contain-nav:hover .img-nav-curso {
+  filter: grayscale(0);
+}
+
+/*=====================================
+  C.  Talleres
+=======================================*/
+/*-------------------------------------
+    15. Talleres Online
+--------------------------------------*/
+.col-talleres .cursos-carousel {
+  display: block;
+  width: 537px;
+  height: 537px;
+  margin: auto;
+}
+
+.col-talleres .curso-item {
+  display: block;
+  width: 534px;
+  height: 534px;
+}
+
+.col-talleres {
+  padding: 0 !important;
+}
+
+.col-talleres .nav-carru-curso {
+  width: auto;
+  margin: auto !important;
+}
+
+.col-talleres .nav-carru-curso .col-nav-curso {
+  margin: 6px;
+}
+
+/*=====================================
+  D.  Ebooks
+=======================================*/
+/*-------------------------------------
+    17. Ebooks Contendio
+--------------------------------------*/
+.container-ebook {
+  margin-bottom: 195px;
+}
+
+/*=====================================
+  Footer
 =======================================*/
 .container-footer {
   background: var(--blanco);
-}
-.row-footer-top {
-  border: 1px solid red;
-}
-.col-footer-top {
-  border: 1px solid green;
 }
 .col-footer-top:nth-child(1) {
   display: flex;

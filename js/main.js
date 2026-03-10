@@ -113,6 +113,18 @@
         }
     });
 
+    // carrusel mascotas
+    $('.cursos-carousel').owlCarousel({
+        items: 1,
+        loop: false,
+        center: true,
+        dots: false,
+        margin: 10,
+        URLhashListener: true,
+        autoplayHoverPause: true,
+        startPosition: '#five'
+    });
+
 
     // Team carousel
     $(".team-carousel").owlCarousel({
