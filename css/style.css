@@ -369,6 +369,265 @@ input[type="checkbox"] {
   A.  Home
 =======================================*/
 /*-------------------------------------
+    3.  Pop-up home
+--------------------------------------*/
+.popup {
+  display: none;
+  position: fixed;
+	justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65); /* Fondo semitransparente */
+  z-index: 99999;
+}
+
+.popup-content {
+	position: relative;
+	top: 1%;
+	max-width: 1920px !important;
+	width: 83%;
+	height: auto !important;
+	padding: 20px;    
+  text-align: center;
+	border-radius: 8px;
+	/*background: url('https://greilysrivassacademy.com/wp-content/uploads/2024/08/greilys-bg-04.jpg') no-repeat center center;*/
+}
+
+.row-cursos-popup {}
+
+.cursos-popup {
+	-ms-flex: 0 0 100% !important;
+	flex: 0 0 100% !important;
+	max-width: 100% !important;
+}
+
+.cursos-popup2 {margin-top: 9%;}
+
+.cursos-popup .heading-nvo_cursos {margin-top: -7%;}
+
+.cursos-popup .excerpt-txt {
+	height: 66px;
+	margin-top: -4%;
+}
+
+/* Botón de cierre del pop-up */
+.close {
+    position: absolute !important;
+    top: 10px !important;
+    right: 20px !important;
+    font-size: 30px;
+	color: var(--blanco) !important;
+    cursor: pointer;
+}
+
+.close:hover {color: red !important;}
+
+.heading-popup {
+	margin-top: -20px;
+	margin-bottom: -2% !important;
+	font-family: 'Armany' !important;
+	font-size: var(--titulo) !important;
+	font-weight: 700 !important;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--blanco) !important
+}
+
+.cont-carru-popup {margin-top: 5%;}
+
+.titu-carru-popup {
+	margin-top: -20px;
+	font-family: 'Armany' !important;
+	font-size: 44px !important;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+	color: var(--blanco) !important;
+}
+
+.curso-carousel .owl-stage-outer {
+  padding: 32px 0;
+}
+
+.curso-carousel .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  background-color: var(--fucsia-cla);
+}
+.curso-carousel .owl-dots .owl-dot.active span,
+.curso-carousel .owl-dots .owl-dot:hover span {
+  background-color: var(--fucsia);
+}
+
+.card-pop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 280px;
+  margin: 0 10px;
+  padding: 1.3rem 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card-pop1 {
+	background: url("../img/noveda-01.webp") no-repeat center center !important;
+	background-size: cover !important;
+}
+.card-pop2 {
+	background: url("../img/noveda-02.webp") no-repeat center center !important;
+	background-size: cover !important;
+}
+.card-pop3 {
+	background: url("../img/noveda-03.webp") no-repeat center center !important;
+	background-size: cover !important;
+}
+.card-pop4 {
+	background: url("../img/noveda-04.webp") no-repeat center center !important;
+	background-size: cover !important;
+}
+.card-pop5 {
+	background: url("../img/noveda-05.webp") no-repeat center center !important;
+	background-size: cover !important;
+}
+.card-pop6 {
+	background: url("../img/noveda-06.webp") no-repeat center center !important;
+	background-size: cover !important;
+}
+
+.card__img {
+  width: 180px;
+  height: auto;
+  padding: 3rem 0;
+  transition: .5s;
+}
+.card__name {
+  position: absolute;
+  left: 0;
+  top: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(209, 82, 148, 0);
+  transition: .5s;
+}
+
+.pop-titu {
+	position: relative;
+	top: 6%;
+	margin-bottom: -10% !important;
+	font-size: 32px !important;
+	font-weight: 700 !important;
+	text-transform: uppercase !important;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+	line-height: 67px !important;
+	letter-spacing: 2px;
+	filter: opacity(1);
+	color: var(--blanco) !important;
+	transition: .5s ease-in-out;
+}
+
+.pop-titu1 {
+	position: relative;
+	top: 217%;
+  margin-bottom: 0 !important;
+	font-size: 39px !important;
+	font-weight: 900 !important;
+  text-align: center;
+	text-transform: uppercase !important;
+	text-shadow: 2px 2px 4px var(--negro);
+	line-height: 41px !important;
+	letter-spacing: 2px;
+  color: var(--fucsia) !important;
+	filter: opacity(1);
+	transition: .5s ease-in-out;
+}
+
+.card__name img {
+	position: relative;
+	top: 5%;
+	display: block;
+	margin: auto;
+	width: 60% !important;
+	filter: opacity(0);
+	transition: .5s ease-in-out;
+}
+
+.txt-popup {
+	position: relative !important;
+	top: 5px !important;
+	margin-bottom: 0 !important;
+	font-family: 'Poppins' !important;
+	font-size: 20px !important;
+	font-weight: 700;
+	text-align: center !important;
+	text-transform: uppercase !important;
+	line-height: 23px !important;
+	letter-spacing: 1px;
+	color: var(--blanco) !important;
+	text-shadow: 2px 2px 4px #000000 !important;
+	filter: opacity(0);
+	transition: .5s ease-in-out;
+}
+
+.curso-carousel .owl-nav .owl-prev, .curso-carousel .owl-nav .owl-next {color: var(--fucsia) !important;}
+
+/*Move left*/
+.card-pop:hover{box-shadow: 0 .5rem 1rem #D1D9E6;}
+
+.card-pop:hover .pop-titu {
+  top: -22%;
+}
+
+.card-pop:hover .pop-titu1 {
+	top: -17%;
+	filter: opacity(1);
+}
+
+.card-pop:hover .txt-popup {
+	top: 4% !important;
+  filter: opacity(1);
+}
+
+.card-pop:hover .card__titu{
+	top: -34%;
+	filter: opacity(0);
+}
+
+.card-pop:hover .card__name{
+  background-color: rgba(209, 82, 148, 0.55);
+}
+
+.card-pop:hover .card__precis{
+    margin-left: 3.5rem;
+    padding: 0 1.5rem;
+}
+
+/* Estilos CSS para el scrollbar */
+.popup-content::-webkit-scrollbar {
+	width: 8px; /* Ancho del scrollbar */
+	height: 10px;
+}
+  
+.popup-content::-webkit-scrollbar-track {background: var(--blanco); /* Color de fondo del track del scrollbar */}
+  
+.popup-content::-webkit-scrollbar-thumb {
+	background: rgba(55, 40, 121, 0.65); /* Color del thumb del scrollbar */
+	border-radius: 10px;
+}
+  
+.popup-content::-webkit-scrollbar-thumb:hover {
+	background: var(--morado); /* Color del thumb del scrollbar al pasar el cursor sobre él */
+}
+
+/*-------------------------------------
     4.  Hero home
 --------------------------------------*/
 .overlay-top::before,
