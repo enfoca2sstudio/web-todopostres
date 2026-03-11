@@ -358,6 +358,11 @@ input[type="checkbox"] {
   color: var(--fucsia) !important;
 }
 
+button.nav-item {
+  border: none !important;
+  background: transparent !important;
+}
+
 .dropdown-item:hover, .dropdown-item:focus,
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
@@ -371,6 +376,47 @@ input[type="checkbox"] {
 /*-------------------------------------
     3.  Pop-up home
 --------------------------------------*/
+/*quienes somos*/
+.modal-dialog {
+  position: relative;
+  max-width: 900px !important;
+  width: auto;
+  height: 1200px !important;
+  margin: 0.5rem;
+  pointer-events: none;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 580px !important;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+  overflow: scroll;
+}
+
+.txt-noso-home {
+  font-size: var(--parrafo);
+  color: var(--fucsia);
+}
+
+.txt-noso-home::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 100% !important;
+  height: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  border-top: 2px dashed var(--fucsia) !important;
+}
+
+/*novedades*/
 .popup {
   display: none;
   position: fixed;
@@ -695,12 +741,12 @@ input[type="checkbox"] {
   margin-top: -1px !important;
 }
 
-.txt-noso-home {
+.txt-mis-vis {
   font-size: var(--parrafo);
   color: var(--fucsia);
 }
 
-.txt-noso-home::before {
+.txt-mis-vis::before {
   position: absolute !important;
   content: "" !important;
   width: 100% !important;
@@ -708,6 +754,11 @@ input[type="checkbox"] {
   bottom: 0 !important;
   left: 0 !important;
   border-top: 2px dashed var(--fucsia) !important;
+}
+
+.titu-mis-vis {
+  font-size: var(--titulo);
+  color: var(--negro);
 }
 
 .titu-noso-home {
@@ -5543,10 +5594,6 @@ input[type="button"].btn-block {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
-}
-
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
 }
@@ -6792,12 +6839,7 @@ a.close.disabled {
   outline: 0;
 }
 
-.modal-dialog {
-  position: relative;
-  width: auto;
-  margin: 0.5rem;
-  pointer-events: none;
-}
+
 
 .modal.fade .modal-dialog {
   transition: transform 0.3s ease-out;
@@ -6862,19 +6904,6 @@ a.close.disabled {
 
 .modal-dialog-centered.modal-dialog-scrollable::before {
   content: none;
-}
-
-.modal-content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  pointer-events: auto;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
-  outline: 0;
 }
 
 .modal-backdrop {
