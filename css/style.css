@@ -1407,15 +1407,15 @@ button.nav-item {
 
 .btn-curso {
   font-size: var(--parrafo) !important;
-  color: var(--blanco) !important;
-  border: 2px solid var(--fucsia) !important;
+  color: var(--fucsia) !important;
+  border: 2px solid var(--blanco) !important;
   border-radius: 5px !important;
-  background-color: var(--fucsia) !important;
+  background-color: var(--blanco) !important;
   transition: all .3s ease-in-out;
 }
 .btn-curso:hover {
-  color: var(--fucsia) !important;
-  border: 2px solid var(--fucsia) !important;
+  color: var(--blanco) !important;
+  border: 2px solid var(--blanco) !important;
   background-color: transparent !important;
 }
 
