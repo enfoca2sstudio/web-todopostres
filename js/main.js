@@ -79,10 +79,10 @@
                 items:1
             },
             768:{
-                items:1
+                items:3
             },
             992:{
-                items:1
+                items:3
             }
         }
     });

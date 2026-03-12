@@ -767,7 +767,7 @@ button.nav-item {
 }
 
 .titu-mis-vis {
-  font-size: var(--titulo);
+  font-size: var(--subtitulo);
   color: var(--negro);
 }
 
@@ -799,8 +799,8 @@ button.nav-item {
     6.  Cursos/Talleres home
 --------------------------------------*/
 .item-curs-home {
-  width: 560px;
-  height: 700px;
+  width: 351px;
+  height: 439px;
   margin: auto !important;
 }
 
@@ -819,47 +819,52 @@ button.nav-item {
 }
 
 .contain-back-cursos {
-  padding: 17px 52px;
+  padding: 12px 23px;
   background: var(--fucsia-cla);
 }
 
 .titu-cursos-back {
-  padding-top: 19px !important;
-  font-size: var(--titulo);
-  line-height: 42px;
+  margin: 0 !important;
+  padding-top: 7px !important;
+  font-size: var(--subtitulo);
+  line-height: 32px;
   text-align: center;
   color: var(--blanco);
 }
 
 .txt-descrip-cursos {
   margin: 0 !important;
-  margin-top: 38px !important;
+  margin-top: 16px !important;
   font-size: var(--parrafo);
   font-weight: 400;
   text-align: center;
-  line-height: 21px;
+  line-height: 17px;
   color: var(--blanco);
+}
+
+.list-descrip-back {
+  margin-top: 21px;
 }
 
 .item-descrip-back {
   margin: 0 !important;
-  font-size: var(--parrafo);
+  font-size: 13px;
   font-weight: 400;
   text-align: left;
-  line-height: 21px;
+  line-height: 15px;
   color: var(--blanco);
 }
 
 .cont-precio {
-  width: 379px;
+  width: auto;
   margin: auto !important;
   align-items: center;
   justify-content: center;
 }
 
 .col-precio-back {
-  -ms-flex: 0 0 50%;
-      flex: 0 0 50%;
+  -ms-flex: 0 0 38%;
+      flex: 0 0 38%;
   max-width: 100%;
 }
 
@@ -889,6 +894,15 @@ button.nav-item {
 .col-precio-back a:hover {
   color: var(--blanco);
   border: 2px solid var(--fucsia);
+  background-color: var(--fucsia);
+}
+
+.cursos-home .owl-dots .owl-dot span {
+  background-color: var(--fucsia-cla);
+}
+
+.cursos-home .owl-dots .owl-dot:hover span,
+.cursos-home .owl-dots .owl-dot.active span {
   background-color: var(--fucsia);
 }
 
