@@ -144,6 +144,9 @@ function rotateCarousel(rotation) {
 }
 
 function resetCarousel(rotation) {
+    // Calcular distancia responsive antes de aplicar
+    distanceItems = getResponsiveDistance();
+    
     carousel.style.transform = 'rotateY(' + rotation + 'deg)';
     carousel.style.setProperty('--rotation', rotation);
 
@@ -152,6 +155,21 @@ function resetCarousel(rotation) {
         var translation = 'translateZ(' + distanceItems + ') rotateY(-' + angle + 'deg)';
         item.style.transform = 'rotateY(' + angle + 'deg) ' + translation;
     });
+}
+
+// Función auxiliar para calcular distancia según dispositivo
+function getResponsiveDistance() {
+    var width = window.innerWidth;
+    
+    if (width < 480) {
+        return '120px';  // Móvil: muy cerca
+    } else if (width < 768) {
+        return '180px';  // Tablet pequeña: cerca
+    } else if (width < 1024) {
+        return '250px';  // Desktop pequeño: medio
+    } else {
+        return '350px';  // Desktop grande: lejos
+    }
 }
 
 handleItemClickEnd(0);

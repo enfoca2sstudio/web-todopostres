@@ -209,6 +209,61 @@ Footer
         padding: 6px;
         font-size: var(--parrafo-tlf);
     }
+
+    /*-------------------------------------
+            7.  Novedades
+    --------------------------------------*/
+    .container-titus-novedades {
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .contain-titus-novedades {
+        margin-bottom: -7px !important;
+    }
+
+    .txt-novedades {
+        font-size: var(--parrafo-tlf);
+        margin-bottom: 0 !important;
+    }
+
+    .titu-novedades {
+        font-size: var(--titulo-tlf);
+        line-height: 34px;
+        margin-bottom: 0 !important;
+    }
+
+    .titu-noveda {
+        font-size: var(--subtitulo-tlf);
+    }
+
+    /*-------------------------------------
+            8.  Ebooks
+    --------------------------------------*/
+    .container-titus-ebooks {
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .txt-ebooks {
+        font-size: var(--parrafo-tlf);
+        margin-bottom: 0 !important;
+    }
+    
+    .titu-ebooks {
+        font-size: var(--titulo-tlf);
+        line-height: 34px;
+        margin-bottom: 0 !important;
+    }
+
+    .carousel-ebook {
+        width: 200px;
+        height: 250px;
+    }
+
+    .container-ebooks {
+        display: none;
+    }
 }
 
 @media (min-width: 1500px) {
