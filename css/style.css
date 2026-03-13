@@ -24,10 +24,10 @@ B.  Cursos
 C.  Talleres
   14. Talleres Hero
   15. Talleres Online
-  xx. Cursos presenciales
+  16. Cursos presenciales
 D.  Ebooks
-  16. Ebooks Hero
-  17. Ebooks Contendio
+  17. Ebooks Hero
+  18. Ebooks Contendio
 E.  Ebooks
   xx. Ebooks Hero
   xx. Ebooks Contendio
@@ -471,12 +471,12 @@ button.nav-item {
 
 /* Botón de cierre del pop-up */
 .close {
-    position: absolute !important;
-    top: 10px !important;
-    right: 20px !important;
-    font-size: 30px;
+  position: absolute !important;
+  top: 10px !important;
+  right: 20px !important;
+  font-size: 30px;
 	color: var(--blanco) !important;
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .close:hover {color: red !important;}
@@ -1494,11 +1494,19 @@ button.nav-item {
   margin: 6px;
 }
 
+/*-------------------------------------
+    16. Cursos presenciales
+--------------------------------------*/
+
 /*=====================================
   D.  Ebooks
 =======================================*/
 /*-------------------------------------
-    17. Ebooks Contendio
+    17. Ebooks Hero
+--------------------------------------*/
+
+/*-------------------------------------
+    18. Ebooks Contendio
 --------------------------------------*/
 .container-ebook {
   margin-bottom: 195px;

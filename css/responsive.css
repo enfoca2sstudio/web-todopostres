@@ -1,0 +1,143 @@
+/*=========== TABLE OF CONTENTS ===========
+1.  CSS General
+2.  Header
+A.  Home
+  3.  Pop-up home
+  4.  Hero home
+  5.  Contador
+  6.  Cursos/Talleres home
+  7.  Novedades
+  8.  Ebooks
+  9.  Valores
+  10. Testimonios
+  11. Sucripción
+B.  Cursos
+  12. Cursos Hero
+  13. Contenido somos
+C.  Talleres
+  14. Talleres Hero
+  15. Talleres Online
+  16. Cursos presenciales
+D.  Ebooks
+  17. Ebooks Hero
+  18. Ebooks Contendio
+E.  Ebooks
+  xx. Ebooks Hero
+  xx. Ebooks Contendio
+F.  Contacto
+  xx. Contenido contacto
+Footer
+===========================================*/
+@media (max-width: 768px) {
+    /*=====================================
+        1.  CSS General
+    =======================================*/
+    .underline-ver-1 {
+        width: 100px;
+    }
+
+    .underline-dots,
+    .underline-dots-1,
+    .underline-dots-2 {
+        width: 114px;
+    }
+
+    .circul {
+        width: 9px;
+        height: 9px;
+    }
+
+    .back-to-top {
+        right: 24px;
+    }
+
+    .btn-colapse {
+        right: 18px;
+    }
+
+    .tlf {
+        display: block;
+    }
+    .desk {
+        display: none;
+    }
+
+    .desk {
+        display: none !important;
+    }
+    .tlf {
+        display: block !important;
+    }
+
+    /*=====================================
+        2.  Header
+    =======================================*/
+    .navbar-light .navbar-nav .nav-link {
+        text-align: left;
+    }
+
+    .logo-head {
+        width: 105px;
+        height: auto;
+    }
+
+    /*=====================================
+        A.  Home
+    =======================================*/
+    /*-------------------------------------
+            4.  Hero home
+    --------------------------------------*/
+    .contain-video-hero {
+        height: auto;
+    }
+    .vid-hero {
+        display: block;
+        margin: auto;
+        width: 360px !important;
+        height: 202px !important;
+    }
+
+    /*-------------------------------------
+        4.  Hero home
+    --------------------------------------*/
+    .row-hero-home {
+        width: auto;
+    }
+
+    .col-hero-home {
+        padding: 0 !important;
+        border: 1px solid red;
+    }
+    .col-hero-home1 {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+        border: 1px solid red;
+    }
+
+    .titu-hero-home {
+        font-size: 55px;
+        color: var(--blanco);
+    }
+
+    .img-hero-home {
+        display: block;
+        margin: auto;
+        width: 357px;
+        height: auto;
+        -webkit-mask-image: linear-gradient(black 65%, transparent);
+                mask-image: linear-gradient(black 65%, transparent);
+    }
+}
+
+@media (min-width: 1500px) {
+    /*=====================================
+        1.  CSS General
+    =======================================*/
+    .underline-ver-1 {
+        width: 540px;
+    }
+    .circul {
+        width: 14px;
+        height: 14px;
+    }
+}
