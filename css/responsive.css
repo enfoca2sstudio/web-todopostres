@@ -130,6 +130,25 @@ Footer
     /*-------------------------------------
             5.  Contador
     --------------------------------------*/
+    .contain-cursos-home {
+        padding-top: 34px !important;
+        padding-bottom: 27px !important;
+    }
+    .titu-noso-home {
+        font-size: var(--titulo-tlf);
+        line-height: 34px;
+    }
+
+    .txt-noso-home,
+    .txt-nos-home {
+        font-size: var(--parrafo-tlf);
+    }
+
+    .bg-contador h1,
+    .bg-contador h6 {
+        margin-bottom: 0 !important;
+    }
+
     .contain-contador {
         -ms-flex: 0 0 50% !important;
             flex: 0 0 50% !important;
@@ -144,6 +163,51 @@ Footer
     .contain-contador:nth-child(2) .bg-contador,
     .contain-contador:nth-child(3) .bg-contador {
         background-color: var(--fucsia-cla);
+    }
+
+    /*-------------------------------------
+            6.  Cursos/Talleres home
+    --------------------------------------*/
+    .item-curs-home {
+        width: 301px;
+        height: 377px;
+        margin: auto !important;
+    }
+
+    .contain-back-cursos {
+        padding: 6px 15px;
+        background: var(--fucsia-cla);
+    }
+
+    .titu-cursos-back {
+        font-size: var(--subtitulo-tlf);
+        line-height: 24px;
+    }
+
+    .txt-descrip-cursos {
+        margin-top: 16px !important;
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    .list-descrip-back {
+        margin-top: 11px;
+        margin-bottom: 16px !important;
+    }
+
+    .cont-precio {
+        margin-top: -9px !important;
+    }
+
+    .col-precio-back {
+        -ms-flex: 0 0 33%;
+            flex: 0 0 33%;
+        max-width: 100%;
+    }
+    .col-precio-back a {
+        width: 105px;
+        padding: 6px;
+        font-size: var(--parrafo-tlf);
     }
 }
 
