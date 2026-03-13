@@ -3,7 +3,7 @@
 2.  Header
 A.  Home
   3.  Pop-up home
-  4.  Hero home
+  4.  Hero home+
   5.  Contador
   6.  Cursos/Talleres home
   7.  Novedades
@@ -97,9 +97,6 @@ Footer
         height: 202px !important;
     }
 
-    /*-------------------------------------
-        4.  Hero home
-    --------------------------------------*/
     .hero-home {
         margin-bottom: 0 !important;
     }
@@ -263,6 +260,73 @@ Footer
 
     .container-ebooks {
         display: none;
+    }
+
+    /*-------------------------------------
+            9.  Valores
+    --------------------------------------*/
+    .wrapper-valor {
+        margin-top: 0;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .txt-valores {
+        font-size: var(--parrafo-tlf);
+    }
+
+    .titu-valores {
+        font-size: var(--titulo-tlf);
+        line-height: 34px;
+    }
+
+    .col-list-valo {
+        margin-top: 21px;
+        margin-bottom: 21px;
+    }
+
+    .contain-valo-carru .cont-img-valor {
+        width: 123px;
+    }
+
+    /*-------------------------------------
+            10.  Testimonios
+    --------------------------------------*/
+    .wrapper-testimo {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .txt-testimo, .txt-info-testimo {
+        font-size: var(--parrafo-tlf);
+        margin-bottom: 0 !important;
+    }
+    
+    .titu-testimo {
+        font-size: var(--titulo-tlf);
+        line-height: 34px;
+        margin-bottom: 0 !important;
+    }
+
+    .cont-testimo {
+        padding: 21px !important;
+    }
+
+    /*-------------------------------------
+            11. Sucripción
+    --------------------------------------*/
+    .contain-sucrp {
+        width: auto;
+    }
+    .txt-suscrip {
+        font-size: var(--parrafo-tlf);
+        margin-bottom: 0 !important;
+    }
+    .titu-suscrip {
+        font-size: var(--titulo-tlf);
+        line-height: 34px;
+        margin-bottom: 0 !important;
     }
 }
 
