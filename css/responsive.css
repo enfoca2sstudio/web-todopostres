@@ -111,7 +111,6 @@ Footer
     .col-hero-home1 {
         padding-right: 15px !important;
         padding-left: 15px !important;
-        border: 1px solid red;
     }
 
     .titu-hero-home {
@@ -120,12 +119,7 @@ Footer
     }
 
     .img-hero-home {
-        display: block;
-        margin: auto;
         width: 357px;
-        height: auto;
-        -webkit-mask-image: linear-gradient(black 65%, transparent);
-                mask-image: linear-gradient(black 65%, transparent);
     }
 }
 
