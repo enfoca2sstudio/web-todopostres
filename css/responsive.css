@@ -100,13 +100,18 @@ Footer
     /*-------------------------------------
         4.  Hero home
     --------------------------------------*/
+    .hero-home {
+        margin-bottom: 0 !important;
+    }
     .row-hero-home {
         width: auto;
+        height: 600px;
+        overflow: hidden;
+        margin-bottom: -31px !important;
     }
 
     .col-hero-home {
         padding: 0 !important;
-        border: 1px solid red;
     }
     .col-hero-home1 {
         padding-right: 15px !important;
@@ -120,6 +125,25 @@ Footer
 
     .img-hero-home {
         width: 357px;
+    }
+
+    /*-------------------------------------
+            5.  Contador
+    --------------------------------------*/
+    .contain-contador {
+        -ms-flex: 0 0 50% !important;
+            flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+
+    .contain-contador:nth-child(1) .bg-contador,
+    .contain-contador:nth-child(4) .bg-contador {
+        background-color: var(--fucsia);
+    }
+
+    .contain-contador:nth-child(2) .bg-contador,
+    .contain-contador:nth-child(3) .bg-contador {
+        background-color: var(--fucsia-cla);
     }
 }
 

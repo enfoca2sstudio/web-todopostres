@@ -721,7 +721,6 @@ button.nav-item {
   margin-bottom: 2rem;
   border-radius: 0.3rem;
   background: var(--fucsia);
-  background-size: cover;
 }
 
 .row-hero-home {
