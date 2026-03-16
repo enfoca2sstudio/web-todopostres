@@ -338,8 +338,44 @@ Footer
     }
 
     /*=====================================
+        B.  Cursos
+    =======================================*/
+    /*-------------------------------------
+            12. Cursos Hero
+    --------------------------------------*/
+    .titu-header {
+        font-family: var(--subtitulo-tlf);
+        line-height: 40px;
+    }
+
+    /*-------------------------------------
+            13. Contenido cursos
+    --------------------------------------*/
+    .wrapper-cursos {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .cursos-carousel {
+        width: 187px;
+        height: 187px;
+        border: 1px solid red;
+    }
+
+    .curso-item {
+        display: block;
+        width: auto;
+        height: auto;
+        border: 1px solid blue;
+    }
+
+    /*=====================================
         Footer
     =======================================*/
+    .container-footer {
+        padding-top: 0 !important;
+    }
     .col-footer-top {
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
@@ -352,6 +388,12 @@ Footer
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    .col-footer-top:nth-child(1),
+    .col-footer-top:nth-child(2) {
+        margin-top: 7px;
+        margin-bottom: 7px;
     }
 
     .titu-footer-top {
@@ -371,6 +413,11 @@ Footer
 
     .rrss-foter {
         font-size: 9px;
+    }
+
+    .container-footer-bot p {
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
     }
 }
 

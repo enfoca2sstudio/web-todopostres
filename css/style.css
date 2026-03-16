@@ -20,7 +20,7 @@ A.  Home
   11. Sucripción
 B.  Cursos
   12. Cursos Hero
-  13. Contenido somos
+  13. Contenido cursos
 C.  Talleres
   14. Talleres Hero
   15. Talleres Online
@@ -1361,7 +1361,7 @@ button.nav-item {
 }
 
 /*-------------------------------------
-    13. Contenido somos
+    13. Contenido cursos
 --------------------------------------*/
 .txt-curso {
   font-size: var(--parrafo);
