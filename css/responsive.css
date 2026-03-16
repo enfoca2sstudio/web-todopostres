@@ -254,23 +254,29 @@ Footer
     }
 
     #carousel-container {
-        width: 178px;
-        height: 119px;
+        width: 154px;
+        height: 103px;
     }
 
     #carousel {
-        background: red;
+        height: 250px;
     }
 
     .carousel-ebook {
-        width: 115px;
-        height: 144px;
-        filter: opacity(0.7);
+        width: 160px;
+        height: 200px;
     }
 
-    /* .container-ebooks {
-        display: none;
-    } */
+    #carousel .item {
+        width: 150px;
+        margin-left: -75px;
+    }
+    
+    .btn-ebook {
+        width: 51%;
+        padding: 9px 0;
+        font-size: var(--parrafo-tlf) !important;
+    }
 
     /*-------------------------------------
             9.  Valores
@@ -420,6 +426,39 @@ Footer
         display: block;
         width: 100%;
         height: 100%;
+    }
+
+    /*=====================================
+        E.  Nosotros
+    =======================================*/
+    /*-------------------------------------
+            19. Contenido Nosotros
+    --------------------------------------*/
+    .modal-body {
+        padding: 0;
+    }
+
+    .wrapper-somos,
+    .wrapper-mis-vis {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .wrapper-mis-vis {
+        margin-top: -58px !important;
+    }
+
+    .contador-somos {
+        padding: 24px 11px !important;
+    }
+
+    .bg-mis-vis {
+        background-color: var(--fucsia);
+    }
+
+    .cont-misvis p {
+        font-size: var(--parrafo-tlf);
     }
 
     /*=====================================
