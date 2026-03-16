@@ -467,6 +467,12 @@ Footer
     /*-------------------------------------
             20. Contenido contacto
     --------------------------------------*/
+    .wrapper-contacto {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+    
     .cont-contacto {
         padding-right: 14px !important;
         padding-left: 14px !important;
