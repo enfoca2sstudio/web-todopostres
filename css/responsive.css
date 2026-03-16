@@ -263,8 +263,8 @@ Footer
     }
 
     .carousel-ebook {
-        width: 160px;
-        height: 200px;
+        width: 120px;
+        height: 150px;
     }
 
     #carousel .item {
@@ -459,6 +459,21 @@ Footer
 
     .cont-misvis p {
         font-size: var(--parrafo-tlf);
+    }
+
+    /*=====================================
+        F.  Contacto
+    =======================================*/
+    /*-------------------------------------
+            20. Contenido contacto
+    --------------------------------------*/
+    .cont-contacto {
+        padding-right: 14px !important;
+        padding-left: 14px !important;
+    }
+
+    .info-suscript {
+        font-size: var(--subtitulo-tlf);
     }
 
     /*=====================================

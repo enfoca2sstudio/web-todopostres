@@ -27,11 +27,11 @@ C.  Talleres
   16. Cursos presenciales
 D.  Ebooks
   17. Ebooks Hero
-  18. Ebooks Contendio
+  18. Ebooks Contenido
 E.  Nosotros
   19. Contenido Nosotros
 F.  Contacto
-  xx. Contenido contacto
+  20. Contenido contacto
 Footer
 ===========================================*/
 /*=====================================
@@ -1510,7 +1510,7 @@ button.nav-item {
 --------------------------------------*/
 
 /*-------------------------------------
-    18. Ebooks Contendio
+    18. Ebooks Contenido
 --------------------------------------*/
 .container-ebook {
   margin-bottom: 195px;
@@ -1521,6 +1521,13 @@ button.nav-item {
 =======================================*/
 /*-------------------------------------
     19. Contenido Nosotros
+--------------------------------------*/
+
+/*=====================================
+  F.  Contacto
+=======================================*/
+/*-------------------------------------
+    20. Contenido contacto
 --------------------------------------*/
 
 
