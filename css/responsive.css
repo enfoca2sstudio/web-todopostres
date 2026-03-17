@@ -237,6 +237,9 @@ Footer
     /*-------------------------------------
             8.  Ebooks
     --------------------------------------*/
+    .container-ebooks {
+        margin-top: -45px;
+    }
     .container-titus-ebooks {
         padding-top: 14px !important;
         padding-bottom: 14px !important;

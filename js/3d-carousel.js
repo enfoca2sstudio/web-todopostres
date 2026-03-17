@@ -13,7 +13,7 @@ function getResponsiveDistance() {
     if (width < 480) {
         return '150px'; // Móviles pequeños
     } else if (width < 768) {
-        return '200px'; // Móviles grandes
+        return '150px'; // Móviles grandes
     } else if (width < 1024) {
         return '280px'; // Tablets
     } else {
@@ -29,7 +29,7 @@ function updateResponsiveSettings() {
     if (width < 480) {
         scale = 0.3;
     } else if (width < 768) {
-        scale = 0.4;
+        scale = 0.3;
     } else if (width < 1024) {
         scale = 0.45;
     } else {
