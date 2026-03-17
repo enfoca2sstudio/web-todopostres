@@ -24,13 +24,14 @@ B.  Cursos
 C.  Talleres
   14. Talleres Hero
   15. Talleres Online
-  16. Cursos presenciales
-D.  Ebooks
+D.  Certificaciones
+  16. Contenido certificaciones
+E.  Ebooks
   17. Ebooks Hero
   18. Ebooks Contenido
-E.  Nosotros
+F.  Nosotros
   19. Contenido Nosotros
-F.  Contacto
+G.  Contacto
   20. Contenido contacto
 Footer
 ===========================================*/
@@ -1119,7 +1120,7 @@ button.nav-item {
   -webkit-box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
      -moz-box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
           box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
-  background: var(--fucsia-cla);
+  background: var(--blanco);
 }
 
 .cont-img-valor {
@@ -1147,7 +1148,7 @@ button.nav-item {
   font-weight: 500;
   line-height: 17px;
   text-align: center;
-  color: var(--blanco);
+  color: var(--fucsia);
 }
 
 .valor-carousel {
@@ -1498,12 +1499,15 @@ button.nav-item {
   margin: 6px;
 }
 
+/*=====================================
+  D.  Certificaciones
+=======================================*/
 /*-------------------------------------
-    16. Cursos presenciales
+    16. Contenido certificaciones
 --------------------------------------*/
 
 /*=====================================
-  D.  Ebooks
+  E.  Ebooks
 =======================================*/
 /*-------------------------------------
     17. Ebooks Hero
@@ -1517,14 +1521,14 @@ button.nav-item {
 }
 
 /*=====================================
-  E.  Nosotros
+  F.  Nosotros
 =======================================*/
 /*-------------------------------------
     19. Contenido Nosotros
 --------------------------------------*/
 
 /*=====================================
-  F.  Contacto
+  G.  Contacto
 =======================================*/
 /*-------------------------------------
     20. Contenido contacto
