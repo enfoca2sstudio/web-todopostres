@@ -297,8 +297,12 @@ Footer
     }
 
     .carousel-ebook {
-        width: 120px;
-        height: 150px;
+        width: 130px;
+        height: 163px;
+    }
+
+    .cont-ebook {
+        padding: 12px 0;
     }
 
     #carousel .item {
