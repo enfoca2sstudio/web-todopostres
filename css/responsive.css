@@ -238,7 +238,7 @@ Footer
             8.  Ebooks
     --------------------------------------*/
     .container-ebooks {
-        margin-top: -45px;
+        margin-top: -45px !important;
     }
     .container-titus-ebooks {
         padding-top: 14px !important;
@@ -459,13 +459,31 @@ Footer
     /*-------------------------------------
             16. Contenido certificaciones
     --------------------------------------*/
-    .wrapper-talleres {
+    .wrapper-certificacion {
         margin: 0 !important;
         margin-top: -55px !important;
         padding-top: 14px !important;
         padding-bottom: 14px !important;
     }
-    .container-talleres {
+    .container-certificacion {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    /*=====================================
+        E.  Ebooks
+    =======================================*/
+    /*-------------------------------------
+            18. Ebooks Contenido
+    --------------------------------------*/
+    .wrapper-ebook {
+        margin: 0 !important;
+        margin-top: -55px !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+    .container-ebook {
         margin: 0 !important;
         padding-top: 14px !important;
         padding-bottom: 14px !important;
