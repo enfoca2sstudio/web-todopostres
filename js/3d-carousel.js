@@ -11,9 +11,9 @@ var items = Array.from(carousel.children);
 function getResponsiveDistance() {
     const width = window.innerWidth;
     if (width < 480) {
-        return '150px'; // Móviles pequeños
+        return '80px'; // Móviles pequeños
     } else if (width < 768) {
-        return '150px'; // Móviles grandes
+        return '80px'; // Móviles grandes
     } else if (width < 1024) {
         return '280px'; // Tablets
     } else {
