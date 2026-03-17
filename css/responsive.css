@@ -85,6 +85,36 @@ Footer
         A.  Home
     =======================================*/
     /*-------------------------------------
+            3.  Pop-up home
+    --------------------------------------*/
+    .popup-content {
+    	width: 342px;
+    	padding: 20px 9px;
+    }
+
+    .heading-popup {
+    	font-size: var(--titulo-tlf) !important;
+    }
+
+    .pop-titu {
+    	top: 17%;
+    	font-size: 26px !important;
+    }
+
+    .pop-titu1 {
+	    font-size: 32px !important;
+        line-height: 34px !important;
+    }
+
+    .txt-popup {
+    	font-size: 18px !important;
+    }
+
+    .card-pop:hover .pop-titu {
+        top: -13%;
+    }
+
+    /*-------------------------------------
             4.  Hero home
     --------------------------------------*/
     .contain-video-hero {
@@ -239,6 +269,7 @@ Footer
     --------------------------------------*/
     .container-ebooks {
         margin-top: -45px !important;
+        margin-bottom: 72px !important;
     }
     .container-titus-ebooks {
         padding-top: 14px !important;
@@ -506,6 +537,12 @@ Footer
         padding-bottom: 14px !important;
     }
 
+    .container-somos {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
     .wrapper-mis-vis {
         margin-top: -58px !important;
     }
@@ -528,10 +565,15 @@ Footer
     /*-------------------------------------
             20. Contenido contacto
     --------------------------------------*/
-    .wrapper-contacto {
+    .wrapper-contactos {
         margin: 0 !important;
+        margin-top: -76px !important;
         padding-top: 14px !important;
         padding-bottom: 14px !important;
+    }
+
+    .container-contactos {
+        margin-bottom: -107px !important;
     }
     
     .cont-contacto {
