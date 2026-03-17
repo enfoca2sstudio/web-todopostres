@@ -304,8 +304,9 @@ Footer
         margin-bottom: 21px;
     }
 
-    .contain-valo-carru .cont-img-valor {
-        width: 123px;
+    .cont-img-valor {
+        padding: 23px;
+        width: 122px;
     }
 
     /*-------------------------------------
@@ -410,6 +411,17 @@ Footer
     /*-------------------------------------
             15. Talleres Online
     --------------------------------------*/
+    .wrapper-talleres {
+        margin: 0 !important;
+        margin-top: -55px !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+    .container-talleres {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
     .col-talleres1 {
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;

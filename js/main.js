@@ -138,7 +138,7 @@
         }
     });
 
-    // carrusel mascotas
+    // carrusel talleres/cursos
     $('.cursos-carousel').owlCarousel({
         items: 1,
         loop: false,
