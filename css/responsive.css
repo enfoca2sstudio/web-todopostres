@@ -166,8 +166,11 @@ Footer
         text-align: center;
     }
     .titu-noso-home {
+        width: 80%;
+        margin: auto;
         font-size: var(--titulo-tlf);
-        line-height: 34px;
+        line-height: 32px;
+        text-align: center;
     }
 
     .txt-noso-home,
@@ -266,8 +269,10 @@ Footer
     }
 
     .titu-novedades {
+        width: 80%;
+        margin: auto;
         font-size: var(--titulo-tlf);
-        line-height: 34px;
+        line-height: 32px;
         margin-bottom: 0 !important;
     }
 
@@ -293,8 +298,9 @@ Footer
     }
     
     .titu-ebooks {
+        margin: auto;
         font-size: var(--titulo-tlf);
-        line-height: 34px;
+        line-height: 32px;
         margin-bottom: 0 !important;
     }
 
@@ -335,13 +341,19 @@ Footer
         padding-bottom: 14px !important;
     }
 
+    .row-valor {
+        padding: 0 10px;
+    }
+
     .txt-valores {
         font-size: var(--parrafo-tlf);
     }
 
     .titu-valores {
+        width: 80%;
+        margin: auto;
         font-size: var(--titulo-tlf);
-        line-height: 34px;
+        line-height: 32px;
     }
 
     .col-list-valo {
@@ -363,19 +375,40 @@ Footer
         padding-bottom: 14px !important;
     }
 
-    .txt-testimo, .txt-info-testimo {
-        font-size: var(--parrafo-tlf);
+    .section-titu-testi {
+        text-align: center;
+    }
+
+    .txt-testimo,
+    .txt-info-testimo {
         margin-bottom: 0 !important;
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    .txt-info-testimo {
+        text-align: center;
     }
     
     .titu-testimo {
+        width: 80%;
+        margin: auto;
         font-size: var(--titulo-tlf);
-        line-height: 34px;
+        line-height: 32px;
         margin-bottom: 0 !important;
     }
 
     .cont-testimo {
         padding: 21px !important;
+    }
+
+    .testimonial-carousel .icon-cita {
+        font-size: 35px;
+    }
+
+    .txt-testimos {
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
     }
 
     /*-------------------------------------
@@ -387,8 +420,13 @@ Footer
         padding-bottom: 14px !important;
     }
 
+    .section-titu-conta {
+        text-align: center;
+    }
+
     .contain-sucrp {
         width: auto;
+        padding: 0 10px;
     }
 
     .txt-suscrip {
@@ -397,9 +435,15 @@ Footer
     }
 
     .titu-suscrip {
+        width: 80%;
+        margin: auto;
         font-size: var(--titulo-tlf);
-        line-height: 34px;
+        line-height: 32px;
         margin-bottom: 0 !important;
+    }
+
+    .info-suscript-home {
+        margin-top: 15px;
     }
 
     /*=====================================
@@ -597,6 +641,7 @@ Footer
 
     .info-suscript {
         font-size: var(--subtitulo-tlf);
+        line-height: 22px;
     }
 
     /*=====================================
