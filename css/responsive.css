@@ -169,7 +169,7 @@ Footer
         width: 80%;
         margin: auto;
         font-size: var(--titulo-tlf);
-        line-height: 32px;
+        line-height: 29px;
         text-align: center;
     }
 
@@ -272,7 +272,7 @@ Footer
         width: 80%;
         margin: auto;
         font-size: var(--titulo-tlf);
-        line-height: 32px;
+        line-height: 29px;
         margin-bottom: 0 !important;
     }
 
@@ -300,7 +300,7 @@ Footer
     .titu-ebooks {
         margin: auto;
         font-size: var(--titulo-tlf);
-        line-height: 32px;
+        line-height: 29px;
         margin-bottom: 0 !important;
     }
 
@@ -342,7 +342,7 @@ Footer
     }
 
     .row-valor {
-        padding: 0 15px;
+        padding: 0 25px;
     }
 
     .txt-valores {
@@ -350,10 +350,9 @@ Footer
     }
 
     .titu-valores {
-        width: 80%;
         margin: auto;
         font-size: var(--titulo-tlf);
-        line-height: 32px;
+        line-height: 29px;
     }
 
     .col-list-valo {
@@ -363,7 +362,7 @@ Footer
 
     .cont-img-valor {
         padding: 23px;
-        width: 110px !important;
+        width: 102px !important;
     }
 
     /*-------------------------------------
@@ -394,7 +393,7 @@ Footer
         width: 80%;
         margin: auto;
         font-size: var(--titulo-tlf);
-        line-height: 32px;
+        line-height: 29px;
         margin-bottom: 0 !important;
     }
 
@@ -438,7 +437,7 @@ Footer
         width: 80%;
         margin: 7px auto 0 !important;
         font-size: var(--titulo-tlf);
-        line-height: 32px;
+        line-height: 29px;
     }
 
     .info-suscript-home {
@@ -454,7 +453,7 @@ Footer
     .titu-header {
         margin-bottom: 21px !important;
         font-size: var(--titulo-tlf);
-        line-height: 32px;
+        line-height: 29px;
     }
 
     /*-------------------------------------

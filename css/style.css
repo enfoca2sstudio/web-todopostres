@@ -45,7 +45,7 @@ Footer
   --blanco: #fff;
   --negro: #000;
   --titulo: 40px;
-  --titulo-tlf: 30px;
+  --titulo-tlf: 27px;
   --subtitulo: 30px;
   --subtitulo-tlf: 20px;
   --parrafo: 15px;
@@ -1334,7 +1334,19 @@ button.nav-item {
 }
 
 .cont-img-valor-carru {
-  background: var(--fucsia-cla);
+  display: block;
+  margin: auto;
+  margin-bottom: 34px;
+  width: auto !important;
+  height: auto;
+  transition: all .5s ease-in-out;
+}
+
+.img-valor {
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
+     -moz-box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
+          box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
 }
 
 .cont-img-valor:hover {
