@@ -146,8 +146,9 @@ Footer
     }
 
     .titu-hero-home {
-        font-size: 55px;
+        font-size: 50px;
         color: var(--blanco);
+        text-align: center;
     }
 
     .img-hero-home {
@@ -161,6 +162,9 @@ Footer
         padding-top: 34px !important;
         padding-bottom: 27px !important;
     }
+    .seccion-titu-conta {
+        text-align: center;
+    }
     .titu-noso-home {
         font-size: var(--titulo-tlf);
         line-height: 34px;
@@ -169,6 +173,9 @@ Footer
     .txt-noso-home,
     .txt-nos-home {
         font-size: var(--parrafo-tlf);
+    }
+    .txt-nos-home {
+        text-align: center;
     }
 
     .bg-contador h1,
@@ -190,6 +197,10 @@ Footer
     .contain-contador:nth-child(2) .bg-contador,
     .contain-contador:nth-child(3) .bg-contador {
         background-color: var(--fucsia-cla);
+    }
+
+    .contain-contador .bg-contador {
+        padding: 12px !important;
     }
 
     /*-------------------------------------
