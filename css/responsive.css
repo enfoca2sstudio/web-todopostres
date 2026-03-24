@@ -328,7 +328,7 @@ Footer
     }
     
     .btn-ebook {
-        width: 51%;
+        width: 58%;
         font-size: var(--parrafo-tlf) !important;
     }
 
@@ -436,10 +436,9 @@ Footer
 
     .titu-suscrip {
         width: 80%;
-        margin: auto;
+        margin: 7px auto 0 !important;
         font-size: var(--titulo-tlf);
         line-height: 32px;
-        margin-bottom: 0 !important;
     }
 
     .info-suscript-home {
@@ -453,9 +452,9 @@ Footer
             12. Cursos Hero
     --------------------------------------*/
     .titu-header {
-        margin-bottom: 24px;
-        font-size: var(--titulo);
-        line-height: 45px;
+        margin-bottom: 21px !important;
+        font-size: var(--titulo-tlf);
+        line-height: 32px;
     }
 
     /*-------------------------------------
@@ -471,6 +470,13 @@ Footer
         margin: 0 !important;
         padding-top: 14px !important;
         padding-bottom: 14px !important;
+    }
+
+    .txt-curso {
+        font-size: var(--parrafo-tlf);
+    }
+    .titu-curso {
+        font-size: var(--titulo-tlf);
     }
 
     .cursos-carousel {
@@ -492,7 +498,7 @@ Footer
     }
 
     .contain-nav {
-        width: 100px;
+        width: 115px;
     }
 
     .nav-carru-curso {
@@ -575,7 +581,7 @@ Footer
     .container-ebook {
         margin: 0 !important;
         padding-top: 14px !important;
-        padding-bottom: 14px !important;
+        padding-bottom: 50px !important;
     }
 
     /*=====================================
@@ -599,6 +605,10 @@ Footer
         margin: 0 !important;
         padding-top: 14px !important;
         padding-bottom: 14px !important;
+    }
+
+    .seccion-titu-somos {
+        text-align: center;
     }
 
     .wrapper-mis-vis {
@@ -627,7 +637,7 @@ Footer
         margin: 0 !important;
         margin-top: -76px !important;
         padding-top: 14px !important;
-        padding-bottom: 14px !important;
+        padding-bottom: 70px !important;
     }
 
     .container-contactos {
@@ -639,7 +649,22 @@ Footer
         padding-left: 14px !important;
     }
 
+    .titus-contac {
+        margin-bottom: 0 !important;
+        font-size: var(--subtitulo-tlf);
+    }
+
+    .txts-contac {
+        font-size: var(--parrafo-tlf);
+    }
+
+    .btn-icon {
+        width: 57px;
+        height: 57px;
+    }
+
     .info-suscript {
+        margin-top: 15px;
         font-size: var(--subtitulo-tlf);
         line-height: 22px;
     }
@@ -648,6 +673,7 @@ Footer
         Footer
     =======================================*/
     .container-footer {
+        margin-top: 35px !important;
         padding-top: 0 !important;
     }
     .col-footer-top {
