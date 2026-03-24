@@ -1342,7 +1342,7 @@ button.nav-item {
   transition: all .5s ease-in-out;
 }
 
-.img-valor {
+.img-valor-carru {
   border-radius: 10px;
   -webkit-box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
      -moz-box-shadow: 5px 6px 13px 2px rgba(0,0,0,0.67);
