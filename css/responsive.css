@@ -491,10 +491,11 @@ Footer
     }
 
     .col-nav-curso {
-        -ms-flex: 0 0 42%;
-            flex: 0 0 42%;
-        max-width: 100%;
+        -ms-flex: 0 0 48%;
+            flex: 0 0 48%;
+        max-width: 48%;
         margin: 3px;
+        padding: 0 11px;
     }
 
     .contain-nav {
