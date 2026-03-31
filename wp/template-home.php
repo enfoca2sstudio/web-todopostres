@@ -8,4 +8,1333 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php 
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/flip.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/responsive.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/lib/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>https://kit.fontawesome.com/49286760f0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid top-header">
+        <div class="row py-2 px-lg-5">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="font-mont d-inline-flex align-items-center text-white">
+                    <small><i class="fa fa-phone-alt mr-2"></i>+1-809-8791334</small>
+
+                    <small class="px-3">|</small>
+
+                    <small><i class="fa fa-envelope mr-2"></i>rosmerib@gmail.com</small>
+                </div>
+            </div>
+
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-white px-2" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/logo.png" alt="#" class="logo-head">
+            </a>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mx-auto py-0">
+                    <a href="index.html" class="font-mont nav-item nav-link active">Inicio</a>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="font-mont nav-link dropdown-toggle" data-bs-toggle="dropdown">Cursos</a>
+
+                        <div class="dropdown-menu m-0">
+                            <a href="cursos-online.html" class="font-mont dropdown-item">Cursos online</a>
+                            
+                            <a href="talleres-online.html" class="font-mont dropdown-item">Talleres</a>
+
+                            <a href="certificaciones.html" class="font-mont dropdown-item">Certificaciones internacionales</a>
+                        </div>
+                    </div>
+
+                    <a href="ebooks.html" class="font-mont nav-item nav-link">E-Books</a>
+
+                    <button type="button" class="font-mont nav-item nav-link" data-bs-toggle="modal" data-bs-target="#somo-pop">Nosotros</button>
+
+                    <a href="#" class="font-mont nav-item nav-link">Cuenta de usuario</a>
+
+                    <a href="contacto.html" class="font-mont nav-item nav-link">Contáctanos</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Modal quienes somos start -->
+    <div class="modal fade" id="somo-pop" tabindex="-1" aria-labelledby="popUpLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Cuerpo del pop-up (contenido) -->
+                <div class="modal-body">
+                    <!-- Nosotros Start -->
+                    <div class="wrapper-somos container-fluid py-5">
+                        <div class="container-somos container py-5">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="section-title seccion-titu-somos position-relative mb-4">
+                                        <h6 class="font-mont txt-noso-home d-inline-block position-relative text-uppercase pb-2">Todo Postres</h6>
+
+                                        <h1 class="font-mont titu-noso-home">Soy yo… Mi nombre es Rosmeri</h1>
+                                    </div>
+
+                                    <p class="font-mont txt-nos-home">Venezolana y Dominicana. Además de ser Chef Pastelera, soy Licenciada en Administración Comercial. Mi pasión siempre ha estado en la gastronomía dulce y hoy pongo a tu disposición mis más de 15 años de experiencia formando a miles de emprendedores en Latinoamérica, Estados Unidos y Europa. </p>
+
+                                    <div class="row pt-3 mx-0">
+                                        <div class="contain-contador col-3 px-0">
+                                            <div class="contador-somos bg-contador text-center p-4">
+                                                <h1 class="font-mont text-white" data-toggle="counter-up">3000</h1>
+                                                <h6 class="font-mont txt-contado text-uppercase text-white">Estudiantes<span class="d-block">satisfechos</span></h6>
+                                            </div>
+                                        </div>
+
+                                        <div class="contain-contador col-3 px-0">
+                                            <div class="contador-somos bg-contador text-center p-4">
+                                                <h1 class="font-mont text-white" data-toggle="counter-up">18</h1>
+                                                <h6 class="font-mont txt-contado text-uppercase text-white">Programas de<span class="d-block">Capacitación</span></h6>
+                                            </div>
+                                        </div>
+
+                                        <div class="contain-contador col-3 px-0">
+                                            <div class="contador-somos bg-contador text-center p-4">
+                                                <h1 class="font-mont text-white" data-toggle="counter-up">1</h1>
+                                                <h6 class="font-mont txt-contado text-uppercase text-white">Millón De<span class="d-block">Followers</span></h6>
+                                            </div>
+                                        </div>
+
+                                        <div class="contain-contador col-3 px-0">
+                                            <div class="contador-somos bg-contador text-center p-4">
+                                                <h1 class="font-mont text-white" data-toggle="counter-up">14</h1>
+                                                <h6 class="font-mont txt-contado text-uppercase text-white">Años de<span class="d-block">Experiencia</span></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Nosotros End -->
+
+                    <!-- Feature Start -->
+                    <div class="wrapper-mis-vis container-fluid py-5">
+                        <div class="container py-5">
+                            <div class="row">
+                                <div class="col-lg-7 mb-5 mb-lg-0">
+                                    <div class="section-title position-relative mb-4">
+                                        <h6 class="font-mont txt-mis-vis d-inline-block position-relative text-uppercase pb-2">Conocenos</h6>
+
+                                        <h1 class="font-mont titu-mis-vis">Misión y Visión</h1>
+                                    </div>
+
+                                    <p class="font-mont mb-4 pb-2">Nacimos con una visión clara: No enseñar recetas sueltas… sino enseñar a pensar como profesionales.<br><br>Por eso nuestro método se basa en estructura académica, comprensión técnica y enfoque emprendedor. Aquí nuestros estudiantes no solo aprenden a hacer un pastel; aprenden a entender los ingredientes, dominar las técnicas y construir productos que realmente se venden.</p>
+
+                                    <div class="cont-misvis d-flex align-items-center mb-3">
+                                        <div class="btn-icon bg-mis-vis mr-4">
+                                            <i class="fa fa-2x fa-graduation-cap text-white"></i>
+                                        </div>
+
+                                        <div class="mt-n1">
+                                            <h4 class="font-mont">Misión</h4>
+
+                                            <p class="font-mont">Brindar capacitación técnica y de excelencia orientada al desarrollo de competencias gastronómicas para formar recursos humanos capaces de crear y comercializar productos de gastronomía bien sea para desarrollar su propio negocio o para trabajar en: restaurants, hoteles entre otros.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="cont-misvis d-flex align-items-center mb-3">
+                                        <div class="btn-icon bg-mis-vis mr-4">
+                                            <i class="fa fa-2x fa-certificate text-white"></i>
+                                        </div>
+
+                                        <div class="mt-n1">
+                                            <h4 class="font-mont">Visión</h4>
+
+                                            <p class="font-mont">Ser una institución de formación y consultoría, en capacitación de recursos humanos que cultiven la excelencia, la creatividad y la innovación en los procesos gastronómicos con el fin de asegurar un alto estándar de calidad que les permita desempeñar eficientemente su actividad profesional.<br><br>Puedes estudiar el Programa de Certificación en Maestro Pastelero, en matricula regular o especial, es decir tenemos horarios para los días hábiles de semana y los días sábados.  En el caso del programa sabatino puedes empezar por uno de los certificados que lo componen, en función del interés que tengas hacia determinada área.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5" style="min-height: 500px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature Start -->
+                </div>
+      
+                <!-- Pie con botones de acción -->
+                <div class="modal-footer">
+                    <button type="button" class="font-mont btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal quienes somos end -->
+
+    <!-- Lightbox Start -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+
+            <h6 class="heading underline font-x2 heading-popup">novedades</h6>
+
+            <div class="cont-carru-popup">
+                <main class="main bd-grid owl-carousel owl-theme curso-carousel">
+                    <article class="card-pop1 card-pop">
+                        <div class="card__name">
+                            <div class="head-card">
+                                <p class="pop-titu">nuevo curso</p>
+
+                                <div class="row row-dots1 justify-content-evenly">
+                                    <span class="dots dots-1"></span>
+
+                                    <span class="dots dots-2"></span>
+
+                                    <span class="dots dots-3"></span>
+                                </div>
+                            </div>
+
+                            <a href="#">
+                                <p class="pop-titu1">Batidos<br>Húmedos y Livianos</p>
+                            </a>
+
+                            <p class="txt-popup">ya disponible</p>
+                        </div>
+                    </article>
+          
+                    <article class="card-pop2 card-pop">
+                        <div class="card__name">
+                            <div class="head-card">
+                                <p class="pop-titu">nuevo curso</p>
+
+                                <div class="row row-dots1 justify-content-evenly">
+                                    <span class="dots dots-1"></span>
+
+                                    <span class="dots dots-2"></span>
+
+                                    <span class="dots dots-3"></span>
+                                </div>
+                            </div>
+
+                            <a href="#">
+                                <p class="pop-titu1">mesa<br>Navideña Online</p>
+                            </a>
+
+                            <p class="txt-popup">ya disponible</p>
+                        </div>
+                    </article>
+
+                    <article class="card-pop3 card-pop">
+                        <div class="card__name">
+                            <div class="head-card">
+                                <p class="pop-titu">nuevo curso</p>
+
+                                <div class="row row-dots1 justify-content-evenly">
+                                    <span class="dots dots-1"></span>
+
+                                    <span class="dots dots-2"></span>
+
+                                    <span class="dots dots-3"></span>
+                                </div>
+                            </div>
+
+                            <a href="#">
+                                <p class="pop-titu1">Online<br>Beso de Ángel</p>
+                            </a>
+
+                            <p class="txt-popup">ya disponible</p>
+                        </div>
+                    </article>
+
+                    <article class="card-pop4 card-pop">
+                        <div class="card__name">
+                            <div class="head-card">
+                                <p class="pop-titu">nuevo curso</p>
+
+                                <div class="row row-dots1 justify-content-evenly">
+                                    <span class="dots dots-1"></span>
+
+                                    <span class="dots dots-2"></span>
+
+                                    <span class="dots dots-3"></span>
+                                </div>
+                            </div>
+
+                            <a href="#">
+                                <p class="pop-titu1">Online de<br>Picaderas / Pasapalos</p>
+                            </a>
+
+                            <p class="txt-popup">ya disponible</p>
+                        </div>
+                    </article>
+
+                    <article class="card-pop5 card-pop">
+                        <div class="card__name">
+                            <div class="head-card">
+                                <p class="pop-titu">nuevo curso</p>
+
+                                <div class="row row-dots1 justify-content-evenly">
+                                    <span class="dots dots-1"></span>
+
+                                    <span class="dots dots-2"></span>
+
+                                    <span class="dots dots-3"></span>
+                                </div>
+                            </div>
+
+                            <a href="#">
+                                <p class="pop-titu1">ONLINE<br>PISO SOBRE PISO</p>
+                            </a>
+
+                            <p class="txt-popup">ya disponible</p>
+                        </div>
+                    </article>
+
+                    <article class="card-pop6 card-pop">
+                        <div class="card__name">
+                            <div class="head-card">
+                                <p class="pop-titu">nuevo curso</p>
+
+                                <div class="row row-dots1 justify-content-evenly">
+                                    <span class="dots dots-1"></span>
+
+                                    <span class="dots dots-2"></span>
+
+                                    <span class="dots dots-3"></span>
+                                </div>
+                            </div>
+
+                            <a href="#">
+                                <p class="pop-titu1">Chantilly<br>Desde Cero</p>
+                            </a>
+
+                            <p class="txt-popup">ya disponible</p>
+                        </div>
+                    </article>
+                </main>
+            </div>
+        </div>
+    </div>
+    <!-- Lightbox End -->
+
+    <!-- Header Start -->
+    <div class="contain-video-hero">
+        <video class="vid-hero" autoplay playsinline width="1350" height="759">
+            <source src="assets/img/ACALI HORIZONTAL.mp4">
+        </video>
+
+        <!-- <video class="vid-hero" controls autoplay width="625" height="351">
+            <source src="img/ACALI HORIZONTAL.mp4">
+        </video> -->
+    </div>
+
+    <div class="jumbotron hero-home jumbotron-fluid position-relative overlay-bottom" style="margin-bottom: 90px;">
+        <div class="row row-hero-home align-items-center">
+            <div class="col-lg-6 col-hero-home1 col-hero-home">
+                <h4 class="titu-hero-home">Aprende<br>y Crece</h4>
+            </div>
+
+            <div class="col-lg-6 col-hero-home2 col-hero-home">
+                <img src="img/hero-foto.webp" alt="#" class="img-hero-home">
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-cursos-home container-fluid py-5">
+        <div class="contain-cursos-home container py-5">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="seccion-titu-conta section-title position-relative mb-4">
+                        <h6 class="font-mont txt-noso-home d-inline-block position-relative text-uppercase pb-2">Sobre nosotros</h6>
+
+                        <h1 class="font-mont titu-noso-home">Aprende de manos de<br>los mejores</h1>
+                    </div>
+
+                    <p class="font-mont txt-nos-home">Te invitamos a formar parte de este maravilloso mundo dulce</p>
+
+                    <div class="row pt-3 mx-0">
+                        <div class="contain-contador col-3 px-0">
+                            <div class="bg-contador text-center p-4">
+                                <h1 class="font-mont text-white" data-toggle="counter-up">3000</h1>
+                                <h6 class="font-mont txt-contado text-uppercase text-white">Estudiantes<span class="d-block">satisfechos</span></h6>
+                            </div>
+                        </div>
+                        <div class="contain-contador col-3 px-0">
+                            <div class="bg-contador text-center p-4">
+                                <h1 class="font-mont text-white" data-toggle="counter-up">18</h1>
+                                <h6 class="font-mont txt-contado text-uppercase text-white">Programas de<span class="d-block">Capacitación</span></h6>
+                            </div>
+                        </div>
+                        <div class="contain-contador col-3 px-0">
+                            <div class="bg-contador text-center p-4">
+                                <h1 class="font-mont text-white" data-toggle="counter-up">1</h1>
+                                <h6 class="font-mont txt-contado text-uppercase text-white">Millón De<span class="d-block">Followers</span></h6>
+                            </div>
+                        </div>
+                        <div class="contain-contador col-3 px-0">
+                            <div class="bg-contador text-center p-4">
+                                <h1 class="font-mont text-white" data-toggle="counter-up">14</h1>
+                                <h6 class="font-mont txt-contado text-uppercase text-white">Años de<span class="d-block">Experiencia</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Cursos Start -->
+    <div class="container-fluid wrapper-cursos-home">
+        <div class="container container-cursos-home">
+            <div class="owl-carousel owl-theme cursos-home">
+                <div class="item-curs-home1 item-curs-home">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="contain-front-cursos">
+                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="contain-back-cursos">
+                                    <h3 class="font-mont titu-cursos-back">Batidos pesados,<br>Bases de pastelería</h3>
+
+                                    <p class="font-mont txt-descrip-cursos txt-descrip-cursos1">Al culminar satisfactoriamente el Modulo II, el estudiante habrá desarrollado competencias técnicas, operativas y profesionales que le permitirán ejecutar con seguridad las bases fundamentales de la pastelería clásica y comercial, comprendiendo cada proceso desde su preparación hasta el acabado final.</p>
+
+                                    <ul class="list-descrip-back">
+                                        <li class="font-mont item-descrip-back1 item-descrip-back">Ponque Básico de Vainilla y Marmoleado. </li>
+
+                                        <li class="font-mont item-descrip-back2 item-descrip-back">Ponque Húmedo de Chocolate.</li>
+
+                                        <li class="font-mont item-descrip-back3 item-descrip-back">Decoración Comercial con Pasta Laminada de Fondant.</li>
+
+                                        <li class="font-mont item-descrip-back4 item-descrip-back">Crema Chantilly de Chocolate, Caramelo Seco.</li>
+
+                                        <li class="font-mont item-descrip-back5 item-descrip-back">Merengue Suizo.</li>
+                                    </ul>
+
+                                    <div class="row cont-precio">
+                                        <div class="font-mont col-precio-back1 col-precio-back">
+                                            <p>$10.00</p>
+                                        </div>
+
+                                        <div class="font-mont col-precio-back2 col-precio-back">
+                                            <a href="#">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-curs-home2 item-curs-home">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="contain-front-cursos">
+                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="contain-back-cursos">
+                                    <h3 class="font-mont titu-cursos-back">Batidos pesados,<br>Bases de pastelería</h3>
+
+                                    <p class="font-mont txt-descrip-cursos txt-descrip-cursos1">Al culminar satisfactoriamente el Modulo II, el estudiante habrá desarrollado competencias técnicas, operativas y profesionales que le permitirán ejecutar con seguridad las bases fundamentales de la pastelería clásica y comercial, comprendiendo cada proceso desde su preparación hasta el acabado final.</p>
+
+                                    <ul class="list-descrip-back">
+                                        <li class="font-mont item-descrip-back1 item-descrip-back">Ponque Básico de Vainilla y Marmoleado. </li>
+
+                                        <li class="font-mont item-descrip-back2 item-descrip-back">Ponque Húmedo de Chocolate.</li>
+
+                                        <li class="font-mont item-descrip-back3 item-descrip-back">Decoración Comercial con Pasta Laminada de Fondant.</li>
+
+                                        <li class="font-mont item-descrip-back4 item-descrip-back">Crema Chantilly de Chocolate, Caramelo Seco.</li>
+
+                                        <li class="font-mont item-descrip-back5 item-descrip-back">Merengue Suizo.</li>
+                                    </ul>
+
+                                    <div class="row cont-precio">
+                                        <div class="font-mont col-precio-back1 col-precio-back">
+                                            <p>$10.00</p>
+                                        </div>
+
+                                        <div class="font-mont col-precio-back2 col-precio-back">
+                                            <a href="#">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-curs-home3 item-curs-home">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="contain-front-cursos">
+                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="contain-back-cursos">
+                                    <h3 class="font-mont titu-cursos-back">Batidos pesados,<br>Bases de pastelería</h3>
+
+                                    <p class="font-mont txt-descrip-cursos txt-descrip-cursos1">Al culminar satisfactoriamente el Modulo II, el estudiante habrá desarrollado competencias técnicas, operativas y profesionales que le permitirán ejecutar con seguridad las bases fundamentales de la pastelería clásica y comercial, comprendiendo cada proceso desde su preparación hasta el acabado final.</p>
+
+                                    <ul class="list-descrip-back">
+                                        <li class="font-mont item-descrip-back1 item-descrip-back">Ponque Básico de Vainilla y Marmoleado. </li>
+
+                                        <li class="font-mont item-descrip-back2 item-descrip-back">Ponque Húmedo de Chocolate.</li>
+
+                                        <li class="font-mont item-descrip-back3 item-descrip-back">Decoración Comercial con Pasta Laminada de Fondant.</li>
+
+                                        <li class="font-mont item-descrip-back4 item-descrip-back">Crema Chantilly de Chocolate, Caramelo Seco.</li>
+
+                                        <li class="font-mont item-descrip-back5 item-descrip-back">Merengue Suizo.</li>
+                                    </ul>
+
+                                    <div class="row cont-precio">
+                                        <div class="font-mont col-precio-back1 col-precio-back">
+                                            <p>$10.00</p>
+                                        </div>
+
+                                        <div class="font-mont col-precio-back2 col-precio-back">
+                                            <a href="#">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-curs-home4 item-curs-home">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="contain-front-cursos">
+                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="contain-back-cursos">
+                                    <h3 class="font-mont titu-cursos-back">Batidos pesados,<br>Bases de pastelería</h3>
+
+                                    <p class="font-mont txt-descrip-cursos txt-descrip-cursos1">Al culminar satisfactoriamente el Modulo II, el estudiante habrá desarrollado competencias técnicas, operativas y profesionales que le permitirán ejecutar con seguridad las bases fundamentales de la pastelería clásica y comercial, comprendiendo cada proceso desde su preparación hasta el acabado final.</p>
+
+                                    <ul class="list-descrip-back">
+                                        <li class="font-mont item-descrip-back1 item-descrip-back">Ponque Básico de Vainilla y Marmoleado. </li>
+
+                                        <li class="font-mont item-descrip-back2 item-descrip-back">Ponque Húmedo de Chocolate.</li>
+
+                                        <li class="font-mont item-descrip-back3 item-descrip-back">Decoración Comercial con Pasta Laminada de Fondant.</li>
+
+                                        <li class="font-mont item-descrip-back4 item-descrip-back">Crema Chantilly de Chocolate, Caramelo Seco.</li>
+
+                                        <li class="font-mont item-descrip-back5 item-descrip-back">Merengue Suizo.</li>
+                                    </ul>
+
+                                    <div class="row cont-precio">
+                                        <div class="font-mont col-precio-back1 col-precio-back">
+                                            <p>$10.00</p>
+                                        </div>
+
+                                        <div class="font-mont col-precio-back2 col-precio-back">
+                                            <a href="#">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-curs-home5 item-curs-home">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="contain-front-cursos">
+                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="contain-back-cursos">
+                                    <h3 class="font-mont titu-cursos-back">Batidos pesados,<br>Bases de pastelería</h3>
+
+                                    <p class="font-mont txt-descrip-cursos txt-descrip-cursos1">Al culminar satisfactoriamente el Modulo II, el estudiante habrá desarrollado competencias técnicas, operativas y profesionales que le permitirán ejecutar con seguridad las bases fundamentales de la pastelería clásica y comercial, comprendiendo cada proceso desde su preparación hasta el acabado final.</p>
+
+                                    <ul class="list-descrip-back">
+                                        <li class="font-mont item-descrip-back1 item-descrip-back">Ponque Básico de Vainilla y Marmoleado. </li>
+
+                                        <li class="font-mont item-descrip-back2 item-descrip-back">Ponque Húmedo de Chocolate.</li>
+
+                                        <li class="font-mont item-descrip-back3 item-descrip-back">Decoración Comercial con Pasta Laminada de Fondant.</li>
+
+                                        <li class="font-mont item-descrip-back4 item-descrip-back">Crema Chantilly de Chocolate, Caramelo Seco.</li>
+
+                                        <li class="font-mont item-descrip-back5 item-descrip-back">Merengue Suizo.</li>
+                                    </ul>
+
+                                    <div class="row cont-precio">
+                                        <div class="font-mont col-precio-back1 col-precio-back">
+                                            <p>$10.00</p>
+                                        </div>
+
+                                        <div class="font-mont col-precio-back2 col-precio-back">
+                                            <a href="#">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-curs-home6 item-curs-home">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="contain-front-cursos">
+                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="contain-back-cursos">
+                                    <h3 class="font-mont titu-cursos-back">Batidos pesados,<br>Bases de pastelería</h3>
+
+                                    <p class="font-mont txt-descrip-cursos txt-descrip-cursos1">Al culminar satisfactoriamente el Modulo II, el estudiante habrá desarrollado competencias técnicas, operativas y profesionales que le permitirán ejecutar con seguridad las bases fundamentales de la pastelería clásica y comercial, comprendiendo cada proceso desde su preparación hasta el acabado final.</p>
+
+                                    <ul class="list-descrip-back">
+                                        <li class="font-mont item-descrip-back1 item-descrip-back">Ponque Básico de Vainilla y Marmoleado. </li>
+
+                                        <li class="font-mont item-descrip-back2 item-descrip-back">Ponque Húmedo de Chocolate.</li>
+
+                                        <li class="font-mont item-descrip-back3 item-descrip-back">Decoración Comercial con Pasta Laminada de Fondant.</li>
+
+                                        <li class="font-mont item-descrip-back4 item-descrip-back">Crema Chantilly de Chocolate, Caramelo Seco.</li>
+
+                                        <li class="font-mont item-descrip-back5 item-descrip-back">Merengue Suizo.</li>
+                                    </ul>
+
+                                    <div class="row cont-precio">
+                                        <div class="font-mont col-precio-back1 col-precio-back">
+                                            <p>$10.00</p>
+                                        </div>
+
+                                        <div class="font-mont col-precio-back2 col-precio-back">
+                                            <a href="#">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-curs-home7 item-curs-home">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="contain-front-cursos">
+                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="contain-back-cursos">
+                                    <h3 class="font-mont titu-cursos-back">Batidos pesados,<br>Bases de pastelería</h3>
+
+                                    <p class="font-mont txt-descrip-cursos txt-descrip-cursos1">Al culminar satisfactoriamente el Modulo II, el estudiante habrá desarrollado competencias técnicas, operativas y profesionales que le permitirán ejecutar con seguridad las bases fundamentales de la pastelería clásica y comercial, comprendiendo cada proceso desde su preparación hasta el acabado final.</p>
+
+                                    <ul class="list-descrip-back">
+                                        <li class="font-mont item-descrip-back1 item-descrip-back">Ponque Básico de Vainilla y Marmoleado. </li>
+
+                                        <li class="font-mont item-descrip-back2 item-descrip-back">Ponque Húmedo de Chocolate.</li>
+
+                                        <li class="font-mont item-descrip-back3 item-descrip-back">Decoración Comercial con Pasta Laminada de Fondant.</li>
+
+                                        <li class="font-mont item-descrip-back4 item-descrip-back">Crema Chantilly de Chocolate, Caramelo Seco.</li>
+
+                                        <li class="font-mont item-descrip-back5 item-descrip-back">Merengue Suizo.</li>
+                                    </ul>
+
+                                    <div class="row cont-precio">
+                                        <div class="font-mont col-precio-back1 col-precio-back">
+                                            <p>$10.00</p>
+                                        </div>
+
+                                        <div class="font-mont col-precio-back2 col-precio-back">
+                                            <a href="#">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-curs-home8 item-curs-home">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="contain-front-cursos">
+                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="contain-back-cursos">
+                                    <h3 class="font-mont titu-cursos-back">Batidos pesados,<br>Bases de pastelería</h3>
+
+                                    <p class="font-mont txt-descrip-cursos txt-descrip-cursos1">Al culminar satisfactoriamente el Modulo II, el estudiante habrá desarrollado competencias técnicas, operativas y profesionales que le permitirán ejecutar con seguridad las bases fundamentales de la pastelería clásica y comercial, comprendiendo cada proceso desde su preparación hasta el acabado final.</p>
+
+                                    <ul class="list-descrip-back">
+                                        <li class="font-mont item-descrip-back1 item-descrip-back">Ponque Básico de Vainilla y Marmoleado. </li>
+
+                                        <li class="font-mont item-descrip-back2 item-descrip-back">Ponque Húmedo de Chocolate.</li>
+
+                                        <li class="font-mont item-descrip-back3 item-descrip-back">Decoración Comercial con Pasta Laminada de Fondant.</li>
+
+                                        <li class="font-mont item-descrip-back4 item-descrip-back">Crema Chantilly de Chocolate, Caramelo Seco.</li>
+
+                                        <li class="font-mont item-descrip-back5 item-descrip-back">Merengue Suizo.</li>
+                                    </ul>
+
+                                    <div class="row cont-precio">
+                                        <div class="font-mont col-precio-back1 col-precio-back">
+                                            <p>$10.00</p>
+                                        </div>
+
+                                        <div class="font-mont col-precio-back2 col-precio-back">
+                                            <a href="#">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-curs-home9 item-curs-home">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="contain-front-cursos">
+                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="contain-back-cursos">
+                                    <h3 class="font-mont titu-cursos-back">Batidos pesados,<br>Bases de pastelería</h3>
+
+                                    <p class="font-mont txt-descrip-cursos txt-descrip-cursos1">Al culminar satisfactoriamente el Modulo II, el estudiante habrá desarrollado competencias técnicas, operativas y profesionales que le permitirán ejecutar con seguridad las bases fundamentales de la pastelería clásica y comercial, comprendiendo cada proceso desde su preparación hasta el acabado final.</p>
+
+                                    <ul class="list-descrip-back">
+                                        <li class="font-mont item-descrip-back1 item-descrip-back">Ponque Básico de Vainilla y Marmoleado. </li>
+
+                                        <li class="font-mont item-descrip-back2 item-descrip-back">Ponque Húmedo de Chocolate.</li>
+
+                                        <li class="font-mont item-descrip-back3 item-descrip-back">Decoración Comercial con Pasta Laminada de Fondant.</li>
+
+                                        <li class="font-mont item-descrip-back4 item-descrip-back">Crema Chantilly de Chocolate, Caramelo Seco.</li>
+
+                                        <li class="font-mont item-descrip-back5 item-descrip-back">Merengue Suizo.</li>
+                                    </ul>
+
+                                    <div class="row cont-precio">
+                                        <div class="font-mont col-precio-back1 col-precio-back">
+                                            <p>$10.00</p>
+                                        </div>
+
+                                        <div class="font-mont col-precio-back2 col-precio-back">
+                                            <a href="#">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-curs-home10 item-curs-home">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="contain-front-cursos">
+                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="contain-back-cursos">
+                                    <h3 class="font-mont titu-cursos-back">Batidos pesados,<br>Bases de pastelería</h3>
+
+                                    <p class="font-mont txt-descrip-cursos txt-descrip-cursos1">Al culminar satisfactoriamente el Modulo II, el estudiante habrá desarrollado competencias técnicas, operativas y profesionales que le permitirán ejecutar con seguridad las bases fundamentales de la pastelería clásica y comercial, comprendiendo cada proceso desde su preparación hasta el acabado final.</p>
+
+                                    <ul class="list-descrip-back">
+                                        <li class="font-mont item-descrip-back1 item-descrip-back">Ponque Básico de Vainilla y Marmoleado. </li>
+
+                                        <li class="font-mont item-descrip-back2 item-descrip-back">Ponque Húmedo de Chocolate.</li>
+
+                                        <li class="font-mont item-descrip-back3 item-descrip-back">Decoración Comercial con Pasta Laminada de Fondant.</li>
+
+                                        <li class="font-mont item-descrip-back4 item-descrip-back">Crema Chantilly de Chocolate, Caramelo Seco.</li>
+
+                                        <li class="font-mont item-descrip-back5 item-descrip-back">Merengue Suizo.</li>
+                                    </ul>
+
+                                    <div class="row cont-precio">
+                                        <div class="font-mont col-precio-back1 col-precio-back">
+                                            <p>$10.00</p>
+                                        </div>
+
+                                        <div class="font-mont col-precio-back2 col-precio-back">
+                                            <a href="#">Inscribirse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cursos Start -->
+
+    <!-- Novedades Start -->
+    <div class="wrapper-novedades container-fluid px-0 py-5">
+        <div class="container-titus-novedades row mx-0 justify-content-center pt-5">
+            <div class="col-lg-6">
+                <div class="contain-titus-novedades section-title text-center position-relative mb-4">
+                    <h6 class="font-mont txt-novedades d-inline-block position-relative text-uppercase pb-2">Novedades</h6>
+
+                    <h1 class="font-mont titu-novedades">Puedes ver aquí todo lo nuevo en TodoPostres VE</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="owl-carousel courses-carousel">
+            <div class="courses-item position-relative">
+                <img class="img-fluid" src="img/noveda-01.webp" alt="">
+
+                <div class="courses-text">
+                    <h4 class="font-mont titu-noveda text-center text-white px-3">Curso Batidos Húmedos y Livianos</h4>
+
+                    <div class="border-top w-100 mt-3">
+                        <div class="d-flex justify-content-between p-4">
+                            <span class="font-mont text-white"><i class="fa fa-user mr-2"></i>$15.00</span>
+
+                            <span class="font-mont text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                        </div>
+                    </div>
+
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="font-mont btn btn-noveda" href="detail.html">Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courses-item position-relative">
+                <img class="img-fluid" src="img/noveda-02.webp" alt="">
+
+                <div class="courses-text">
+                    <h4 class="font-mont titu-noveda text-center text-white px-3">Curso mesa Navideña Online</h4>
+
+                    <div class="border-top w-100 mt-3">
+                        <div class="d-flex justify-content-between p-4">
+                            <span class="font-mont text-white"><i class="fa fa-user mr-2"></i>$15.00</span>
+
+                            <span class="font-mont text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                        </div>
+                    </div>
+
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="font-mont btn btn-noveda" href="detail.html">Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courses-item position-relative">
+                <img class="img-fluid" src="img/noveda-03.webp" alt="">
+
+                <div class="courses-text">
+                    <h4 class="font-mont titu-noveda text-center text-white px-3">Curso Online Beso de Ángel</h4>
+
+                    <div class="border-top w-100 mt-3">
+                        <div class="d-flex justify-content-between p-4">
+                            <span class="font-mont text-white"><i class="fa fa-user mr-2"></i>$15.00</span>
+
+                            <span class="font-mont text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                        </div>
+                    </div>
+
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="font-mont btn btn-noveda" href="detail.html">Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courses-item position-relative">
+                <img class="img-fluid" src="img/noveda-04.webp" alt="">
+
+                <div class="courses-text">
+                    <h4 class="font-mont titu-noveda text-center text-white px-3">Curso Online de Picaderas / Pasapalos</h4>
+
+                    <div class="border-top w-100 mt-3">
+                        <div class="d-flex justify-content-between p-4">
+                            <span class="font-mont text-white"><i class="fa fa-user mr-2"></i>$15.00</span>
+
+                            <span class="font-mont text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                        </div>
+                    </div>
+
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="font-mont btn btn-noveda" href="detail.html">Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courses-item position-relative">
+                <img class="img-fluid" src="img/noveda-05.webp" alt="">
+
+                <div class="courses-text">
+                    <h4 class="font-mont titu-noveda text-center text-white px-3">Curso online Piso sobre Piso</h4>
+
+                    <div class="border-top w-100 mt-3">
+                        <div class="d-flex justify-content-between p-4">
+                            <span class="font-mont text-white"><i class="fa fa-user mr-2"></i>$15.00</span>
+
+                            <span class="font-mont text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                        </div>
+                    </div>
+
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="font-mont btn btn-noveda" href="detail.html">Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courses-item position-relative">
+                <img class="img-fluid" src="img/noveda-06.webp" alt="">
+
+                <div class="courses-text">
+                    <h4 class="font-mont titu-noveda text-center text-white px-3">Curso Chantilly Desde Cero</h4>
+
+                    <div class="border-top w-100 mt-3">
+                        <div class="d-flex justify-content-between p-4">
+                            <span class="font-mont text-white"><i class="fa fa-user mr-2"></i>$15.00</span>
+
+                            <span class="font-mont text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                        </div>
+                    </div>
+
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="font-mont btn btn-noveda" href="detail.html">Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Novedades End -->
+
+    <!-- Ebooks Start -->
+    <div class="wrapper-ebook container-fluid py-5">
+        <div class="container-titus-ebooks container py-5">
+            <div class="section-title text-center position-relative mb-5">
+                <h6 class="font-mont txt-ebooks d-inline-block position-relative text-uppercase pb-2">ebooks</h6>
+
+                <h1 class="titu-ebooks">Apoya tus conocimientos con nuestros libros</h1>
+            </div>
+
+            <div class="container-ebooks justify-content-center">
+                <div id="carousel-container">
+                    <div id="carousel">
+                        <div class="carousel-ebook item-1">
+                            <div class="cont-ebook">
+                                <a href="ebooks.html" class="btn btn-ebook">Comprar</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-ebook item-2">
+                            <div class="cont-ebook">
+                                <a href="ebooks.html" class="btn btn-ebook">Comprar</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-ebook item-3">
+                            <div class="cont-ebook">
+                                <a href="ebooks.html" class="btn btn-ebook">Comprar</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-ebook item-4">
+                            <div class="cont-ebook">
+                                <a href="ebooks.html" class="btn btn-ebook">Comprar</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-ebook item-5">
+                            <div class="cont-ebook">
+                                <a href="ebooks.html" class="btn btn-ebook">Comprar</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-ebook item-6">
+                            <div class="cont-ebook">
+                                <a href="ebooks.html" class="btn btn-ebook">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Agrega más elementos según sea necesario -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ebooks End -->
+
+    <!-- Valores Start -->
+    <div class="wrapper-valor container-fluid py-5">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative mb-5">
+                <h6 class="font-mont txt-valores d-inline-block position-relative text-uppercase pb-2">valores</h6>
+
+                <h1 class="font-mont titu-valores">Hecho a mano es sinónimo de hecho con el corazón</h1>
+            </div>
+
+            <div class="row row-valor container-valores aling-items-center">
+                <div class="col-lg-3 col-list-valo1 col-list-valo">
+                    <div class="cont-img-valor">
+                        <img src="img/valores-01.webp" alt="#" class="img-fluid w-100 img-valor">
+                    </div>
+
+                    <div class="cont-info-valor">
+                        <div class="font-mont txt-info-valor">En Todo Postres señalamos el camino a nuestros alumnos, para que cultiven la excelencia, la creatividad, la innovación y el enriquecimiento personal siendo esto la base que les permite iniciar con éxito su actividad profesional o personal.</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-list-valo2 col-list-valo">
+                    <div class="cont-img-valor">
+                        <img src="img/valores-02.webp" alt="#" class="img-fluid w-100 img-valor">
+                    </div>
+
+                    <div class="cont-info-valor">
+                        <div class="font-mont txt-info-valor">Nuestros programas de formación son reconocidos en todo el mundo por su calidad, la metodología combina clases prácticas en las que el alumno reproduce lo previamente elaborado por el chef y pone en práctica las técnicas enseñadas.</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-list-valo3 col-list-valo">
+                    <div class="cont-img-valor">
+                        <img src="img/valores-03.webp" alt="#" class="img-fluid w-100 img-valor">
+                    </div>
+
+                    <div class="cont-info-valor">
+                        <div class="font-mont txt-info-valor">Puedes estudiar el <span class="txt-acento">Programa de Certificación</span> en <span class="txt-acento">Maestro Pastelero Profesional</span>, <span class="txt-acento">Sub Chef Pastelero Internacional</span> y <span class="txt-acento">Chef Pastelero Internacional</span>; tenemos horarios para los días hábiles de semana y los días sábados.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="owl-carousel valor-carousel position-relative" style="padding: 0 30px;">
+                <div class="team-item">
+                    <div class="contain-valo-carru">
+                        <div class="cont-img-valor-carru">
+                            <img src="img/valores-nvo-01.webp" alt="#" class="img-fluid w-100 img-valor-carru">
+                        </div>
+
+                        <h4 class="font-mont d-flex align-items-center titu-carru-valor">Excelencia profesional</h4>
+
+                        <div class="cont-info-valor">
+                            <div class="font-mont d-flex align-items-center txt-info-valor">Formamos pasteleros con altos estándares técnicos, precisión en procesos y calidad en cada resultado.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div class="contain-valo-carru">
+                        <div class="cont-img-valor-carru">
+                            <img src="img/valores-nvo-02.webp" alt="#" class="img-fluid w-100 img-valor-carru">
+                        </div>
+
+                        <h4 class="font-mont d-flex align-items-center titu-carru-valor">Enseñanza con Estructura</h4>
+
+                        <div class="cont-info-valor">
+                            <div class="font-mont d-flex align-items-center txt-info-valor">No enseñamos recetas aisladas. Enseñamos el fundamento, la lógica y la ciencia detrás de cada preparación.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div class="contain-valo-carru">
+                        <div class="cont-img-valor-carru">
+                            <img src="img/valores-nvo-03.webp" alt="#" class="img-fluid w-100 img-valor-carru">
+                        </div>
+
+                        <h4 class="font-mont d-flex align-items-center titu-carru-valor">Mentalidad Emprendedora</h4>
+
+                        <div class="cont-info-valor">
+                            <div class="font-mont d-flex align-items-center txt-info-valor">Capacitamos para generar ingresos reales. Nuestros estudiantes aprenden a producir, calcular y vender con estrategia.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div class="contain-valo-carru">
+                        <div class="cont-img-valor-carru">
+                            <img src="img/valores-nvo-04.webp" alt="#" class="img-fluid w-100 img-valor-carru">
+                        </div>
+
+                        <h4 class="font-mont d-flex align-items-center titu-carru-valor">Disciplina y Entrenamiento del Talento</h4>
+
+                        <div class="cont-info-valor">
+                            <div class="font-mont d-flex align-items-center txt-info-valor">Creemos que el talento se desarrolla con práctica, constancia y guía adecuada.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div class="contain-valo-carru">
+                        <div class="cont-img-valor-carru">
+                            <img src="img/valores-nvo-05.webp" alt="#" class="img-fluid w-100 img-valor-carru">
+                        </div>
+
+                        <h4 class="font-mont d-flex align-items-center titu-carru-valor">Comunidad y Acompañamiento Real</h4>
+
+                        <div class="cont-info-valor">
+                            <div class="font-mont d-flex align-items-center txt-info-valor">Aquí nadie camina solo. Impulsamos una comunidad sólida donde el crecimiento es colectivo.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Valores End -->
+
+    <!-- Testimonios Start -->
+    <div class="wrapper-testimo container-fluid bg-image py-5" style="margin: 90px 0;">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="section-title section-titu-testi position-relative mb-4">
+                        <h6 class="font-mont txt-testimo d-inline-block position-relative text-uppercase pb-2">Testimonios</h6>
+
+                        <h1 class="font-mont titu-testimo">Lo que dicen nuestros estudiantes</h1>
+                    </div>
+
+                    <p class="font-mont txt-info-testimo m-0">La opinión de nuestros estudiantes es importante, para que puedas saber sobre nosotros de mano los que confiaron en nuestros cursos</p>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="cont-testimo bg-white p-5">
+                            <i class="fa fa-3x fa-quote-left mb-4 icon-cita"></i>
+
+                            <p class="font-mont txt-testimos">Sed et elitr ipsum labore dolor diam, ipsum duo vero sed sit est est ipsum eos clita est ipsum. Est nonumy tempor at kasd. Sed at dolor duo ut dolor, et justo erat dolor magna sed stet amet elitr duo lorem</p>
+
+                            <div class="d-flex flex-shrink-0 align-items-center mt-4">
+                                <img class="img-fluid mr-4" src="img/testimonial-2.jpg" alt="">
+
+                                <div>
+                                    <h5>Student Name</h5>
+
+                                    <span>Web Design</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cont-testimo bg-white p-5">
+                            <i class="fa fa-3x fa-quote-left mb-4 icon-cita"></i>
+
+                            <p class="font-mont txt-testimos">Sed et elitr ipsum labore dolor diam, ipsum duo vero sed sit est est ipsum eos clita est ipsum. Est nonumy tempor at kasd. Sed at dolor duo ut dolor, et justo erat dolor magna sed stet amet elitr duo lorem</p>
+
+                            <div class="d-flex flex-shrink-0 align-items-center mt-4">
+                                <img class="img-fluid mr-4" src="img/testimonial-1.jpg" alt="">
+
+                                <div>
+                                    <h5>Student Name</h5>
+
+                                    <span>Web Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonios Start -->
+
+    <!-- Contact Start -->
+    <div class="wrapper-contacto container-fluid py-5">
+        <div class="container py-5">
+            <div class="contain-sucrp">
+                <div class="section-title section-titu-conta position-relative mb-4">
+                    <h6 class="font-mont txt-suscrip d-inline-block position-relative text-uppercase pb-2">suscríbete</h6>
+
+                    <h1 class="font-mont titu-suscrip">Envíanos un mensaje</h1>
+
+                    <h4 class="font-mont info-suscript info-suscript-home mb-4">Recibe todas las ofertar y noticias que tendremos para ti al suscribirte a nuestro newsletter</h4>
+                </div>
+
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="col-6 form-group">
+                                <input type="text" class="font-mont form-control border-top-0 border-right-0 border-left-0 p-0" placeholder="Nombre" required="required">
+                            </div>
+
+                            <div class="col-6 form-group">
+                                <input type="email" class="font-mont form-control border-top-0 border-right-0 border-left-0 p-0" placeholder="Correo" required="required">
+                            </div>
+                        </div>
+
+                        <div>
+                            <button class="font-mont btn btn-form py-3 px-5" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid position-relative overlay-top container-footer py-5" style="margin-top: 90px;">
+        <div class="container mt-5 pt-5">
+            <div class="row row-footer-top">
+                <div class="col-md-3 col-footer-top">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/logo.png" alt="#" class="logo-footer">
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-footer-top">
+                    <h3 class="titu-footer-top mb-4">Contácto</h3>
+
+                    <p class="font-mont"><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
+
+                    <p class="font-mont"><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+
+                    <p class="font-mont"><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+
+                    <div class="row-rrss-foot d-flex justify-content-start mt-4">
+                        <a class="font-mont rrss-foter mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
+
+                        <a class="font-mont rrss-foter mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
+
+                        <a class="font-mont rrss-foter mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
+
+                        <a class="font-mont rrss-foter" href="#"><i class="fab fa-2x fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-footer-top">
+                    <h3 class="font-mont titu-footer-top mb-4">Nuestra escuela</h3>
+
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="font-mont link-footer mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Cursos online</a>
+
+                        <a class="font-mont link-footer mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Talleres</a>
+
+                        <a class="font-mont link-footer mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Certificaciones</a>
+
+                        <a class="font-mont link-footer mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>E-books</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-footer-top">
+                    <h3 class="font-mont titu-footer-top mb-4">Nuestra web</h3>
+
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="font-mont link-footer mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+
+                        <a class="font-mont link-footer mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Cursos</a>
+
+                        <a class="font-mont link-footer mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>E-books</a>
+
+                        <a class="font-mont link-footer mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Cuenta de usuario</a>
+
+                        <a class="font-mont link-footer" href="#"><i class="fa fa-angle-right mr-2"></i>Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid container-footer-bot text-white-50 border-top py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="font-mont m-0">&copy; 2020—2026 <a class="text-white" href="#">TodoPostres Venezuela</a>. Todos los derechos reservados.
+                    </p>
+                </div>
+
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="font-mont m-0">Desarrollado por <a class="text-white" href="https://enfoca2sstudios.com/">Enfoca2s Studios</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap.bundle.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/main.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/3d-carousel.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/pop-up.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/lib/easing/easing.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/lib/counterup/counterup.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <?php wp_footer(); ?>
+</body>
+</html>

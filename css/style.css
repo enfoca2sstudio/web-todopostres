@@ -552,8 +552,8 @@ button.nav-item {
 /*quienes somos*/
 .modal-dialog {
   position: relative;
-  max-width: 900px !important;
-  width: auto;
+  max-width: 100vw !important;
+  width: 952px;
   height: 1200px !important;
   margin: 0.5rem;
   pointer-events: none;
@@ -1281,7 +1281,10 @@ button.nav-item {
     9.  Valores
 --------------------------------------*/
 .wrapper-valor {
-  margin-top: 215px;
+  margin-top: 122px;
+  margin-bottom: -95px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .txt-valores {
@@ -1779,7 +1782,8 @@ button.nav-item {
   padding-bottom: 5px !important;
 }
 
-.bg-icon-contac {
+.bg-icon-contac,
+.bg-mis-vis {
   border-radius: 10px;
   background: var(--fucsia);
 }
