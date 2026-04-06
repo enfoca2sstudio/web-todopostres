@@ -63,6 +63,30 @@
             }
         }
     });
+
+    // Cursos carousel
+    $(".marquee-carru").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1500,
+        loop: true,
+        dots: false,
+        nav : false,
+        center: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:1
+            },
+            768:{
+                items:3
+            },
+            992:{
+                items:3
+            }
+        }
+    });
     
     // Cursos carousel
     $(".cursos-home").owlCarousel({
