@@ -39,9 +39,14 @@ Footer
     1.  CSS General
 =======================================*/
 :root {
-  --fucsia: #d92a7f;
+  --fucsia: #ff33e7;
   --fucsia-cla: #d15294;
+  --fucsia-osc: #e003c6;
   --purpura: #6f42c1;
+  --purpura-osc: #9b0089;
+  --rosado: #ffc2ff;
+  --rosado-cla: #fee1ff;
+  --rosado-osc: #ff71f5;
   --blanco: #fff;
   --negro: #000;
   --titulo: 40px;
@@ -187,7 +192,7 @@ Footer
   font-display: swap;
 }
 @font-face {
-    font-family: 'Montserrat';
+  font-family: 'Montserrat';
   src: url('../fonts/montserrat/Montserrat-BoldItalic.woff2') format('woff2'),
       url('../fonts/montserrat/Montserrat-BoldItalic.woff') format('woff');
   font-weight: 700;
@@ -222,6 +227,245 @@ Footer
   font-family: 'Montserrat';
   src: url('../fonts/montserrat/Montserrat-BlackItalic.woff2') format('woff2'),
       url('../fonts/montserrat/Montserrat-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/*Albra*/
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-Thin.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-Light.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-LightItalic.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-Regular.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-RegularItalic.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-Medium.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-MediumItalic.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-Semi.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-Semi.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-SemiItalic.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-SemiItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-Bold.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-BoldItalic.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-Black.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-Black.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Albra TRIAL';
+  src: url('../fonts/albra/AlbraTRIAL-BlackItalic.woff2') format('woff2'),
+      url('../fonts/albra/AlbraTRIAL-BlackItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/*Baserio*/
+@font-face {
+  font-family: 'Baserio';
+  src: url('../fonts/baserio/Baserio.woff2') format('woff2'),
+      url('../fonts/baserio/Baserio.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Baserio';
+  src: url('../fonts/baserio/Baserio-Italic.woff2') format('woff2'),
+      url('../fonts/baserio/Baserio-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/*Heading Now Trial*/
+@font-face {
+  font-family: 'Heading Now Trial 01';
+  src: url('../fonts/heading_now/HeadingNowTrial-01Thin.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-01Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-01ThinItalic.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-01ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-02Light.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-02Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-02LightItalic.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-02LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-04Regular.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-04Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-04RegularItalic.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-04RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-05Medium.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-05Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-05MediumItalic.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-05MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-06Bold.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-06Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-06BoldItalic.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-06BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-07Extrabold.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-07Extrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-07ExtraboldItalic.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-07ExtraboldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-08Heavy.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-08Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial';
+  src: url('../fonts/heading_now/HeadingNowTrial-08HeavyItalic.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-08HeavyItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -691,27 +935,27 @@ button.nav-item {
 }
 
 .card-pop1 {
-	background: url("../img/noveda-01.webp") no-repeat center center !important;
+	background: url("https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/noveda-01.webp") no-repeat center center !important;
 	background-size: cover !important;
 }
 .card-pop2 {
-	background: url("../img/noveda-02.webp") no-repeat center center !important;
+	background: url("https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/noveda-02.webp") no-repeat center center !important;
 	background-size: cover !important;
 }
 .card-pop3 {
-	background: url("../img/noveda-03.webp") no-repeat center center !important;
+	background: url("https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/noveda-03.webp") no-repeat center center !important;
 	background-size: cover !important;
 }
 .card-pop4 {
-	background: url("../img/noveda-04.webp") no-repeat center center !important;
+	background: url("https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/noveda-04.webp") no-repeat center center !important;
 	background-size: cover !important;
 }
 .card-pop5 {
-	background: url("../img/noveda-05.webp") no-repeat center center !important;
+	background: url("https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/noveda-05.webp") no-repeat center center !important;
 	background-size: cover !important;
 }
 .card-pop6 {
-	background: url("../img/noveda-06.webp") no-repeat center center !important;
+	background: url("https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/noveda-06.webp") no-repeat center center !important;
 	background-size: cover !important;
 }
 
@@ -895,11 +1139,53 @@ button.nav-item {
 }
 .contain-video-hero {
   height: 324px;
+  background: url(../img/1-home/hero-img.webp) center center no-repeat;
+  background-size: cover;
+}
+
+.titus-hero-home {
+  font-family: 'Albra TRIAL' !important;
+  font-size: var(--titulo) !important;
+  font-style: italic;
+  font-weight: 400 !important;
+  text-transform: capitalize !important;
+  color: var(--blanco) !important;
 }
 
 .vid-hero {
   display: block;
   margin: auto;
+}
+
+.txt-marquee {
+  background: var(--blanco);
+}
+.marquee {
+	border: 2px solid red;
+	display: flex;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+}
+.marquee__item {
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-name: marquee-content;
+	animation-timing-function: linear;
+	padding: 5px 15px 5px 15px;
+  color: var(--fucsia-osc);
+}
+.marquee:hover .marquee__item {
+	animation-play-state: paused;
+}
+
+@keyframes marquee-content {
+	from {
+		transform: translateX( 0% );
+	}
+	to {
+		transform: translateX( -100% );
+	}
 }
 
 .hero-home {

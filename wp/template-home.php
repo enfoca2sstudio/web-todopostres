@@ -67,10 +67,8 @@
                         <a href="#" class="font-mont nav-link dropdown-toggle" data-bs-toggle="dropdown">Cursos</a>
 
                         <div class="dropdown-menu m-0">
-                            <a href="cursos-online.html" class="font-mont dropdown-item">Cursos online</a>
+                            <a href="cursos-online.html" class="font-mont dropdown-item">Cursos</a>
                             
-                            <a href="talleres-online.html" class="font-mont dropdown-item">Talleres</a>
-
                             <a href="certificaciones.html" class="font-mont dropdown-item">Certificaciones internacionales</a>
                         </div>
                     </div>
@@ -148,9 +146,9 @@
                             <div class="row">
                                 <div class="col-lg-7 mb-5 mb-lg-0">
                                     <div class="section-title position-relative mb-4">
-                                        <h6 class="font-mont txt-mis-vis d-inline-block position-relative text-uppercase pb-2">Conocenos</h6>
+                                        <h6 class="font-mont txt-mis-vis d-inline-block position-relative text-uppercase pb-2">Conóceme</h6>
 
-                                        <h1 class="font-mont titu-mis-vis">Misión y Visión</h1>
+                                        <h1 class="font-mont titu-mis-vis">Sobre Todo Postres Ve</h1>
                                     </div>
 
                                     <p class="font-mont mb-4 pb-2">Nacimos con una visión clara: No enseñar recetas sueltas… sino enseñar a pensar como profesionales.<br><br>Por eso nuestro método se basa en estructura académica, comprensión técnica y enfoque emprendedor. Aquí nuestros estudiantes no solo aprenden a hacer un pastel; aprenden a entender los ingredientes, dominar las técnicas y construir productos que realmente se venden.</p>
@@ -182,7 +180,7 @@
 
                                 <div class="col-lg-5" style="min-height: 500px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;">
+                                        <img class="position-absolute w-100 h-100" src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/feature.jpg" style="object-fit: cover;">
                                     </div>
                                 </div>
                             </div>
@@ -349,11 +347,11 @@
     <!-- Header Start -->
     <div class="contain-video-hero">
         <video class="vid-hero" autoplay playsinline width="1350" height="759">
-            <source src="assets/img/ACALI HORIZONTAL.mp4">
+            <source src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/ACALI HORIZONTAL.mp4">
         </video>
 
         <!-- <video class="vid-hero" controls autoplay width="625" height="351">
-            <source src="img/ACALI HORIZONTAL.mp4">
+            <source src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/ACALI HORIZONTAL.mp4">
         </video> -->
     </div>
 
@@ -364,7 +362,7 @@
             </div>
 
             <div class="col-lg-6 col-hero-home2 col-hero-home">
-                <img src="img/hero-foto.webp" alt="#" class="img-hero-home">
+                <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/hero-foto.webp" alt="#" class="img-hero-home">
             </div>
         </div>
     </div>
@@ -376,7 +374,7 @@
             <div class="row">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/about.jpg" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -429,7 +427,7 @@
                         <div class="flipper">
                             <div class="front">
                                 <div class="contain-front-cursos">
-                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                    <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/taller-1.webp" alt="#" class="img_cursos_home">
                                 </div>
                             </div>
 
@@ -471,7 +469,7 @@
                         <div class="flipper">
                             <div class="front">
                                 <div class="contain-front-cursos">
-                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                    <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/taller-1.webp" alt="#" class="img_cursos_home">
                                 </div>
                             </div>
 
@@ -513,7 +511,7 @@
                         <div class="flipper">
                             <div class="front">
                                 <div class="contain-front-cursos">
-                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                    <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/taller-1.webp" alt="#" class="img_cursos_home">
                                 </div>
                             </div>
 
@@ -555,7 +553,7 @@
                         <div class="flipper">
                             <div class="front">
                                 <div class="contain-front-cursos">
-                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                    <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/taller-1.webp" alt="#" class="img_cursos_home">
                                 </div>
                             </div>
 
@@ -597,7 +595,7 @@
                         <div class="flipper">
                             <div class="front">
                                 <div class="contain-front-cursos">
-                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                    <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/taller-1.webp" alt="#" class="img_cursos_home">
                                 </div>
                             </div>
 
@@ -639,7 +637,7 @@
                         <div class="flipper">
                             <div class="front">
                                 <div class="contain-front-cursos">
-                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                    <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/taller-1.webp" alt="#" class="img_cursos_home">
                                 </div>
                             </div>
 
@@ -681,7 +679,7 @@
                         <div class="flipper">
                             <div class="front">
                                 <div class="contain-front-cursos">
-                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                    <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/taller-1.webp" alt="#" class="img_cursos_home">
                                 </div>
                             </div>
 
@@ -723,7 +721,7 @@
                         <div class="flipper">
                             <div class="front">
                                 <div class="contain-front-cursos">
-                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                    <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/taller-1.webp" alt="#" class="img_cursos_home">
                                 </div>
                             </div>
 
@@ -765,7 +763,7 @@
                         <div class="flipper">
                             <div class="front">
                                 <div class="contain-front-cursos">
-                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                    <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/taller-1.webp" alt="#" class="img_cursos_home">
                                 </div>
                             </div>
 
@@ -807,7 +805,7 @@
                         <div class="flipper">
                             <div class="front">
                                 <div class="contain-front-cursos">
-                                    <img src="img/taller-1.webp" alt="#" class="img_cursos_home">
+                                    <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/taller-1.webp" alt="#" class="img_cursos_home">
                                 </div>
                             </div>
 
@@ -862,7 +860,7 @@
 
         <div class="owl-carousel courses-carousel">
             <div class="courses-item position-relative">
-                <img class="img-fluid" src="img/noveda-01.webp" alt="">
+                <img class="img-fluid" src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/noveda-01.webp" alt="">
 
                 <div class="courses-text">
                     <h4 class="font-mont titu-noveda text-center text-white px-3">Curso Batidos Húmedos y Livianos</h4>
@@ -882,7 +880,7 @@
             </div>
 
             <div class="courses-item position-relative">
-                <img class="img-fluid" src="img/noveda-02.webp" alt="">
+                <img class="img-fluid" src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/noveda-02.webp" alt="">
 
                 <div class="courses-text">
                     <h4 class="font-mont titu-noveda text-center text-white px-3">Curso mesa Navideña Online</h4>
@@ -902,7 +900,7 @@
             </div>
 
             <div class="courses-item position-relative">
-                <img class="img-fluid" src="img/noveda-03.webp" alt="">
+                <img class="img-fluid" src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/noveda-03.webp" alt="">
 
                 <div class="courses-text">
                     <h4 class="font-mont titu-noveda text-center text-white px-3">Curso Online Beso de Ángel</h4>
@@ -922,7 +920,7 @@
             </div>
 
             <div class="courses-item position-relative">
-                <img class="img-fluid" src="img/noveda-04.webp" alt="">
+                <img class="img-fluid" src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/noveda-04.webp" alt="">
 
                 <div class="courses-text">
                     <h4 class="font-mont titu-noveda text-center text-white px-3">Curso Online de Picaderas / Pasapalos</h4>
@@ -942,7 +940,7 @@
             </div>
 
             <div class="courses-item position-relative">
-                <img class="img-fluid" src="img/noveda-05.webp" alt="">
+                <img class="img-fluid" src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/noveda-05.webp" alt="">
 
                 <div class="courses-text">
                     <h4 class="font-mont titu-noveda text-center text-white px-3">Curso online Piso sobre Piso</h4>
@@ -962,7 +960,7 @@
             </div>
 
             <div class="courses-item position-relative">
-                <img class="img-fluid" src="img/noveda-06.webp" alt="">
+                <img class="img-fluid" src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/noveda-06.webp" alt="">
 
                 <div class="courses-text">
                     <h4 class="font-mont titu-noveda text-center text-white px-3">Curso Chantilly Desde Cero</h4>
@@ -1041,7 +1039,7 @@
     <!-- Ebooks End -->
 
     <!-- Valores Start -->
-    <div class="wrapper-valor container-fluid py-5">
+    <div class="wrapper-valor container-fluid">
         <div class="container py-5">
             <div class="section-title text-center position-relative mb-5">
                 <h6 class="font-mont txt-valores d-inline-block position-relative text-uppercase pb-2">valores</h6>
@@ -1052,7 +1050,7 @@
             <div class="row row-valor container-valores aling-items-center">
                 <div class="col-lg-3 col-list-valo1 col-list-valo">
                     <div class="cont-img-valor">
-                        <img src="img/valores-01.webp" alt="#" class="img-fluid w-100 img-valor">
+                        <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/valores-01.webp" alt="#" class="img-fluid w-100 img-valor">
                     </div>
 
                     <div class="cont-info-valor">
@@ -1062,7 +1060,7 @@
 
                 <div class="col-lg-3 col-list-valo2 col-list-valo">
                     <div class="cont-img-valor">
-                        <img src="img/valores-02.webp" alt="#" class="img-fluid w-100 img-valor">
+                        <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/valores-02.webp" alt="#" class="img-fluid w-100 img-valor">
                     </div>
 
                     <div class="cont-info-valor">
@@ -1072,7 +1070,7 @@
 
                 <div class="col-lg-3 col-list-valo3 col-list-valo">
                     <div class="cont-img-valor">
-                        <img src="img/valores-03.webp" alt="#" class="img-fluid w-100 img-valor">
+                        <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/valores-03.webp" alt="#" class="img-fluid w-100 img-valor">
                     </div>
 
                     <div class="cont-info-valor">
@@ -1085,7 +1083,7 @@
                 <div class="team-item">
                     <div class="contain-valo-carru">
                         <div class="cont-img-valor-carru">
-                            <img src="img/valores-nvo-01.webp" alt="#" class="img-fluid w-100 img-valor-carru">
+                            <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/valores-nvo-01.webp" alt="#" class="img-fluid w-100 img-valor-carru">
                         </div>
 
                         <h4 class="font-mont d-flex align-items-center titu-carru-valor">Excelencia profesional</h4>
@@ -1099,7 +1097,7 @@
                 <div class="team-item">
                     <div class="contain-valo-carru">
                         <div class="cont-img-valor-carru">
-                            <img src="img/valores-nvo-02.webp" alt="#" class="img-fluid w-100 img-valor-carru">
+                            <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/valores-nvo-02.webp" alt="#" class="img-fluid w-100 img-valor-carru">
                         </div>
 
                         <h4 class="font-mont d-flex align-items-center titu-carru-valor">Enseñanza con Estructura</h4>
@@ -1113,7 +1111,7 @@
                 <div class="team-item">
                     <div class="contain-valo-carru">
                         <div class="cont-img-valor-carru">
-                            <img src="img/valores-nvo-03.webp" alt="#" class="img-fluid w-100 img-valor-carru">
+                            <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/valores-nvo-03.webp" alt="#" class="img-fluid w-100 img-valor-carru">
                         </div>
 
                         <h4 class="font-mont d-flex align-items-center titu-carru-valor">Mentalidad Emprendedora</h4>
@@ -1127,7 +1125,7 @@
                 <div class="team-item">
                     <div class="contain-valo-carru">
                         <div class="cont-img-valor-carru">
-                            <img src="img/valores-nvo-04.webp" alt="#" class="img-fluid w-100 img-valor-carru">
+                            <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/valores-nvo-04.webp" alt="#" class="img-fluid w-100 img-valor-carru">
                         </div>
 
                         <h4 class="font-mont d-flex align-items-center titu-carru-valor">Disciplina y Entrenamiento del Talento</h4>
@@ -1141,7 +1139,7 @@
                 <div class="team-item">
                     <div class="contain-valo-carru">
                         <div class="cont-img-valor-carru">
-                            <img src="img/valores-nvo-05.webp" alt="#" class="img-fluid w-100 img-valor-carru">
+                            <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/valores-nvo-05.webp" alt="#" class="img-fluid w-100 img-valor-carru">
                         </div>
 
                         <h4 class="font-mont d-flex align-items-center titu-carru-valor">Comunidad y Acompañamiento Real</h4>
@@ -1178,7 +1176,7 @@
                             <p class="font-mont txt-testimos">Sed et elitr ipsum labore dolor diam, ipsum duo vero sed sit est est ipsum eos clita est ipsum. Est nonumy tempor at kasd. Sed at dolor duo ut dolor, et justo erat dolor magna sed stet amet elitr duo lorem</p>
 
                             <div class="d-flex flex-shrink-0 align-items-center mt-4">
-                                <img class="img-fluid mr-4" src="img/testimonial-2.jpg" alt="">
+                                <img class="img-fluid mr-4" src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/testimonial-2.jpg" alt="">
 
                                 <div>
                                     <h5>Student Name</h5>
@@ -1194,7 +1192,7 @@
                             <p class="font-mont txt-testimos">Sed et elitr ipsum labore dolor diam, ipsum duo vero sed sit est est ipsum eos clita est ipsum. Est nonumy tempor at kasd. Sed at dolor duo ut dolor, et justo erat dolor magna sed stet amet elitr duo lorem</p>
 
                             <div class="d-flex flex-shrink-0 align-items-center mt-4">
-                                <img class="img-fluid mr-4" src="img/testimonial-1.jpg" alt="">
+                                <img class="img-fluid mr-4" src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/testimonial-1.jpg" alt="">
 
                                 <div>
                                     <h5>Student Name</h5>
@@ -1250,7 +1248,7 @@
             <div class="row row-footer-top">
                 <div class="col-md-3 col-footer-top">
                     <a href="index.html" class="navbar-brand">
-                        <img src="img/logo.png" alt="#" class="logo-footer">
+                        <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/logo.png" alt="#" class="logo-footer">
                     </a>
                 </div>
 
@@ -1326,6 +1324,7 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap.bundle.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/main.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/3d-carousel.js"></script>
@@ -1333,6 +1332,7 @@
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/lib/easing/easing.min.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/lib/waypoints/waypoints.min.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/lib/counterup/counterup.min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/lib/owlcarousel/owl.carousel.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <?php wp_footer(); ?>
