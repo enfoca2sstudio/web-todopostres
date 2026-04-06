@@ -471,6 +471,40 @@ Footer
   font-display: swap;
 }
 
+/*Georgia*/
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/georgia/Georgia.woff2') format('woff2'),
+      url('../fonts/georgia/Georgia.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/georgia/Georgia-Italic.woff2') format('woff2'),
+      url('../fonts/georgia/Georgia-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/georgia/Georgia-Bold.woff2') format('woff2'),
+      url('../fonts/georgia/Georgia-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/georgia/Georgia-BoldItalic.woff2') format('woff2'),
+      url('../fonts/georgia/Georgia-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {
@@ -1173,7 +1207,9 @@ button.nav-item {
 	animation-name: marquee-content;
 	animation-timing-function: linear;
 	padding: 5px 15px 5px 15px;
-  color: var(--fucsia-osc);
+  font-family: 'Georgia' !important;
+  font-size: var(--titulo) !important;
+  color: var(--fucsia-osc) !important;
 }
 .marquee:hover .marquee__item {
 	animation-play-state: paused;
