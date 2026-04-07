@@ -16,23 +16,20 @@
 
 .flip-container, .front, .back {
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 .flipper {
 	-webkit-transition: 0.6s;
 	-webkit-transform-style: preserve-3d;
-
 	-moz-transition: 0.6s;
 	-moz-transform-style: preserve-3d;
-    
     -o-transition: 0.6s;
 	-o-transform-style: preserve-3d;
-
 	transition: 0.6s;
 	transform-style: preserve-3d;
-
 	position: relative;
+	height: 100%;
 }
 
 .front, .back {
@@ -46,9 +43,8 @@
 }
 
 .front {
-	background: url("../img/4-promociones/promo-bg-0.webp") 0 0 no-repeat;
-    background-position: center;
 	z-index: 2;
+	padding: 14px 0 !important;
 }
 
 .back {
@@ -57,6 +53,7 @@
     	 -o-transform: rotateY(180deg);
 			transform: rotateY(180deg);
 	background: var(--azul-osc);
+	padding: 77px 42px !important;
 }
 
 /* .front .name {

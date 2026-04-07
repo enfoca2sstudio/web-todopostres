@@ -47,6 +47,7 @@ Footer
   --rosado: #ffc2ff;
   --rosado-cla: #fee1ff;
   --rosado-osc: #ff71f5;
+  --marro-gris: #423432;
   --blanco: #fff;
   --negro: #000;
   --titulo: 40px;
@@ -438,6 +439,22 @@ Footer
   font-display: swap;
 }
 @font-face {
+  font-family: 'Heading Now Trial 65';
+  src: url('../fonts/heading_now/HeadingNowTrial-65Medium.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-65Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HeadingNow Trial 65';
+  src: url('../fonts/heading_now/HeadingNowTrial-65MediumItalic.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-65MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
   font-family: 'Heading Now Trial 06';
   src: url('../fonts/heading_now/HeadingNowTrial-06Bold.woff2') format('woff2'),
       url('../fonts/heading_now/HeadingNowTrial-06Bold.woff') format('woff');
@@ -465,6 +482,22 @@ Footer
   font-family: 'Heading Now Trial 07';
   src: url('../fonts/heading_now/HeadingNowTrial-07ExtraboldItalic.woff2') format('woff2'),
       url('../fonts/heading_now/HeadingNowTrial-07ExtraboldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Heading Now Trial 57';
+  src: url('../fonts/heading_now/HeadingNowTrial-57Extrabold.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-57Extrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HeadingNow Trial 57';
+  src: url('../fonts/heading_now/HeadingNowTrial-57ExtraboldItalic.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-57ExtraboldItalic.woff') format('woff');
   font-weight: 800;
   font-style: italic;
   font-display: swap;
@@ -789,6 +822,13 @@ input[type="checkbox"] {
 }
 .font-georgia {
   font-family: 'Georgia' !important;
+}
+.font-base {
+  font-family: 'Baserio' !important;
+}
+.font-albra {
+  font-family: 'Albra TRIAL' !important;
+  font-style: italic;
 }
 
 .titu-header {
@@ -1229,7 +1269,7 @@ button.nav-item {
 }
 .marquee__item {
 	font-family: 'Georgia' !important;
-  font-size: 18px !important;
+  font-size: 15px !important;
   font-weight: 700 !important;
   text-align: center;
   text-transform: uppercase;
@@ -1349,9 +1389,10 @@ button.nav-item {
 
 .img-somos {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 400px;
   margin: auto;
+  border-radius: 1px;
 }
 
 .txt-nos-home {
@@ -1361,12 +1402,8 @@ button.nav-item {
   font-weight: 500;
   line-height: 34px;
   color: var(--fucsia-osc);
-  border: 1px solid blue;
 }
 
-.col-contador {
-  border: 1px solid red;
-}
 .col-contador-1 {
   -ms-flex: 0 0 42% !important;
       flex: 0 0 42% !important;
@@ -1402,24 +1439,154 @@ button.nav-item {
   color: var(--fucsia-osc);
 }
 
-.row-contador {
-  border: 1px solid green;
-}
-
 /*-------------------------------------
     6.  Cursos/Talleres home
 --------------------------------------*/
+.txt-cursos {
+  font-size: var(--subtitulo-tlf);
+  font-weight: 600 !important;
+  color: var(--purpura-osc);
+}
+
 .item-curs-home {
   width: 351px;
-  height: 439px;
+  height: 496px;
   margin: auto !important;
+}
+
+.item-curs-home1 .front,.item-curs-home4 .front,
+.item-curs-home7 .front, .item-curs-home10 .front {
+  background: url("../img/1-home/curs-fron-01.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.item-curs-home2 .front, .item-curs-home5 .front,
+.item-curs-home8 .front, .item-curs-home11 .front {
+  background: url("../img/1-home/curs-fron-02.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.item-curs-home3 .front, .item-curs-home6 .front,
+.item-curs-home9 .front, .item-curs-home12 .front {
+  background: url("../img/1-home/curs-fron-03.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item-curs-home1 .back, .item-curs-home4 .back,
+.item-curs-home7 .back, .item-curs-home10 .back {
+  background: url("../img/1-home/curs-back-01.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.item-curs-home2 .back, .item-curs-home5 .back,
+.item-curs-home8 .back, .item-curs-home11 .back {
+  background: url("../img/1-home/curs-back-02.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.item-curs-home3 .back, .item-curs-home6 .back,
+.item-curs-home9 .back, .item-curs-home12 .back {
+  background: url("../img/1-home/curs-back-03.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.row-head-front {
+  width: 100%;
+  margin: auto !important;
+}
+
+.titu-head-front {
+  padding: 0 !important;
+  font-family: 'Heading Now Trial 65';
+  font-size: 11px;
+  color: var(--marro-gris);
+}
+.titu-head-front1 {
+  padding-left: 13px !important;
+}
+.titu-head-front2 {
+  padding-right: 13px !important;
+}
+
+.titus-front, .titus-back {
+  text-align: center;
+}
+.titus-front1 {
+  margin-top: 20px !important;
+  margin-bottom: 0 !important;
+  font-size: 19px;
+  font-weight: 400 !important;
+  color: var(--marro-gris);
+}
+.titus-front2, .titus-back2 {
+  position: relative;
+  margin-top: 8px;
+  font-family: 'Heading Now Trial 57' !important;
+  font-size: 23px;
+  font-weight: 400 !important;
+  line-height: 27px;
+  color: var(--purpura-osc);
+  z-index: 999;
+}
+
+.titus-back2 {
+  margin-top: -7px !important;
+  margin-bottom: 0 !important;
+  color: #c491c6;
+}
+
+.titus-front2 .font-base {
+  font-size: 56px;
+  font-style: normal !important;
+}
+.titus-back2 .font-base {
+  font-size: 35px;
+  font-style: normal !important;
 }
 
 .contain-front-cursos {
   width: 100%;
-  height: 100%;
+  height: 100px;
   padding: 0;
   background: transparent;
+}
+
+.img-curs-front {
+  display: block !important;
+  width: 347px !important;
+  height: auto;
+  margin: auto;
+  margin-top: -41px !important;
+}
+
+.cont-info-front {
+  display: block;
+  width: 286px;
+  margin: auto !important
+}
+.txt-info-front {
+  font-size: 11px;
+  font-weight: 400 !important;
+  text-align: center;
+  line-height: 13px;
+  color: var(--marro-gris);
+}
+
+.txt-info-front2 {
+  margin-top: 8px !important;
+  margin-bottom: 0 !important;
+  font-family: 'Heading Now Trial 65';
+}
+.txt-info-front2::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 13% !important;
+  height: 0 !important;
+  bottom: 23px !important;
+  left: 151px !important;
+  border-top: 2px solid var(--marro-gris) !important;
 }
 
 .img_cursos_home {
@@ -1430,8 +1597,11 @@ button.nav-item {
 }
 
 .contain-back-cursos {
-  padding: 28px 23px;
-  background: var(--fucsia-cla);
+  height: 100%;
+  margin: auto !important;
+  padding: 0 !important;
+  background: var(--rosado-cla);
+  overflow: hidden;
 }
 
 .titu-cursos-back {
@@ -1454,23 +1624,68 @@ button.nav-item {
 }
 
 .list-descrip-back {
-  margin-top: 21px;
+  list-style: none;
+  width: 202px;
+  margin: auto;
+  margin-top: 56px;
+  padding: 0 !important;
 }
 
 .item-descrip-back {
   margin: 0 !important;
   font-size: 12px;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
   line-height: 14px;
+}
+.item-descrip-back:nth-child(odd) {
+  color: var(--marro-gris) !important;
+}
+.item-descrip-back:nth-child(even) {
+  color: rgba(66, 52, 50, 0.75) !important;
+}
+
+.contain-precio {
+  position: absolute;
+  top: 162px;
+  left: 282px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: auto !important;
+  padding: 3px !important;
+  border-radius: 100px;
+  background: var(--purpura-osc);
+}
+.cont-precio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+  border: 1px solid var(--blanco);
+  border-radius: 100%;
+}
+
+.txt-precio-back {
+  margin-bottom: 0 !important;
+  font-size: 18px;
+  text-align: center;
   color: var(--blanco);
 }
 
-.cont-precio {
-  width: auto;
-  margin: auto !important;
-  align-items: center;
-  justify-content: center;
+.btn-back {
+  width: 102px;
+  margin-top: 45px;
+  padding: 4px;
+  font-family: 'Heading Now Trial 65';
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--blanco);
+  border-radius: 6px;
+  background: var(--purpura-osc);
 }
 
 .col-precio-back {
