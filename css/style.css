@@ -48,6 +48,7 @@ Footer
   --rosado-cla: #fee1ff;
   --rosado-osc: #ff71f5;
   --marro-gris: #423432;
+  --gris-cla: #eeedeb;
   --blanco: #fff;
   --negro: #000;
   --titulo: 40px;
@@ -471,6 +472,22 @@ Footer
   font-display: swap;
 }
 @font-face {
+  font-family: 'Heading Now Trial 66';
+  src: url('../fonts/heading_now/HeadingNowTrial-66Bold.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-66Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HeadingNow Trial 66';
+  src: url('../fonts/heading_now/HeadingNowTrial-66BoldItalic.woff2') format('woff2'),
+      url('../fonts/heading_now/HeadingNowTrial-66BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
   font-family: 'Heading Now Trial 07';
   src: url('../fonts/heading_now/HeadingNowTrial-07Extrabold.woff2') format('woff2'),
       url('../fonts/heading_now/HeadingNowTrial-07Extrabold.woff') format('woff');
@@ -843,6 +860,17 @@ input[type="checkbox"] {
 }
 .txt-acent-negrita {
   font-weight: 700 !important;
+}
+.txt-acent-mcl {
+  color: rgba(66, 52, 50, 0.75);
+}
+
+.underline {
+  display: block;
+  margin: auto !important;
+  width: 100% !important;
+  height: 3px;
+  background-color: var(--blanco);
 }
 
 .back-to-top {
@@ -1450,7 +1478,7 @@ button.nav-item {
 
 .item-curs-home {
   width: 351px;
-  height: 496px;
+  height: 547px;
   margin: auto !important;
 }
 
@@ -1501,7 +1529,11 @@ button.nav-item {
   padding: 0 !important;
   font-family: 'Heading Now Trial 65';
   font-size: 11px;
+  font-weight: 400 !important;
   color: var(--marro-gris);
+}
+.item-curs-home3 .titu-head-front {
+  color: var(--blanco);
 }
 .titu-head-front1 {
   padding-left: 13px !important;
@@ -1513,14 +1545,29 @@ button.nav-item {
 .titus-front, .titus-back {
   text-align: center;
 }
-.titus-front1 {
+
+.item-curs-home3 .cont-titus-front {
+  margin: auto !important;
+  padding: 0 21px;
+}
+
+.item-curs-home1 .titus-front1 {
   margin-top: 20px !important;
   margin-bottom: 0 !important;
   font-size: 19px;
   font-weight: 400 !important;
   color: var(--marro-gris);
 }
-.titus-front2, .titus-back2 {
+.item-curs-home3 .titus-front1 {
+  margin-top: 20px !important;
+  margin-bottom: 0 !important;
+  text-align: left;
+  font-size: 19px;
+  font-weight: 400 !important;
+  color: var(--blanco);
+}
+
+.item-curs-home1 .titus-front2, .titus-back2 {
   position: relative;
   margin-top: 8px;
   font-family: 'Heading Now Trial 57' !important;
@@ -1530,20 +1577,83 @@ button.nav-item {
   color: var(--purpura-osc);
   z-index: 999;
 }
+.item-curs-home2 .titus-front2, .titus-back2 {
+  position: relative;
+  margin-top: 51px;
+  font-size: 17px;
+  font-weight: 400 !important;
+  line-height: 21px;
+  color: var(--purpura-osc);
+  z-index: 999;
+}
+.item-curs-home3 .titus-front2 {
+  position: relative;
+  margin-top: 12px;
+  font-family: 'Heading Now Trial 57' !important;
+  font-size: 21px;
+  font-weight: 400 !important;
+  text-align: right;
+  line-height: 23px;
+  color: var(--purpura-osc);
+  z-index: 999;
+}
+.item-curs-home3 .titus-back2 {
+  position: relative;
+  margin-top: 12px;
+  font-family: 'Heading Now Trial 57' !important;
+  font-size: 21px;
+  font-weight: 400 !important;
+  line-height: 23px;
+  color: #c491c6;
+  z-index: 999;
+}
 
-.titus-back2 {
+.item-curs-home2 .font-base {
+  color: var(--marro-gris);
+  /* text-transform: uppercase; */
+}
+
+.item-curs-home1 .titus-back2 {
+  margin-top: -7px !important;
+  margin-bottom: 0 !important;
+  color: #c491c6;
+}
+.item-curs-home2 .titus-back2 {
+  margin-top: -7px !important;
+  margin-bottom: 0 !important;
+  color: var(--rosado-cla);
+}
+.item-curs-home3 .titus-back2 {
   margin-top: -7px !important;
   margin-bottom: 0 !important;
   color: #c491c6;
 }
 
-.titus-front2 .font-base {
+.item-curs-home1 .titus-front2 .font-base,
+.item-curs-home2 .titus-front2 .font-base {
   font-size: 56px;
   font-style: normal !important;
 }
-.titus-back2 .font-base {
+.item-curs-home3 .titus-front2 .font-base {
+  font-size: 66px;
+  font-style: normal !important;
+  text-align: center;
+  color: var(--blanco);
+}
+
+.item-curs-home1 .titus-back2 .font-base {
   font-size: 35px;
   font-style: normal !important;
+}
+.item-curs-home2 .titus-back2 .font-base {
+  font-size: 35px;
+  font-style: normal !important;
+  color: var(--rosado-cla);
+}
+.item-curs-home3 .titus-back2 .font-base {
+  font-size: 35px;
+  font-style: normal !important;
+  color: #c491c6;
 }
 
 .contain-front-cursos {
@@ -1553,12 +1663,26 @@ button.nav-item {
   background: transparent;
 }
 
-.img-curs-front {
+.item-curs-home1 .img-curs-front {
   display: block !important;
-  width: 347px !important;
+  width: 348px !important;
   height: auto;
   margin: auto;
   margin-top: -41px !important;
+}
+.item-curs-home2 .img-curs-front {
+  display: block !important;
+  width: 348px !important;
+  height: auto;
+  margin: auto;
+  margin-top: -12px !important;
+}
+.item-curs-home3 .img-curs-front {
+  display: block !important;
+  width: 348px !important;
+  height: auto;
+  margin: auto;
+  margin-top: -40px !important;
 }
 
 .cont-info-front {
@@ -1574,19 +1698,99 @@ button.nav-item {
   color: var(--marro-gris);
 }
 
-.txt-info-front2 {
-  margin-top: 8px !important;
+.item-curs-home1 .txt-info-front2,
+.item-curs-home3 .txt-info-front2 {
+  margin-top: 18px !important;
   margin-bottom: 0 !important;
   font-family: 'Heading Now Trial 65';
 }
-.txt-info-front2::before {
+.item-curs-home1 .txt-info-front2::before {
   position: absolute !important;
   content: "" !important;
-  width: 13% !important;
+  width: 13.3% !important;
   height: 0 !important;
-  bottom: 23px !important;
+  bottom: 58px !important;
   left: 151px !important;
   border-top: 2px solid var(--marro-gris) !important;
+}
+.item-curs-home3 .txt-info-front2::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 13.3% !important;
+  height: 0 !important;
+  bottom: 55px !important;
+  left: 151px !important;
+  border-top: 2px solid var(--marro-gris) !important;
+}
+
+.row-firma-front {
+  width: 230px;
+  margin-top: 10px;
+  padding: 0 !important;
+}
+
+.item-curs-home2 .txt-firma-front {
+  /* margin-top: 8px !important; */
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  font-family: 'Heading Now Trial 65';
+  font-size: 11px;
+  font-weight: 400 !important;
+  line-height: 13px;
+  color: var(--marro-gris);
+}
+.item-curs-home2 .txt-firma-front1::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 39% !important;
+  height: 0 !important;
+  bottom: -4px !important;
+  left: 0 !important;
+  border-top: 2px solid var(--marro-gris) !important;
+}
+.item-curs-home2 .txt-firma-front2::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 74% !important;
+  height: 0 !important;
+  bottom: -4px !important;
+  left: 30px !important;
+  border-top: 2px solid var(--marro-gris) !important;
+}
+.item-curs-home3 .txt-firma-front {
+  /* margin-top: 8px !important; */
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  font-family: 'Heading Now Trial 65';
+  font-size: 11px;
+  font-weight: 400 !important;
+  line-height: 13px;
+  color: var(--purpura-osc);
+}
+.item-curs-home3 .txt-firma-front1::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 39% !important;
+  height: 0 !important;
+  bottom: -4px !important;
+  left: 0 !important;
+  border-top: 2px solid var(--purpura-osc) !important;
+}
+.item-curs-home3 .txt-firma-front2::before {
+  position: absolute !important;
+  content: "" !important;
+  width: 74% !important;
+  height: 0 !important;
+  bottom: -4px !important;
+  left: 30px !important;
+  border-top: 2px solid var(--purpura-osc) !important;
+}
+
+.txt-firma-front1 {
+  text-align: left;
+}
+.txt-firma-front2 {
+  text-align: right;
 }
 
 .img_cursos_home {
@@ -1596,21 +1800,26 @@ button.nav-item {
   height: 100%;
 }
 
-.contain-back-cursos {
+.item-curs-home1 .contain-back-cursos {
   height: 100%;
   margin: auto !important;
   padding: 0 !important;
   background: var(--rosado-cla);
   overflow: hidden;
 }
-
-.titu-cursos-back {
-  margin: 0 !important;
-  padding-top: 7px !important;
-  font-size: 24px;
-  line-height: 26px;
-  text-align: center;
-  color: var(--blanco);
+.item-curs-home2 .contain-back-cursos {
+  height: 100%;
+  margin: auto !important;
+  padding: 0 !important;
+  background: var(--purpura-osc);
+  overflow: hidden;
+}
+.item-curs-home3 .contain-back-cursos {
+  height: 100%;
+  margin: auto !important;
+  padding: 0 !important;
+  background: var(--gris-cla);
+  overflow: hidden;
 }
 
 .txt-descrip-cursos {
@@ -1625,10 +1834,21 @@ button.nav-item {
 
 .list-descrip-back {
   list-style: none;
-  width: 202px;
+  width: 213px;
   margin: auto;
-  margin-top: 56px;
+  margin-top: 54px;
   padding: 0 !important;
+}
+.list-descrip-back2, .list-descrip-back3,
+.list-descrip-back4 {
+  margin-top: 0;
+}
+
+.item-curs-home1 .list-descrip-back {
+  margin-top: 82px;
+}
+.item-curs-home2 .list-descrip-back1 {
+  margin-top: 54px;
 }
 
 .item-descrip-back {
@@ -1638,14 +1858,40 @@ button.nav-item {
   text-align: center;
   line-height: 14px;
 }
-.item-descrip-back:nth-child(odd) {
+.item-curs-home1 .item-descrip-back:nth-child(odd) {
   color: var(--marro-gris) !important;
 }
-.item-descrip-back:nth-child(even) {
+.item-curs-home1 .item-descrip-back:nth-child(even) {
   color: rgba(66, 52, 50, 0.75) !important;
 }
 
-.contain-precio {
+.item-curs-home2 .item-descrip-back:nth-child(odd) {
+  color: #e5e5e5 !important;
+}
+.item-curs-home2 .item-descrip-back:nth-child(even) {
+  color: rgba(229, 229, 229, 0.8) !important;
+}
+
+.item-curs-home3 .item-descrip-back {
+  color: var(--marro-gris) !important;
+}
+
+.titu-list-descrip-back {
+  margin-top: 5px;
+  margin-bottom: 0 !important;
+  font-size: var(--parrafo);
+  font-weight: 700;
+  text-align: center;
+  color: var(--blanco);
+}
+
+.underline-back {
+  margin-top: 7px !important;
+  width: 76% !important;
+  background: rgba(246, 194, 249, 0.5);
+}
+
+.item-curs-home1 .contain-precio {
   position: absolute;
   top: 162px;
   left: 282px;
@@ -1657,7 +1903,32 @@ button.nav-item {
   border-radius: 100px;
   background: var(--purpura-osc);
 }
-.cont-precio {
+.item-curs-home2 .contain-precio {
+  position: absolute;
+  top: 162px;
+  left: 282px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: auto !important;
+  padding: 3px !important;
+  border-radius: 100px;
+  background: #f6c2f9;
+}
+.item-curs-home3 .contain-precio {
+  position: absolute;
+  top: 162px;
+  left: 282px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: auto !important;
+  padding: 3px !important;
+  border-radius: 100px;
+  background: #f6c2f9;
+}
+
+.item-curs-home1 .cont-precio {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1667,15 +1938,51 @@ button.nav-item {
   border: 1px solid var(--blanco);
   border-radius: 100%;
 }
+.item-curs-home2 .cont-precio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+  border: 1px solid var(--purpura-osc);
+  border-radius: 100%;
+}
+.item-curs-home3 .cont-precio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+  border: 1px solid var(--purpura-osc);
+  border-radius: 100%;
+}
 
-.txt-precio-back {
+.item-curs-home1 .txt-precio-back {
   margin-bottom: 0 !important;
   font-size: 18px;
   text-align: center;
   color: var(--blanco);
 }
+.item-curs-home2 .txt-precio-back {
+  margin-bottom: 0 !important;
+  font-size: 18px;
+  text-align: center;
+  color: var(--purpura-osc);
+}
+.item-curs-home3 .txt-precio-back {
+  margin-bottom: 0 !important;
+  font-size: 18px;
+  text-align: center;
+  color: var(--purpura-osc);
+}
 
-.btn-back {
+.btn-back:hover {
+  text-decoration: none !important;
+}
+
+.item-curs-home1 .btn-back {
   width: 102px;
   margin-top: 45px;
   padding: 4px;
@@ -1686,6 +1993,28 @@ button.nav-item {
   color: var(--blanco);
   border-radius: 6px;
   background: var(--purpura-osc);
+}
+.item-curs-home2 .btn-back {
+  width: 102px;
+  margin-top: 21px;
+  padding: 4px;
+  font-family: 'Heading Now Trial 65';
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--blanco);
+  border-radius: 6px;
+  background: var(--purpura-osc);
+}
+.item-curs-home3 .btn-back {
+  width: 102px;
+  margin-top: 21px;
+  padding: 4px;
+  font-family: 'Heading Now Trial 65';
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--purpura-osc);
 }
 
 .col-precio-back {
@@ -1724,26 +2053,21 @@ button.nav-item {
 }
 
 .cursos-home .owl-dots .owl-dot span {
-  background-color: var(--fucsia-cla);
+  background-color: rgba(155, 0, 137, 0.4);
 }
 
 .cursos-home .owl-dots .owl-dot:hover span,
 .cursos-home .owl-dots .owl-dot.active span {
-  background-color: var(--fucsia);
+  background-color: var(--purpura-osc);
 }
 
 /*-------------------------------------
     7.  Novedades
 --------------------------------------*/
-.titu-noveda  {
-  font-family: 'Montserrat' !important;
-  font-size: 24px !important;
-  line-height: 26px !important;
-}
 .txt-novedades {
-  font-size: var(--parrafo);
+  font-size: var(--subtitulo-tlf);
   font-weight: 600 !important;
-  color: var(--fucsia);
+  color: var(--purpura-osc);
 }
 .txt-novedades::before {
   position: absolute !important;
@@ -1752,12 +2076,15 @@ button.nav-item {
   height: 0 !important;
   bottom: 0 !important;
   left: 0 !important;
-  border-top: 2px dashed var(--fucsia) !important;
+  border-top: 2px dashed var(--purpura-osc) !important;
 }
 
 .titu-novedades {
+  font-family: 'Heading Now Trial 66';
   font-size: var(--titulo);
-  color: var(--negro);
+  font-weight: 700 !important;
+  line-height: 42px;
+  color: var(--marro-gris);
 }
 
 .courses-list-item img {
@@ -1774,11 +2101,35 @@ button.nav-item {
   left: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-end;
-  background: linear-gradient(to bottom, rgba(18, 15, 45, 0), #d92a7f);
   transition: .5s;
   z-index: 1;
+}
+.owl-item:nth-child(odd) .courses-item .courses-text,
+.owl-item:nth-child(odd) .courses-list-item .courses-text {
+  background: #ffffff;
+  background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(66, 52, 50, 1) 90%);
+     background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(66, 52, 50, 1) 90%);
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(66, 52, 50, 1) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#423432", GradientType=0);
+}
+.owl-item:nth-child(even) .courses-item .courses-text,
+.owl-item:nth-child(even) .courses-list-item .courses-text {
+  background: #ffffff;
+  background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(104, 0, 102, 1) 90%);
+     background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(104, 0, 102, 1) 90%);
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(104, 0, 102, 1) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#680066", GradientType=0);
+}
+
+.titu-noveda {
+  margin-bottom: -12px !important;
+  margin-left: 19px !important;
+  font-family: 'Heading Now Trial 64';
+  font-size: var(--parrafo);
+  font-weight: 400 !important;
+  color: var(--blanco);
 }
 
 .btn-noveda {

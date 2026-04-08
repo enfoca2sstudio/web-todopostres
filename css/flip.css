@@ -44,7 +44,7 @@
 
 .front {
 	z-index: 2;
-	padding: 14px 0 !important;
+	padding: 22px 0 !important;
 }
 
 .back {
@@ -53,7 +53,7 @@
     	 -o-transform: rotateY(180deg);
 			transform: rotateY(180deg);
 	background: var(--azul-osc);
-	padding: 77px 42px !important;
+	padding: 46px 42px !important;
 }
 
 /* .front .name {
