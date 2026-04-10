@@ -41,7 +41,7 @@ Footer
 :root {
   --fucsia: #ff33e7;
   --fucsia-cla: #d15294;
-  --fucsia-osc: #e003c6;
+  --fucsia-osc: #c800a7;
   --purpura: #6f42c1;
   --purpura-osc: #9b0089;
   --rosado: #ffc2ff;
@@ -864,6 +864,10 @@ input[type="checkbox"] {
   font-style: italic;
 }
 
+.font-heading-57 {
+  font-family: 'Heading Now Trial 57' !important;
+}
+
 .titu-header {
   margin-bottom: 25px !important;
   font-size: 61px;
@@ -883,6 +887,12 @@ input[type="checkbox"] {
 .txt-acent-mcl {
   color: rgba(66, 52, 50, 0.75);
 }
+.txt-acent-mc {
+  color: var(--marro-gris);
+}
+.txt-acent-purposc {
+  color: var(--purpura-osc);
+}
 
 .underline {
   display: block;
@@ -890,6 +900,30 @@ input[type="checkbox"] {
   width: 100% !important;
   height: 3px;
   background-color: var(--blanco);
+}
+
+.campo-form:nth-child(1) {
+  border: 1px solid var(--fucsia-osc) !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+.campo-form:nth-child(2) {
+  border: 1px solid var(--fucsia-osc) !important;
+}
+.campo-form button {
+  border: none !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
+.btn-form-curso {
+  position: relative;
+  margin-left: -35px;
+  color: var(--blanco) !important;
+  border: 1px solid var(--fucsia-osc) !important;
+  border-radius: 10px !important;
+  background-color: var(--fucsia-osc) !important;
+  z-index: 999;
 }
 
 .back-to-top {
@@ -908,7 +942,7 @@ input[type="checkbox"] {
   2.  Header
 =======================================*/
 .top-header {
-  background-color: var(--fucsia);
+  background-color: var(--fucsia-osc);
 }
 
 .logo-head {
@@ -916,9 +950,16 @@ input[type="checkbox"] {
   height: auto;
 }
 
+.navbar-light .navbar-nav .nav-link,
+.dropdown-item {
+  font-family: 'Heading Now Trial 64' !important;
+  font-size: 17px !important;
+  color: var(--marro-gris) !important;
+}
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: var(--fucsia) !important;
+  color: var(--fucsia-osc) !important;
 }
 
 button.nav-item {
@@ -928,9 +969,9 @@ button.nav-item {
 
 .dropdown-item:hover, .dropdown-item:focus,
 .dropdown-item.active, .dropdown-item:active {
-  color: #fff;
+  color: var(--blanco) !important;
   text-decoration: none;
-  background-color: var(--fucsia);
+  background: var(--fucsia-osc) !important;
 }
 
 /*=====================================
@@ -2238,7 +2279,6 @@ button.nav-item {
   height: 375px;
   transform-style: preserve-3d;
   transform-origin: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: flex;
   font-size: 2em;
   color: white;
@@ -2256,34 +2296,16 @@ button.nav-item {
   justify-content: center;
   padding: 29px 0;
   background: #ffffff;
-  background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(217, 42, 127, 0.71) 80%);
-  background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(217, 42, 127, 0.71) 80%);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(217, 42, 127, 0.71) 80%);
+  background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.71) 80%);
+  background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.71) 80%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.71) 80%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#D92A7F", GradientType=0);
 }
 
-.carousel-ebook:nth-child(1) {
-  background: url("../img/ebooks-01.webp") no-repeat center;
-  background-size: contain;
-}
-.carousel-ebook:nth-child(2) {
-  background: url("../img/ebooks-02.webp") no-repeat center;
-  background-size: contain;
-}
-.carousel-ebook:nth-child(3) {
-  background: url("../img/ebooks-03.webp") no-repeat center;
-  background-size: contain;
-}
-.carousel-ebook:nth-child(4) {
-  background: url("../img/ebooks-04.webp") no-repeat center;
-  background-size: contain;
-}
-.carousel-ebook:nth-child(5) {
-  background: url("../img/ebooks-05.webp") no-repeat center;
-  background-size: contain;
-}
-.carousel-ebook:nth-child(6) {
-  background: url("../img/ebooks-06.webp") no-repeat center;
+.carousel-ebook:nth-child(1), .carousel-ebook:nth-child(2),
+.carousel-ebook:nth-child(3), .carousel-ebook:nth-child(4),
+.carousel-ebook:nth-child(5), .carousel-ebook:nth-child(6) {
+  background: url("../img/1-home/ebooks-home.webp") no-repeat center;
   background-size: contain;
 }
 
@@ -2706,15 +2728,33 @@ button.nav-item {
 /*-------------------------------------
     12. Cursos Hero
 --------------------------------------*/
-.hero-cursos.page-header {
-  background: linear-gradient(rgba(217, 42, 127, 0.9), rgba(217, 42, 127, 0.9)), url(../img/bg-header.webp), no-repeat center center;
-  background-size: cover;
+.hero-cursos {
+  padding: 10px 0;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  background: var(--fucsia-osc);
 }
 
-.btn-form-curso {
-  color: var(--blanco) !important;
-  border: 1px solid var(--fucsia-cla) !important;
-  background-color: var(--fucsia-cla) !important;
+.img-hero-cursos {
+  display: block;
+  width: 45%;
+  margin: auto !important;
+}
+
+.txt-curso {
+  font-size: var(--parrafo);
+  font-weight: 600 !important;
+  color: var(--blanco);
+}
+
+.titu-curso {
+  font-size: var(--titulo);
+  color: var(--blanco);
+}
+
+.txt-curso,
+.titu-curso {
+  margin-bottom: 0 !important;
 }
 
 /*-------------------------------------
@@ -2724,24 +2764,192 @@ button.nav-item {
   padding-top: 5px !important;
   padding-bottom: 5px !important;
 }
-.txt-curso {
-  font-size: var(--parrafo);
-  font-weight: 600 !important;
-  color: var(--fucsia);
-}
-.txt-curso::before {
-  position: absolute !important;
-  content: "" !important;
-  width: 100% !important;
-  height: 0 !important;
-  bottom: 0 !important;
-  left: 0 !important;
-  border-top: 2px dashed var(--fucsia) !important;
+
+.col-items-cursos {
+  margin: 15px 0 !important;
 }
 
-.titu-curso {
-  font-size: var(--titulo);
-  color: var(--negro);
+.col-items-cursos:nth-child(1) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-01.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(2) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-02.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(3) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-03.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(4) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-04.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(5) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-05.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(6) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-06.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(7) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-07.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(8) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-08.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(9) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-09.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(10) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-10.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(11) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-11.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(12) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-12.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(13) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-13.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(14) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-14.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(15) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-15.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-items-cursos:nth-child(16) .contain-front-cursos {
+  background: url("../img/2-cursos/2-1-cursos/curs-fron-16.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.col-items-cursos .contain-front-cursos {
+  width: 351px;
+  height: 509px;
+  margin: auto !important;
+  padding: 22px 0 !important;
+  border: 1px solid red;
+}
+
+.col-items-cursos .cont-titus-front {
+  width: 100%;
+  height: 98px;
+  margin: auto !important;
+  border: 1px solid green;
+}
+
+.col-items-cursos .row-head-front {
+  width: 100%;
+  margin: auto !important;
+  margin-bottom: 9px !important;
+  border: 1px solid blue;
+}
+
+.col-items-cursos3 .cont-titus-front {
+  margin: auto !important;
+  padding: 0 21px;
+}
+
+.col-items-cursos .titus-front1 {
+  margin-bottom: 0 !important;
+  font-size: 19px;
+  font-weight: 400 !important;
+  color: var(--marro-gris);
+}
+.col-items-cursos3 .titus-front1 {
+  margin-bottom: 8px !important;
+}
+
+.col-items-cursos .titus-front2 {
+  position: relative;
+  margin: 0 !important;
+  font-size: 23px;
+  font-weight: 400 !important;
+  line-height: 27px;
+  z-index: 999;
+}
+
+.col-items-cursos .titus-front2 .font-base {
+  font-size: 56px;
+  font-style: normal !important;
+}
+.col-items-cursos .titus-front2 .font-base {
+  font-size: 42px;
+  font-style: normal !important;
+}
+.col-items-cursos3 .titus-front2 .font-base {
+  margin-top: 1px !important;
+  font-size: 66px;
+  color: var(--blanco);
+}
+/* .col-items-cursos2 .titus-front2 .font-base {
+  font-size: 42px;
+  font-style: normal !important;
+} */
+
+.col-items-cursos .img-curs-front {
+  display: block !important;
+  width: 296px !important;
+  height: auto;
+  margin: auto;
+  margin-top: -12px !important;
+}
+
+.col-items-cursos .cont-info-front {
+  display: block;
+  width: 286px;
+  margin: auto !important
+}
+.col-items-cursos .txt-info-front {
+  font-size: 11px;
+  font-weight: 400 !important;
+  text-align: center;
+  line-height: 13px;
+  color: var(--marro-gris);
+}
+
+.col-items-cursos .row-firma-front {
+  width: 230px;
+  margin: auto !important;
+  margin-top: 10px !important;
+  padding: 0 !important;
+}
+
+.col-items-cursos .txt-firma-front {
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  font-family: 'Heading Now Trial 65';
+  font-size: 11px;
+  font-weight: 400 !important;
+  line-height: 13px;
+  color: var(--marro-gris);
 }
 
 .cursos-carousel {
@@ -2940,43 +3148,52 @@ button.nav-item {
   Footer
 =======================================*/
 .container-footer {
-  background: var(--blanco);
+  background: var(--rosado-cla);
 }
+
 .col-footer-top:nth-child(1) {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .logo-footer {
-  width: 134px;
+  width: 209px;
   height: auto;
 }
 
 .titu-footer-top {
+  font-family: 'Heading Now Trial 66';
   font-size: var(--subtitulo);
-  color: var(--fucsia);
+  color: var(--marro-gris);
 }
 
-.col-footer-top p,
 .link-footer {
   font-size: var(--parrafo);
-  color: var(--fucsia);
+  color: var(--marro-gris);
   text-decoration: none !important;
   transition: all .5s ease-in-out;
 }
-
 .link-footer:hover {
-  color: var(--fucsia);
-  letter-spacing: 0.2em;
+  color: var(--fucsia-osc);
+  letter-spacing: 0.1em;
 }
 
 .rrss-foter {
   font-size: 11px;
-  color: var(--fucsia);
+  color: var(--marro-gris);
+  transition: all .5s ease-in-out;
+}
+.rrss-foter:hover {
+  color: var(--fucsia-osc);
 }
 
 .container-footer-bot {
-  background-color: var(--fucsia);
+  background-color: var(--fucsia-osc);
+}
+
+.foot-firma {
+  font-size: var(--parrafo);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 
@@ -7059,13 +7276,6 @@ input[type="button"].btn-block {
 
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
-}
-
-.navbar-light .navbar-nav .show > .nav-link,
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-light .navbar-toggler {
