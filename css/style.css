@@ -2526,12 +2526,6 @@ button.nav-item {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#C800A7", GradientType=0);
 }
 
-.overlay-img {
-  display: block;
-  width: 100vw;
-  margin: auto !important;
-}
-
 .container-testimo {
   padding-top: 113px;
   padding-bottom: 90px;
