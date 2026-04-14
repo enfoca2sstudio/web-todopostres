@@ -21,18 +21,16 @@ A.  Home
 B.  Cursos
   12. Cursos Hero
   13. Contenido cursos
-C.  Talleres
-  14. Talleres Hero
-  15. Talleres Online
-D.  Certificaciones
-  16. Contenido certificaciones
-E.  Ebooks
-  17. Ebooks Hero
-  18. Ebooks Contenido
-F.  Nosotros
-  19. Contenido Nosotros
-G.  Contacto
-  20. Contenido contacto
+C.  Certificaciones
+  14. Certificaciones Hero
+  15. Contenido certificaciones
+D.  Ebooks
+  16. Ebooks Hero
+  17. Ebooks Contenido
+E.  Nosotros
+  18. Contenido Nosotros
+F.  Contacto
+  19. Contenido contacto
 Footer
 ===========================================*/
 /*=====================================
@@ -46,6 +44,7 @@ Footer
   --purpura-osc: #9b0089;
   --rosado: #ffc2ff;
   --rosado-cla: #f6c2f9;
+  --rosado-cla2: #fee1ff;
   --rosado-osc: #ff71f5;
   --marro-gris: #423432;
   --gris-cla: #eeedeb;
@@ -867,6 +866,12 @@ input[type="checkbox"] {
 .font-heading-57 {
   font-family: 'Heading Now Trial 57' !important;
 }
+.font-heading-64 {
+  font-family: 'Heading Now Trial 64' !important;
+}
+.font-heading-66 {
+  font-family: 'Heading Now Trial 66' !important;
+}
 
 .titu-header {
   margin-bottom: 25px !important;
@@ -1002,7 +1007,7 @@ button.nav-item {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   outline: 0;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .txt-noso-home {
@@ -1469,15 +1474,13 @@ button.nav-item {
 
 .titu-mis-vis {
   font-size: var(--subtitulo);
-  color: var(--negro);
+  color: var(--marro-gris);
 }
 
 .titu-noso-home {
-  font-family: 'Montserrat';
-  font-weight: 500;
   font-size: var(--titulo);
   line-height: 42px;
-  color: var(--negro);
+  color: var(--marro-gris);
 }
 
 .img-somos {
@@ -1489,11 +1492,9 @@ button.nav-item {
 }
 
 .txt-nos-home {
-  width: 501px;
-  font-family: 'Heading Now Trial 64';
-  font-size: 31px;
+  font-size: var(--parrafo);
   font-weight: 500;
-  line-height: 34px;
+  line-height: 18px;
   color: var(--fucsia-osc);
 }
 
@@ -1529,6 +1530,17 @@ button.nav-item {
 
 .txt-contado {
   font-size: 11px;
+  color: var(--fucsia-osc);
+}
+
+.txt-somos, .text-mis-vis {
+  font-size: var(--parrafo);
+  line-height: 18px;
+  color: var(--marro-gris);
+}
+
+.subtitu-somos {
+  font-size: 20px;
   color: var(--fucsia-osc);
 }
 
@@ -2849,21 +2861,18 @@ button.nav-item {
   height: 509px;
   margin: auto !important;
   padding: 22px 0 !important;
-  border: 1px solid red;
 }
 
 .col-items-cursos .cont-titus-front {
   width: 100%;
   height: 98px;
   margin: auto !important;
-  border: 1px solid green;
 }
 
 .col-items-cursos .row-head-front {
   width: 100%;
   margin: auto !important;
   margin-bottom: 9px !important;
-  border: 1px solid blue;
 }
 
 .col-items-cursos3 .cont-titus-front {
@@ -2944,6 +2953,8 @@ button.nav-item {
   font-weight: 400 !important;
   line-height: 13px;
   color: var(--marro-gris);
+  border: none !important;
+  background: none !important;
 }
 
 .cursos-carousel {
@@ -3038,11 +3049,161 @@ button.nav-item {
   filter: grayscale(0);
 }
 
+.modal-content-curs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 580px !important;
+  margin: auto;
+  padding-bottom: 47px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  background: var(--blanco) !important;
+  outline: 0;
+  overflow-y: scroll;
+  pointer-events: auto;
+}
+.modal-content-curs::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-body-curs {
+  padding: 0 !important;
+}
+
+.modal-curs-head {
+  padding: 8px 0;
+  background-color: var(--rosado-cla2);
+}
+
+.titu-modal-curs-head {
+  font-size: var(--subtitulo-tlf);
+  color: var(--fucsia-osc);
+}
+
+.cont-precio-modal {
+  display: block;
+  width: 10%;
+  margin: auto !important;
+  margin-bottom: 29px !important;
+  padding: 14px 0 9px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background: var(--purpura-osc);
+}
+
+.txt-precio-modal {
+  font-size: var(--subtitulo);
+  color: var(--blanco);
+}
+
+.titu-curs-modal {
+  margin-bottom: 9px !important;
+  font-family: 'Heading Now Trial 66';
+  font-size: 25px;
+  color: var(--fucsia-osc);
+}
+
+.list-cont-modal {
+  display: block;
+  width: 56%;
+  margin: auto;
+  margin-bottom: 1px;
+}
+
+.list-item-modal {
+  font-size: var(--parrafo);
+  line-height: 18px;
+}
+.list-item-modal:nth-child(odd) {
+  color: var(--marro-gris);
+}
+.list-item-modal:nth-child(even) {
+  color: rgba(66, 52, 50, 0.75);
+}
+
+.contain-curs-modal {
+  margin-top: 15px;
+  padding: 20px 37px;
+  border-radius: 10px;
+  background: var(--rosado-cla2);
+}
+
+.titu-contain-modal1 {
+  margin-bottom: 9px !important;
+  font-family: 'Heading Now Trial 66';
+  font-size: 25px;
+  color: var(--fucsia-osc);
+}
+.titu-contain-modal2 {
+  margin-top: 9px !important;
+  font-family: 'Heading Now Trial 66';
+  font-size: var(--parrafo);
+  color: var(--fucsia-osc);
+}
+
+.txt-contain-modal {
+  font-size: var(--parrafo);
+  line-height: 18px;
+  color: var(--fucsia-osc);
+}
+
+.list-contain-modal {
+  font-size: var(--parrafo);
+  line-height: 18px;
+  color: var(--fucsia-osc);
+}
+
+.txt-condicio {
+  display: block;
+  width: 70%;
+  margin: auto;
+  margin-top: 22px;
+  font-size: var(--parrafo);
+  line-height: 18px;
+  color: var(--marro-gris);
+}
+
+.txt-condicio .link-condicio {
+  text-decoration: underline;
+  color: var(--fucsia-osc);
+}
+
+.link-curs {
+  display: block;
+  width: 317px;
+  margin: auto;
+  margin-top: 23px;
+  padding: 5px 0;
+  font-size: var(--subtitulo);
+  color: var(--blanco);
+  border-radius: 10px;
+  background: #a0008d;
+}
+
 /*=====================================
-  C.  Talleres
+  C.  Certificaciones
 =======================================*/
 /*-------------------------------------
-    15. Talleres Online
+    14. Certificaciones Hero
+--------------------------------------*/
+.hero-certifica {
+  padding: 0;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  background: #ffffff;
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(191, 119, 183, 1) 68%);
+}
+
+.img-hero-certifi {
+  display: block;
+  width: 100%;
+  margin: auto !important;
+}
+
+/*-------------------------------------
+    15. Contenido certificaciones
 --------------------------------------*/
 .wrapper-talleres {
   padding-top: 5px !important;
@@ -3076,46 +3237,83 @@ button.nav-item {
 }
 
 /*=====================================
-  D.  Certificaciones
+  D.  Ebooks
 =======================================*/
 /*-------------------------------------
-    16. Contenido certificaciones
+    16. Ebooks Hero
 --------------------------------------*/
-.wrapper-certificacion {
-  padding-top: 5px !important;
-  padding-bottom: 5px !important;
+.hero-ebooks {
+  background: url("../img/3-ebooks/hero-ebooks.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-/*=====================================
-  E.  Ebooks
-=======================================*/
 /*-------------------------------------
-    17. Ebooks Hero
+    17. Ebooks Contenido
 --------------------------------------*/
 .wrapper-ebook {
   padding-top: 5px !important;
   padding-bottom: 5px !important;
 }
 
-/*-------------------------------------
-    18. Ebooks Contenido
---------------------------------------*/
 .container-ebook {
-  margin-bottom: 195px;
+  width: 100vw !important;
+  margin: auto !important;
+  padding: 0 !important;
+}
+
+.col-ebooks {
+  margin: 10px 0 !important;
+  padding: 0 !important;
+  border-radius: 15px;
+}
+
+.cont-ebooks {
+  display: flex;
+  height: 600px;
+  margin: 0 9px;
+  border-radius: 25px;
+  background: url("../img/1-home/ebooks-home.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay-ebooks {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  padding: 53px 0;
+  background: #ffffff;
+  background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255, 0.8) 100%);
+     background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=0);
+}
+
+.btn-ebooks {
+  display: block;
+  width: 32%;
+  padding: 5px 0;
+  font-size: var(--subtitulo);
+  color: var(--blanco) !important;
+  border-radius: 10px;
+  background: #a0008d !important;
 }
 
 /*=====================================
-  F.  Nosotros
+  E.  Nosotros
 =======================================*/
 /*-------------------------------------
-    19. Contenido Nosotros
+    18. Contenido Nosotros
 --------------------------------------*/
 
 /*=====================================
-  G.  Contacto
+  F.  Contacto
 =======================================*/
 /*-------------------------------------
-    20. Contenido contacto
+    19. Contenido contacto
 --------------------------------------*/
 .wrapper-contactos {
   padding-top: 5px !important;

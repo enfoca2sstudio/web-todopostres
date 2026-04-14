@@ -1324,7 +1324,7 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/bootstrap.bundle.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/main.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/3d-carousel.js"></script>
