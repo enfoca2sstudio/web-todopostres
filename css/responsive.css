@@ -55,13 +55,6 @@ Footer
         right: 18px;
     }
 
-    .tlf {
-        display: block;
-    }
-    .desk {
-        display: none;
-    }
-
     .desk {
         display: none !important;
     }
@@ -127,6 +120,14 @@ Footer
         height: 202px !important;
     }
 
+    .cont-marquee {
+        padding: 3px 0 !important;
+    }
+
+    .marquee__item {
+	    font-size: 11px !important;
+    }
+
     .hero-home {
         margin-bottom: 0 !important;
     }
@@ -145,14 +146,31 @@ Footer
         padding-left: 15px !important;
     }
 
-    .titu-hero-home {
-        font-size: 50px;
-        color: var(--blanco);
-        text-align: center;
+    .img-hero-home {
+        top: 0;
+        left: 0;
+        width: 314px;
     }
 
-    .img-hero-home {
-        width: 357px;
+    .row-dots-hero {
+        width: 155px;
+        margin: auto;
+    }
+    .dots-hero {
+        width: 17px !important;
+        height: 17px !important;
+        padding: 0 !important;
+    }
+
+    .titu-hero-home {
+        font-size: 35px;
+    }
+
+    .link-hero-home {
+        width: 61%;
+        margin: auto !important;
+        padding: 0 28px;
+        font-size: 27px;
     }
 
     /*-------------------------------------
@@ -173,6 +191,21 @@ Footer
         text-align: center;
     }
 
+    .col-contador {
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .img-somos {
+        width: 247px;
+        height: auto;
+    }
+
+    .seccion-titu-conta {
+        margin-bottom: 0 !important;
+    }
+
     .txt-noso-home,
     .txt-nos-home {
         font-size: var(--parrafo-tlf);
@@ -187,31 +220,29 @@ Footer
     }
 
     .contain-contador {
-        -ms-flex: 0 0 50% !important;
-            flex: 0 0 50% !important;
-        max-width: 50% !important;
-    }
-
-    .contain-contador:nth-child(1) .bg-contador,
-    .contain-contador:nth-child(4) .bg-contador {
-        background-color: var(--fucsia);
-    }
-
-    .contain-contador:nth-child(2) .bg-contador,
-    .contain-contador:nth-child(3) .bg-contador {
-        background-color: var(--fucsia-cla);
+        -ms-flex: 0 0 37% !important;
+            flex: 0 0 37% !important;
+        max-width: 37% !important;
+        margin: 4px !important;
     }
 
     .contain-contador .bg-contador {
-        padding: 12px !important;
+        padding: 4px;
+        border: 1px solid var(--fucsia);
+        border-radius: 10px;
+        background-color: var(--rosado-cla);
     }
 
     /*-------------------------------------
             6.  Cursos/Talleres home
     --------------------------------------*/
     .item-curs-home {
-        width: 301px;
-        height: 377px;
+        width: auto;
+        height: auto;
+    }
+    .img-item-curs-home {
+        width: 259px;
+        height: 404px;
         margin: auto !important;
     }
 
@@ -264,15 +295,14 @@ Footer
     }
 
     .txt-novedades {
-        font-size: var(--parrafo-tlf);
         margin-bottom: 0 !important;
     }
 
     .titu-novedades {
-        width: 80%;
+        width: 94%;
         margin: auto;
-        font-size: var(--titulo-tlf);
-        line-height: 29px;
+        font-size: 24px;
+        line-height: 26px;
         margin-bottom: 0 !important;
     }
 
