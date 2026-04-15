@@ -2482,7 +2482,11 @@ button.nav-item {
   color: var(--purpura-osc);
 }
 
+.valor-carousel .owl-dots {
+  display: none;
+}
 .valor-carousel .owl-nav {
+  display: block;
   position: absolute;
   width: 100%;
   height: 60px;
