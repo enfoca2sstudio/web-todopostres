@@ -1386,20 +1386,21 @@ button.nav-item {
   margin-bottom: -97px !important;
 }
 
-  .col-hero-home1 {
+.col-hero-home1 {
   -ms-flex: 0 0 30%;
       flex: 0 0 30%;
   max-width: 100%;
   padding: 0 !important;
 }
 .col-hero-home2 {
-  -ms-flex: 0 0 42%;
-      flex: 0 0 42%;
+  -ms-flex: 0 0 47%;
+      flex: 0 0 47%;
   max-width: 100%;
 }
 
 .row-dots-hero {
   width: 155px;
+  margin-left: 2% !important;
 }
 .dots-hero {
   width: 25px !important;
@@ -1410,9 +1411,10 @@ button.nav-item {
 
 .titu-hero-home {
   font-family: 'Baserio';
-  font-size: 101px;
+  font-size: 60px;
   font-weight: 400 !important;
   text-align: right;
+  line-height: 59px;
   color: var(--blanco);
 }
 
@@ -2594,10 +2596,9 @@ button.nav-item {
 }
 
 .txt-testimos {
-  font-family: 'Heading Now Trial 64';
   font-size: 16px;
   line-height: 18px;
-  color: rgba(66, 52, 50, 0.5);
+  color: rgba(66, 52, 50, 0.6);
 }
 
 .testimonial-carousel .owl-item img {
@@ -2661,6 +2662,16 @@ button.nav-item {
   display: block;
   width: 77%;
   margin: auto;
+}
+
+.info-suscript-home {
+  display: block;
+  margin: auto !important;
+  width: 75%;
+  font-weight: 400 !important;
+  font-size: 23px;
+  line-height: 25px;
+  color: var(--fucsia-osc);
 }
 
 .txt-suscrip {
@@ -3390,7 +3401,6 @@ button.nav-item {
 }
 
 .titu-footer-top {
-  font-family: 'Heading Now Trial 66';
   font-size: var(--subtitulo);
   color: var(--marro-gris);
 }

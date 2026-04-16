@@ -65,12 +65,16 @@ Footer
     /*=====================================
         2.  Header
     =======================================*/
+    .navbar {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
     .navbar-light .navbar-nav .nav-link {
         text-align: left;
     }
 
     .logo-head {
-        width: 105px;
+        width: 119px;
         height: auto;
     }
 
@@ -112,6 +116,7 @@ Footer
     --------------------------------------*/
     .contain-video-hero {
         height: auto;
+        padding: 51px 0 !important;
     }
     .vid-hero {
         display: block;
@@ -140,6 +145,7 @@ Footer
 
     .col-hero-home {
         padding: 0 !important;
+        border: 1px solid red;
     }
     .col-hero-home1 {
         padding-right: 15px !important;
@@ -154,7 +160,7 @@ Footer
 
     .row-dots-hero {
         width: 155px;
-        margin: auto;
+        margin: auto !important;
     }
     .dots-hero {
         width: 17px !important;
@@ -164,6 +170,8 @@ Footer
 
     .titu-hero-home {
         font-size: 35px;
+        text-align: center;
+        line-height: 37px;
     }
 
     .link-hero-home {
@@ -296,6 +304,11 @@ Footer
 
     .txt-novedades {
         margin-bottom: 0 !important;
+    }
+
+    .courses-carousel {
+        width: 93%;
+        margin: auto !important;
     }
 
     .titu-novedades {
@@ -455,10 +468,11 @@ Footer
 
     .txt-info-testimo {
         text-align: center;
+        margin-bottom: 22px !important;
     }
     
     .titu-testimo {
-        width: 80%;
+        width: 90%;
         margin: auto;
         font-size: var(--titulo-tlf);
         line-height: 29px;
@@ -514,7 +528,10 @@ Footer
     }
 
     .info-suscript-home {
-        margin-top: 15px;
+        width: 90%;
+        margin-top: 20px !important;
+        font-size: var(--parrafo);
+        line-height: 17px;
     }
 
     /*=====================================
@@ -753,8 +770,8 @@ Footer
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
         max-width: 100%;
-        padding-right: 10px;
-        padding-left: 10px;
+        padding: 11px 6px;
+        border: 1px solid red;
     }
     .col-footer-top:nth-child(1),
     .col-footer-top:nth-child(4) {
@@ -763,21 +780,21 @@ Footer
         max-width: 100%;
     }
 
-    .col-footer-top:nth-child(1),
-    .col-footer-top:nth-child(2) {
-        margin-top: 7px;
-        margin-bottom: 7px;
-    }
-
     .titu-footer-top {
         margin-bottom: 5px !important;
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .col-footer-top p,
     .link-footer {
         font-size: var(--parrafo-tlf);
         margin-bottom: 0 !important;
+    }
+
+    .link-footer-web {
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+        max-width: 100%;
     }
 
     .row-rrss-foot {
