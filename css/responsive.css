@@ -62,6 +62,11 @@ Footer
         display: block !important;
     }
 
+    .campo-form:nth-child(2) {
+        border-top-left-radius: 10px !important;
+        border-bottom-left-radius: 10px !important;
+    }
+
     /*=====================================
         2.  Header
     =======================================*/
@@ -145,7 +150,6 @@ Footer
 
     .col-hero-home {
         padding: 0 !important;
-        border: 1px solid red;
     }
     .col-hero-home1 {
         padding-right: 15px !important;
@@ -540,6 +544,17 @@ Footer
     /*-------------------------------------
             12. Cursos Hero
     --------------------------------------*/
+    .hero-cursos {
+        padding: 44px 0;
+        margin-bottom: 109px;
+        border-bottom-left-radius: 69px;
+        border-bottom-right-radius: 69px;
+    }
+
+    .img-hero-cursos {
+        width: 86%;
+    }
+
     .titu-header {
         margin-bottom: 21px !important;
         font-size: var(--titulo-tlf);
@@ -559,6 +574,27 @@ Footer
         margin: 0 !important;
         padding-top: 14px !important;
         padding-bottom: 14px !important;
+    }
+
+    .col-items-cursos .contain-front-cursos {
+        width: 100%;
+        height: 100%;
+        margin: auto !important;
+        padding: 22px 0 !important;
+    }
+
+    .col-items-cursos .titus-front2 .font-base {
+        font-size: 35px;
+        font-style: normal !important;
+    }
+    .col-items-cursos3 .titus-front2 .font-base {
+        margin-top: 1px !important;
+        font-size: 54px;
+        color: var(--blanco);
+    }
+
+    .titu-modal-curs-head {
+        font-size: 17px;
     }
 
     .txt-curso {
