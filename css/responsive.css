@@ -744,11 +744,6 @@ Footer
     .row-container-hero {
         margin: auto;
         padding: 0 7px !important;
-        background: #ffffff;
-        background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(25, 0, 255, 0.87) 66%);
-           background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(25, 0, 255, 0.87) 66%);
-                background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(25, 0, 255, 0.87) 66%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=1);
     }
     .container-ebook {
         margin: 0 !important;
@@ -759,7 +754,6 @@ Footer
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
         max-width: 100%;
-        border: 1px solid red;
     }
     .titus-hero-ebooks1, .titus-hero-ebooks3 {
         font-size: 28px;
@@ -774,14 +768,21 @@ Footer
     --------------------------------------*/
     .row-ebooks {
         display: flex;
-        width: 100vw;
+        width: auto;
         flex-wrap: wrap;
     }
     .col-ebooks {
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%;
         max-width: 100%;
-        border: 1px solid red;
+    }
+
+    .overlay-ebooks {
+        padding: 29px 0;
+    }
+
+    .btn-ebooks {
+        font-size: 23px !important;
     }
 
     /*=====================================
@@ -867,6 +868,20 @@ Footer
         margin-top: 15px;
         font-size: var(--subtitulo-tlf);
         line-height: 22px;
+    }
+
+    .titu-hero-conta {
+        font-size: 36px;
+    }
+
+    .col-contacto {
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%;
+        max-width: 100%;
+    }
+
+    .row-contacto {
+        margin-top: 39px;
     }
 
     /*=====================================
