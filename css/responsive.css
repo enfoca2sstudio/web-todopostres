@@ -14,18 +14,16 @@ A.  Home
 B.  Cursos
   12. Cursos Hero
   13. Contenido cursos
-C.  Talleres
-  14. Talleres Hero
-  15. Talleres Online
-D.  Certificaciones
-  16. Contenido certificaciones
-E.  Ebooks
-  17. Ebooks Hero
-  18. Ebooks Contenido
-F.  Nosotros
-  19. Contenido Nosotros
-G.  Contacto
-  20. Contenido contacto
+C.  Certificaciones
+  14. Certificaciones Hero
+  15. Contenido certificaciones
+D.  Ebooks
+  16. Ebooks Hero
+  17. Ebooks Contenido
+E.  Nosotros
+  18. Contenido Nosotros
+F.  Contacto
+  19. Contenido contacto
 Footer
 ===========================================*/
 @media (max-width: 768px) {
@@ -89,6 +87,9 @@ Footer
     /*-------------------------------------
             3.  Pop-up home
     --------------------------------------*/
+    .modal-dialog {
+        margin-top: 22px;
+    }
     .popup-content {
     	width: 342px;
     	padding: 20px 9px;
@@ -555,12 +556,6 @@ Footer
         width: 86%;
     }
 
-    .titu-header {
-        margin-bottom: 21px !important;
-        font-size: var(--titulo-tlf);
-        line-height: 29px;
-    }
-
     /*-------------------------------------
             13. Contenido cursos
     --------------------------------------*/
@@ -593,92 +588,98 @@ Footer
         color: var(--blanco);
     }
 
+    .modal-content-curs {
+        width: 90%;
+        height: 609px !important;
+    }
+
+    .wrapper-info-curs {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
     .titu-modal-curs-head {
         font-size: 17px;
     }
 
-    .txt-curso {
-        font-size: var(--parrafo-tlf);
-    }
-    .titu-curso {
-        font-size: var(--titulo-tlf);
+    .cont-precio-modal {
+        width: 25%;
+        margin-bottom: 3px !important;
     }
 
-    .cursos-carousel {
-        width: auto;
-        height: auto;
+    .contain-info-curs {
+        padding: 0 12px !important;
     }
 
-    .curso-item {
-        display: block;
-        width: auto;
-        height: auto;
+    .titu-curs-modal {
+        margin-bottom: 9px !important;
+        font-family: 'Heading Now Trial 66';
+        font-size: 20px;
+        color: var(--fucsia-osc);
     }
 
-    .col-nav-curso {
-        -ms-flex: 0 0 48%;
-            flex: 0 0 48%;
-        max-width: 48%;
-        margin: 3px;
-        padding: 0 11px;
-    }
-
-    .contain-nav {
-        width: 115px;
-    }
-
-    .nav-carru-curso {
-        flex-direction: row;
-        width: auto;
-        margin-top: 24px;
-    }
-
-    /*=====================================
-        C.  Talleres
-    =======================================*/
-    /*-------------------------------------
-            15. Talleres Online
-    --------------------------------------*/
-    .wrapper-talleres {
-        margin: 0 !important;
-        margin-top: -55px !important;
-        padding-top: 14px !important;
-        padding-bottom: 14px !important;
-    }
-    .container-talleres {
-        margin: 0 !important;
-        padding-top: 14px !important;
-        padding-bottom: 14px !important;
-    }
-    .row-talleres {
-        display: none;
-    }
-    .col-talleres1 {
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-        max-width: 100%;
-    }
-    .col-talleres2 {
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .col-talleres .cursos-carousel {
-        width: auto;
-        height: auto;
-    }
-
-    .col-talleres .curso-item {
+    .list-cont-modal {
         display: block;
         width: 100%;
-        height: 100%;
+        margin: auto;
+        margin-bottom: 1px;
+        border: 1px solid red;
+    }
+
+    .list-item-modal {
+        font-size: var(--parrafo-tlf);
+        line-height: 16px;
+    }
+
+    .contain-curs-modal {
+        padding: 12px 20px;
+    }
+
+    .titu-contain-modal1 {
+        font-size: 20px;
+    }
+
+    .txt-contain-modal, .list-contain-modal {
+        font-size: var(--parrafo-tlf);
+        line-height: 16px;
+    }
+
+    .titu-contain-modal2 {
+        font-size: var(--parrafo-tlf);
+    }
+
+    .txt-condicio {
+        width: 91%;
+        margin-top: 15px;
+        font-size: var(--parrafo-tlf);
+        line-height: 16px;
+    }
+
+    .link-curs {
+        width: 228px;
+        margin-top: 16px;
+        font-size: var(--subtitulo-tlf);
     }
 
     /*=====================================
-        D.  Certificaciones
+        C.  Certificaciones
     =======================================*/
     /*-------------------------------------
-            16. Contenido certificaciones
+            14. Certificaciones Hero
+    --------------------------------------*/
+    .hero-certifica {
+        padding: 44px 0;
+        margin-bottom: 109px;
+        border-bottom-left-radius: 69px;
+        border-bottom-right-radius: 69px;
+    }
+
+    .img-hero-certifi {
+        width: 365px;
+    }
+
+    /*-------------------------------------
+            15. Contenido certificaciones
     --------------------------------------*/
     .wrapper-certificacion {
         margin: 0 !important;
@@ -692,11 +693,47 @@ Footer
         padding-bottom: 14px !important;
     }
 
+    .cursos-carousel {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .nav-carru-curso {
+        display: flex;
+        width: auto;
+    }
+    .curso-item {
+        width: 300px;
+        height: 300px;
+    }
+    .curso-item .cursos-text,
+    .courses-list-item .cursos-text {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cursos-text h4 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .col-nav-curso {
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .contain-nav {
+        width: 96px;
+        border: 3px solid var(--fucsia);
+    }
+
     /*=====================================
-        E.  Ebooks
+        D.  Ebooks
     =======================================*/
     /*-------------------------------------
-            18. Ebooks Contenido
+            16. Ebooks Hero
     --------------------------------------*/
     .wrapper-ebook {
         margin: 0 !important;
@@ -704,17 +741,54 @@ Footer
         padding-top: 14px !important;
         padding-bottom: 14px !important;
     }
+    .row-container-hero {
+        margin: auto;
+        padding: 0 7px !important;
+        background: #ffffff;
+        background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(25, 0, 255, 0.87) 66%);
+           background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(25, 0, 255, 0.87) 66%);
+                background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(25, 0, 255, 0.87) 66%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=1);
+    }
     .container-ebook {
         margin: 0 !important;
         padding-top: 14px !important;
         padding-bottom: 50px !important;
     }
+    .item-hero-ebooks {
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        max-width: 100%;
+        border: 1px solid red;
+    }
+    .titus-hero-ebooks1, .titus-hero-ebooks3 {
+        font-size: 28px;
+    }
+    .titus-hero-ebooks2 {
+        font-size: 68px;
+        line-height: 46px;
+    }
+
+    /*-------------------------------------
+            17. Ebooks Contenido
+    --------------------------------------*/
+    .row-ebooks {
+        display: flex;
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    .col-ebooks {
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        max-width: 100%;
+        border: 1px solid red;
+    }
 
     /*=====================================
-        F.  Nosotros
+        E.  Nosotros
     =======================================*/
     /*-------------------------------------
-            19. Contenido Nosotros
+            18. Contenido Nosotros
     --------------------------------------*/
     .modal-body {
         padding: 0;
@@ -754,10 +828,10 @@ Footer
     }
 
     /*=====================================
-        G.  Contacto
+        F.  Contacto
     =======================================*/
     /*-------------------------------------
-            20. Contenido contacto
+            19. Contenido contacto
     --------------------------------------*/
     .wrapper-contactos {
         margin: 0 !important;
@@ -807,13 +881,16 @@ Footer
             flex: 0 0 50%;
         max-width: 100%;
         padding: 11px 6px;
-        border: 1px solid red;
     }
     .col-footer-top:nth-child(1),
     .col-footer-top:nth-child(4) {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    .col-footer-top:nth-child(4) .contain-footer {
+        flex-direction: row;
     }
 
     .titu-footer-top {
