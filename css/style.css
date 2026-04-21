@@ -3381,11 +3381,6 @@ button.nav-item {
 .row-contacto {
   width: 92vw;
   margin: auto !important;
-  border: 1px solid red;
-}
-
-.col-contacto {
-  border: 1px solid blue;
 }
 
 .section-titu-conta {
