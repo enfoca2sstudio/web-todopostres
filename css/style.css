@@ -2699,7 +2699,7 @@ button.nav-item {
 .info-suscript {
   display: block;
   margin: auto !important;
-  width: 75%;
+  /* width: 75%; */
   font-family: 'Heading Now Trial 64';
   font-weight: 400 !important;
   font-size: 23px;
@@ -3273,7 +3273,7 @@ button.nav-item {
 }
 
 .item-hero-ebooks2 {
-  padding: 36px 0 !important;
+  padding: 36px 28px !important;
 }
 
 .titus-hero-ebooks1, .titus-hero-ebooks3 {
@@ -3284,6 +3284,7 @@ button.nav-item {
   font-size: 107px;
   font-weight: 400 !important;
   line-height: 92px;
+  text-transform: uppercase;
   letter-spacing: 4px;
   color: var(--fucsia-osc);
 }
@@ -3376,6 +3377,16 @@ button.nav-item {
 .wrapper-contactos {
   padding-top: 5px !important;
   padding-bottom: 5px !important;
+}
+
+.row-contacto {
+  width: 92vw;
+  margin: auto !important;
+  border: 1px solid red;
+}
+
+.col-contacto {
+  border: 1px solid blue;
 }
 
 .section-titu-conta {
