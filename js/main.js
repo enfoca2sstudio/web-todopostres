@@ -39,6 +39,30 @@
         time: 2000
     });
 
+    // Cursos carousel
+    $(".hero-home").owlCarousel({
+        autoplay: false,
+        smartSpeed: 2500,
+        loop: true,
+        dots: true,
+        nav : false,
+        cener: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:1
+            },
+            768:{
+                items:1
+            },
+            992:{
+                items:1
+            }
+        }
+    });
+
 
     // Cursos carousel
     $(".curso-carousel").owlCarousel({
