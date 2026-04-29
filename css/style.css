@@ -48,6 +48,7 @@ Footer
   --gris-cla: #eeedeb;
   --blanco: #fff;
   --negro: #000;
+  --gris: #606060;
   --titulo: 40px;
   --titulo-tlf: 27px;
   --subtitulo: 30px;
@@ -889,9 +890,7 @@ input[type="checkbox"] {
 .txt-acent-fucsiosc2 {
   color: var(--fucsia-osc2) !important;
 }
-.txt-acent-purpu {
-  color: var(--purpura-osc) !important;
-}
+
 .txt-acent-negrita {
   font-weight: 700 !important;
 }
@@ -914,12 +913,12 @@ input[type="checkbox"] {
 }
 
 .campo-form:nth-child(1) {
-  border: 1px solid var(--fucsia-osc) !important;
+  border: 1px solid var(--fucsia-osc1) !important;
   border-top-left-radius: 10px !important;
   border-bottom-left-radius: 10px !important;
 }
 .campo-form:nth-child(2) {
-  border: 1px solid var(--fucsia-osc) !important;
+  border: 1px solid var(--fucsia-osc1) !important;
 }
 .campo-form button {
   border: none !important;
@@ -931,9 +930,9 @@ input[type="checkbox"] {
   position: relative;
   margin-left: -35px;
   color: var(--blanco) !important;
-  border: 1px solid var(--fucsia-osc) !important;
+  border: 1px solid var(--fucsia-osc1) !important;
   border-radius: 10px !important;
-  background-color: var(--fucsia-osc) !important;
+  background-color: var(--fucsia-osc1) !important;
   z-index: 999;
 }
 
@@ -943,9 +942,9 @@ input[type="checkbox"] {
   right: 30px !important;
   bottom: 30px !important;
   color: var(--blanco) !important;
-  border: 2px solid var(--blanco) !important;
+  border: 3px solid var(--blanco) !important;
   border-radius: 10px !important;
-  background-color: var(--fucsia) !important;
+  background-color: var(--fucsia-osc1) !important;
   z-index: 11 !important;
 }
 
@@ -953,7 +952,7 @@ input[type="checkbox"] {
   2.  Header
 =======================================*/
 .top-header {
-  background-color: var(--fucsia-osc);
+  background-color: var(--fucsia-2);
 }
 
 .logo-head {
@@ -970,7 +969,7 @@ input[type="checkbox"] {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: var(--fucsia-osc) !important;
+  color: var(--fucsia-1) !important;
 }
 
 button.nav-item {
@@ -982,7 +981,7 @@ button.nav-item {
 .dropdown-item.active, .dropdown-item:active {
   color: var(--blanco) !important;
   text-decoration: none;
-  background: var(--fucsia-osc) !important;
+  background: var(--fucsia-1) !important;
 }
 
 /*=====================================
@@ -1677,7 +1676,6 @@ button.nav-item {
   font-size: var(--subtitulo);
   font-weight: 600 !important;
   color: var(--fucsia-osc1);
-  border: 1px solid red;
 }
 .txt-cursos::before {
   position: absolute !important;
@@ -1695,26 +1693,38 @@ button.nav-item {
   margin: auto !important;
 }
 
-.item-curs-home1 .front,.item-curs-home4 .front,
+.img-item-curs-home {
+  width: 259px;
+  height: 404px;
+  margin: auto !important;
+}
+
+.item-curs-home1 .front, .item-curs-home4 .front,
 .item-curs-home7 .front, .item-curs-home10 .front {
-  background: url("../img/1-home/curs-fron-01.webp") 0 0 no-repeat;
+  background: url("../img/2-cursos/2-1-cursos/curso-img-nvo-01.webp") 0 0 no-repeat;
   background-position: center;
   background-size: cover;
 }
 .item-curs-home2 .front, .item-curs-home5 .front,
 .item-curs-home8 .front, .item-curs-home11 .front {
-  background: url("../img/1-home/curs-fron-02.webp") 0 0 no-repeat;
+  background: url("../img/2-cursos/2-1-cursos/curso-img-nvo-02.webp") 0 0 no-repeat;
   background-position: center;
   background-size: cover;
 }
 .item-curs-home3 .front, .item-curs-home6 .front,
 .item-curs-home9 .front, .item-curs-home12 .front {
-  background: url("../img/1-home/curs-fron-03.webp") 0 0 no-repeat;
+  background: url("../img/2-cursos/2-1-cursos/curso-img-nvo-03.webp") 0 0 no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.item-curs-home1 .back, .item-curs-home4 .back,
+.item-curs-home1 .back {
+  background: url("../img/2-cursos/2-1-cursos/curso-img-nvo-05.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item-curs-home4 .back,
 .item-curs-home7 .back, .item-curs-home10 .back {
   background: url("../img/1-home/curs-back-01.webp") 0 0 no-repeat;
   background-position: center;
@@ -2266,36 +2276,38 @@ button.nav-item {
 }
 
 .cursos-home .owl-dots .owl-dot span {
-  background-color: rgba(155, 0, 137, 0.4);
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background-color: var(--rosado-osc);
+  transition: .5s ease-in-out;
 }
-
 .cursos-home .owl-dots .owl-dot:hover span,
 .cursos-home .owl-dots .owl-dot.active span {
-  background-color: var(--purpura-osc);
+  background-color: var(--fucsia-1);
 }
 
 /*-------------------------------------
     7.  Novedades
 --------------------------------------*/
 .txt-novedades {
-  font-size: var(--subtitulo-tlf);
+  width: 206px;
+  font-size: var(--subtitulo);
   font-weight: 600 !important;
-  color: var(--purpura-osc);
+  color: var(--fucsia-osc1);
 }
 .txt-novedades::before {
   position: absolute !important;
   content: "" !important;
   width: 100% !important;
   height: 0 !important;
-  bottom: 4px !important;
+  bottom: 3px !important;
   left: 0 !important;
-  border-top: 2px dashed rgba(155, 0, 137, 0.55) !important;
+  border-top: 3px dashed var(--rosado-osc) !important;
 }
 
 .titu-novedades {
-  font-family: 'Heading Now Trial 66';
   font-size: var(--titulo);
-  font-weight: 700 !important;
   line-height: 42px;
   color: var(--marro-gris);
 }
@@ -2360,14 +2372,14 @@ button.nav-item {
   font-weight: 400 !important;
   font-size: var(--parrafo) !important;
   color: var(--blanco) !important;
-  border: 2px solid var(--fucsia-osc) !important;
+  border: 2px solid var(--fucsia-osc2) !important;
   border-radius: 5px !important;
-  background-color: var(--fucsia-osc) !important;
+  background-color: var(--fucsia-osc2) !important;
   transition: all .3s ease-in-out;
 }
 .btn-noveda:hover {
-  color: var(--fucsia-osc) !important;
-  border: 2px solid var(--fucsia-osc) !important;
+  color: var(--fucsia-osc2) !important;
+  border: 2px solid var(--fucsia-osc2) !important;
   background-color: transparent !important;
 }
 
@@ -2375,24 +2387,23 @@ button.nav-item {
     8.  Ebooks
 --------------------------------------*/
 .txt-ebooks {
-  font-size: var(--subtitulo-tlf);
+  width: 206px;
+  font-size: var(--subtitulo);
   font-weight: 600 !important;
-  color: var(--purpura-osc);;
+  color: var(--fucsia-osc1);
 }
 .txt-ebooks::before {
   position: absolute !important;
   content: "" !important;
   width: 100% !important;
   height: 0 !important;
-  bottom: 4px !important;
+  bottom: 3px !important;
   left: 0 !important;
-  border-top: 2px dashed rgba(155, 0, 137, 0.55) !important;
+  border-top: 3px dashed var(--rosado-osc) !important;
 }
 
 .titu-ebooks {
-  font-family: 'Heading Now Trial 66';
   font-size: var(--titulo);
-  font-weight: 700 !important;
   line-height: 42px;
   color: var(--marro-gris);
 }
@@ -2436,7 +2447,7 @@ button.nav-item {
   user-select: none;
 }
 
-.cont-ebook {
+.carousel-ebook:nth-child(1) .cont-ebook {
   width: 100%;
   height: 100%;
   display: flex;
@@ -2450,10 +2461,28 @@ button.nav-item {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#D92A7F", GradientType=0);
 }
 
-.carousel-ebook:nth-child(1), .carousel-ebook:nth-child(2),
-.carousel-ebook:nth-child(3), .carousel-ebook:nth-child(4),
-.carousel-ebook:nth-child(5), .carousel-ebook:nth-child(6) {
+.carousel-ebook:nth-child(1) {
   background: url("../img/1-home/ebooks-home.webp") no-repeat center;
+  background-size: contain;
+}
+.carousel-ebook:nth-child(2) {
+  background: url("../img/3-ebooks/ebooks-img-nvo.webp") no-repeat center;
+  background-size: contain;
+}
+.carousel-ebook:nth-child(3) {
+  background: url("../img/3-ebooks/ebooks-img-nvo.webp") no-repeat center;
+  background-size: contain;
+}
+.carousel-ebook:nth-child(4) {
+  background: url("../img/3-ebooks/ebooks-img-nvo.webp") no-repeat center;
+  background-size: contain;
+}
+.carousel-ebook:nth-child(5) {
+  background: url("../img/3-ebooks/ebooks-img-nvo.webp") no-repeat center;
+  background-size: contain;
+}
+.carousel-ebook:nth-child(6) {
+  background: url("../img/3-ebooks/ebooks-img-nvo.webp") no-repeat center;
   background-size: contain;
 }
 
@@ -2464,13 +2493,13 @@ button.nav-item {
   font-weight: 400 !important;
   text-align: center !important;
   color: var(--blanco) !important;
-  border: 2px solid var(--purpura-osc) !important;
+  border: 2px solid var(--fucsia-osc2) !important;
   border-radius: 5px !important;
-  background-color: var(--purpura-osc) !important;
+  background-color: var(--fucsia-osc2) !important;
   transition: all .5s ease-in-out !important;
 }
 .btn-ebook:hover {
-  color: var(--purpura-osc) !important;
+  color: var(--fucsia-osc2) !important;
   border: 2px solid var(--blanco) !important;
   background-color: var(--blanco) !important;
 }
@@ -2484,24 +2513,23 @@ button.nav-item {
 }
 
 .txt-valores {
-  font-size: var(--subtitulo-tlf);
+  width: 206px;
+  font-size: var(--subtitulo);
   font-weight: 600 !important;
-  color: var(--purpura-osc);;
+  color: var(--fucsia-osc1);
 }
 .txt-valores::before {
   position: absolute !important;
   content: "" !important;
   width: 100% !important;
   height: 0 !important;
-  bottom: 4px !important;
+  bottom: 3px !important;
   left: 0 !important;
-  border-top: 2px dashed rgba(155, 0, 137, 0.55) !important;
+  border-top: 3px dashed var(--rosado-osc) !important;
 }
 
 .titu-valores {
-  font-family: 'Heading Now Trial 66';
   font-size: var(--titulo);
-  font-weight: 700 !important;
   line-height: 42px;
   color: var(--marro-gris);
 }
@@ -2566,7 +2594,7 @@ button.nav-item {
 
 .team-item {
   padding: 10px;
-  border: 2px dashed var(--rosado-cla);
+  border: 3px dashed var(--rosado);
   border-radius: 14px;
 }
 
@@ -2576,18 +2604,19 @@ button.nav-item {
 }
 
 .txt-valores-curso {
+  width: 291px;
   font-size: var(--subtitulo-tlf);
   font-weight: 600 !important;
-  color: var(--purpura-osc);;
+  color: var(--fucsia-osc1);
 }
 .txt-valores-curso::before {
   position: absolute !important;
   content: "" !important;
   width: 100% !important;
   height: 0 !important;
-  bottom: 4px !important;
+  bottom: 3px !important;
   left: 0 !important;
-  border-top: 2px dashed rgba(155, 0, 137, 0.55) !important;
+  border-top: 3px dashed var(--rosado-osc) !important;
 }
 
 .contain-valo-carru .cont-img-valor {
@@ -2604,19 +2633,18 @@ button.nav-item {
   font-weight: 700;
   line-height: 21px;
   text-align: center;
-  color: var(--purpura-osc);
+  color: var(--fucsia-1);
 }
 
 .contain-valo-carru .txt-info-valor {
   height: 94px;
   margin-top: -7px;
   margin-bottom: 0 !important;
-  font-family: 'Heading Now Trial 64';
   font-size: 13px;
   font-weight: 400;
   line-height: 15px;
   text-align: center;
-  color: var(--purpura-osc);
+  color: var(--fucsia-osc2);
 }
 
 .valor-carousel .owl-dots {
@@ -2671,11 +2699,11 @@ button.nav-item {
 .wrapper-testimo {
   padding: 0 !important;
   margin: 90px 0;
-  background: #ffffff;
-  background: -webkit-linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, rgba(200, 0, 167, 1) 54%);
-     background: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, rgba(200, 0, 167, 1) 54%);
-          background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, rgba(200, 0, 167, 1) 54%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#C800A7", GradientType=0);
+  background: #E10079;
+  background: -webkit-linear-gradient(90deg, rgba(225, 0, 121, 1) 28%, rgba(245, 245, 245, 0) 80%);
+     background: -moz-linear-gradient(90deg, rgba(225, 0, 121, 1) 28%, rgba(245, 245, 245, 0) 80%);
+          background: linear-gradient(90deg, rgba(225, 0, 121, 1) 28%, rgba(245, 245, 245, 0) 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E10079", endColorstr="#F5F5F5", GradientType=1);
 }
 
 .container-testimo {
@@ -2686,7 +2714,7 @@ button.nav-item {
 .txt-testimo {
   font-size: var(--subtitulo-tlf);
   font-weight: 600 !important;
-  color: var(--blanco);
+  color: var(--rosado);
 }
 .txt-testimo::before {
   position: absolute !important;
@@ -2695,7 +2723,7 @@ button.nav-item {
   height: 0 !important;
   bottom: 4px !important;
   left: 0 !important;
-  border-top: 2px dashed var(--blanco) !important;
+  border-top: 3px dashed var(--blanco) !important;
 }
 
 .titu-testimo {
@@ -2705,20 +2733,26 @@ button.nav-item {
   color: var(--blanco);
 }
 
+.col-testimo {
+  padding: 0 !important;
+}
+
 .txt-info-testimo {
+  width: 388px;
   font-family: 'Heading Now Trial 64';
-  font-size: 23px;
-  line-height: 25px;
+  font-size: 17px;
+  line-height: 19px;
   color: var(--blanco);
 }
 
 .cont-testimo {
   border-radius: 10px;
   background: var(--blanco);
+  border: 2px solid var(--fucsia-1);
 }
 
 .contain-testimo {
-  border-bottom: 1px solid var(--purpura-osc);
+  border-bottom: 1px solid var(--fucsia-2);
   padding: 11px 28px;
 }
 
@@ -2727,12 +2761,12 @@ button.nav-item {
 }
 
 .testimonial-carousel .icon-cita {
-  color: var(--purpura-osc);
+  color: var(--fucsia-1);
 }
 
 .txt-testimos {
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 20px;
+  line-height: 22px;
   color: rgba(66, 52, 50, 0.6);
 }
 
@@ -2799,46 +2833,36 @@ button.nav-item {
   margin: auto;
 }
 
-.info-suscript-home {
-  display: block;
-  margin: auto !important;
-  width: 75%;
-  font-weight: 400 !important;
-  font-size: 23px;
-  line-height: 25px;
-  color: var(--fucsia-osc);
-}
-
 .txt-suscrip {
-  font-size: var(--subtitulo-tlf);
+  width: 206px;
+  font-size: var(--subtitulo);
   font-weight: 600 !important;
-  color: var(--purpura-osc);
+  color: var(--fucsia-osc1);
 }
 .txt-suscrip::before {
   position: absolute !important;
   content: "" !important;
   width: 100% !important;
   height: 0 !important;
-  bottom: 4px !important;
+  bottom: 3px !important;
   left: 0 !important;
-  border-top: 2px dashed var(--purpura-osc) !important;
+  border-top: 3px dashed var(--rosado-osc) !important;
 }
 
 .titu-suscrip {
-  font-family: 'Heading Now Trial 66';
   font-size: 37px;
   line-height: 39px;
-  color: var(--marro-gris);
+  color: var(--fucsia-osc2);
 }
 
-.info-suscript {
+.info-suscript, .info-suscript-home {
   display: block;
   margin: auto !important;
   font-family: 'Heading Now Trial 64';
   font-weight: 400 !important;
-  font-size: 23px;
+  font-size: var(--subtitulo-tlf);
   line-height: 25px;
-  color: var(--fucsia-osc);
+  color: var(--gris);
 }
 
 .contact-form {
@@ -2852,7 +2876,11 @@ button.nav-item {
   font-weight: 400 !important;
   font-size: var(--parrafo);
   line-height: 18px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: var(--rosado-osc) !important;
+  border: 1px solid var(--rosado-osc) !important;
+}
+.form-news::placeholder {
+  color: var(--rosado-osc) !important;
 }
 
 .btn-form {
@@ -2865,14 +2893,14 @@ button.nav-item {
   font-weight: 700 !important;
   text-align: center !important;
   color: var(--blanco) !important;
-  border: 2px solid var(--fucsia-osc) !important;
+  border: 2px solid var(--fucsia-1) !important;
   border-radius: 5px !important;
-  background-color: var(--fucsia-osc) !important;
+  background-color: var(--fucsia-1) !important;
   transition: all .5s ease-in-out !important;
 }
 .btn-form:hover {
-  color: var(--fucsia-osc) !important;
-  border: 2px solid var(--fucsia-osc) !important;
+  color: var(--fucsia-1) !important;
+  border: 2px solid var(--fucsia-1) !important;
   background-color: transparent !important;
 }
 
@@ -2883,10 +2911,35 @@ button.nav-item {
     12. Cursos Hero
 --------------------------------------*/
 .hero-cursos {
-  padding: 10px 0;
-  border-bottom-left-radius: 110px;
-  border-bottom-right-radius: 110px;
-  background: var(--fucsia-osc);
+  background: url("../img/2-cursos/2-1-cursos/header-cursos-nvo.webp") no-repeat center -408px;
+  background-size: cover;
+}
+
+.cont-hero-curso {
+  background: #ffffff;
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 62%, rgba(255, 255, 255, 1) 86%);
+     background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 62%, rgba(255, 255, 255, 1) 86%);
+          background: linear-gradient(90deg, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 62%, rgba(255, 255, 255, 1) 86%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=1);
+}
+
+.col-hero-cursos {
+  padding: 123px 0 !important;
+}
+
+.txt-hero-cursos {
+  margin-left: 110px !important;
+  margin-bottom: 0 !important;
+  font-size: 27px;
+  font-weight: 600 !important;
+  color: var(--fucsia-osc1);
+}
+
+.titu-hero-cursos {
+  font-size: 127px;
+  font-style: normal !important;
+  line-height: 52px;
+  color: var(--fucsia-1);
 }
 
 .img-hero-cursos {
@@ -3567,32 +3620,32 @@ button.nav-item {
 }
 
 .titu-footer-top {
-  font-size: var(--subtitulo);
-  color: var(--marro-gris);
+  font-size: var(--subtitulo-tlf);
+  color: var(--fucsia-2);
 }
 
 .link-footer {
   font-size: var(--parrafo);
-  color: var(--marro-gris);
+  color: var(--negro);
   text-decoration: none !important;
   transition: all .5s ease-in-out;
 }
 .link-footer:hover {
-  color: var(--fucsia-osc);
+  color: var(--fucsia-2);
   letter-spacing: 0.1em;
 }
 
 .rrss-foter {
   font-size: 11px;
-  color: var(--marro-gris);
+  color: var(--negro);
   transition: all .5s ease-in-out;
 }
 .rrss-foter:hover {
-  color: var(--fucsia-osc);
+  color: var(--fucsia-2);
 }
 
 .container-footer-bot {
-  background-color: var(--fucsia-osc);
+  background-color: var(--fucsia-osc1);
 }
 
 .foot-firma {
