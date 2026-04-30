@@ -2462,7 +2462,7 @@ button.nav-item {
 }
 
 .carousel-ebook:nth-child(1) {
-  background: url("../img/1-home/ebooks-home.webp") no-repeat center;
+  background: url("../img/3-ebooks/ebook-img-nvo.webp") no-repeat center;
   background-size: contain;
 }
 .carousel-ebook:nth-child(2) {
@@ -2977,7 +2977,10 @@ button.nav-item {
 }
 
 .col-items-cursos:nth-child(1) .contain-front-cursos {
-  background: url("../img/2-cursos/2-1-cursos/curs-fron-01.webp") 0 0 no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+  background: url("../img/2-cursos/2-1-cursos/curso-img-nvo-01.webp") 0 0 no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -3153,6 +3156,10 @@ button.nav-item {
   border: none !important;
   background: none !important;
 }
+.col-items-cursos:nth-child(1) .txt-firma-front {
+  width: 100%;
+  background: none !important;
+}
 
 .cursos-carousel {
   display: block;
@@ -3254,7 +3261,7 @@ button.nav-item {
   height: 580px !important;
   margin: auto;
   padding-bottom: 47px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--rosado-cla);
   border-radius: 20px;
   background: var(--blanco) !important;
   outline: 0;
@@ -3270,13 +3277,13 @@ button.nav-item {
 }
 
 .modal-curs-head {
-  padding: 8px 0;
-  background-color: var(--rosado-cla2);
+  padding: 9px 0;
+  background-color: var(--rosado-cla);
 }
 
 .titu-modal-curs-head {
   font-size: var(--subtitulo-tlf);
-  color: var(--fucsia-osc);
+  color: var(--fucsia-1);
 }
 
 .cont-precio-modal {
@@ -3287,7 +3294,7 @@ button.nav-item {
   padding: 14px 0 9px;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
-  background: var(--purpura-osc);
+  background: var(--fucsia-1);
 }
 
 .txt-precio-modal {
@@ -3299,7 +3306,7 @@ button.nav-item {
   margin-bottom: 9px !important;
   font-family: 'Heading Now Trial 66';
   font-size: 25px;
-  color: var(--fucsia-osc);
+  color: var(--fucsia-1);
 }
 
 .list-cont-modal {
@@ -3324,47 +3331,48 @@ button.nav-item {
   margin-top: 15px;
   padding: 20px 37px;
   border-radius: 10px;
-  background: var(--rosado-cla2);
+  background: var(--rosado-cla);
 }
 
 .titu-contain-modal1 {
   margin-bottom: 9px !important;
   font-family: 'Heading Now Trial 66';
   font-size: 25px;
-  color: var(--fucsia-osc);
+  color: var(--fucsia-1);
 }
 .titu-contain-modal2 {
   margin-top: 9px !important;
   font-family: 'Heading Now Trial 66';
   font-size: var(--parrafo);
-  color: var(--fucsia-osc);
+  color: var(--fucsia-osc2);
 }
 
 .txt-contain-modal {
-  font-size: var(--parrafo);
-  line-height: 18px;
-  color: var(--fucsia-osc);
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--fucsia-osc2);
 }
 
 .list-contain-modal {
-  font-size: var(--parrafo);
-  line-height: 18px;
-  color: var(--fucsia-osc);
+  margin-bottom: 18px;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--fucsia-osc2);
 }
 
 .txt-condicio {
   display: block;
-  width: 70%;
+  width: 64%;
   margin: auto;
   margin-top: 22px;
-  font-size: var(--parrafo);
-  line-height: 18px;
+  font-size: 13px;
+  line-height: 16px;
   color: var(--marro-gris);
 }
 
 .txt-condicio .link-condicio {
   text-decoration: underline;
-  color: var(--fucsia-osc);
+  color: var(--fucsia-osc2);
 }
 
 .link-curs {
@@ -3376,7 +3384,15 @@ button.nav-item {
   font-size: var(--subtitulo);
   color: var(--blanco);
   border-radius: 10px;
-  background: #a0008d;
+  border: 2px solid var(--fucsia-osc2);
+  background: var(--fucsia-osc2);
+  transition: .3s ease-in-out;
+}
+.link-curs:hover {
+  text-decoration: none;
+  color: var(--fucsia-osc2);
+  border: 2px solid var(--fucsia-osc2);
+  background: transparent;
 }
 
 /*=====================================
@@ -3386,11 +3402,34 @@ button.nav-item {
     14. Certificaciones Hero
 --------------------------------------*/
 .hero-certifica {
-  padding: 0;
-  border-bottom-left-radius: 110px;
-  border-bottom-right-radius: 110px;
+  background: url("../img/2-cursos/2-1-cursos/header-cursos-nvo.webp") no-repeat center -408px;
+  background-size: cover;
+}
+
+.cont-hero-certifica {
+  padding: 101px 0;
   background: #ffffff;
-  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(191, 119, 183, 1) 68%);
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+     background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+          background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF00", GradientType=1);
+}
+
+.txt-hero-certifica {
+  margin: auto;
+  margin-bottom: 37px !important;
+  margin-left: 55%;
+  font-size: 27px;
+  font-weight: 500 !important;
+  text-align: right;
+  color: var(--fucsia-1);
+}
+
+.titu-hero-certifica {
+  font-size: 127px;
+  font-style: normal !important;
+  line-height: 52px;
+  color: var(--fucsia-osc2);
 }
 
 .img-hero-certifi {
@@ -3411,6 +3450,12 @@ button.nav-item {
   display: block;
   width: 537px;
   height: 537px;
+  margin: auto;
+}
+
+.img-ebooks {
+  display: block;
+  width: 100%;
   margin: auto;
 }
 
@@ -3447,7 +3492,7 @@ button.nav-item {
 
 .row-container-hero {
   margin: auto;
-  padding: 0 40px !important;
+  padding: 79px 40px !important;
   background: #ffffff;
   background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.87) 66%);
      background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.87) 66%);
@@ -3463,9 +3508,15 @@ button.nav-item {
   padding: 36px 28px !important;
 }
 
+.titus-hero-ebooks1  {
+  margin-left: 72px;
+}
+.titus-hero-ebooks3  {
+  margin-right: 72px;
+}
 .titus-hero-ebooks1, .titus-hero-ebooks3 {
   font-size: 36px;
-  color: var(--marro-gris);
+  color: var(--fucsia-1);
 }
 .titus-hero-ebooks2 {
   font-size: 107px;
@@ -3473,7 +3524,7 @@ button.nav-item {
   line-height: 92px;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: var(--fucsia-osc);
+  color: var(--fucsia-osc2);
 }
 
 .form-ebooks {
@@ -3505,7 +3556,7 @@ button.nav-item {
   height: 600px;
   margin: 0 9px;
   border-radius: 25px;
-  background: url("../img/1-home/ebooks-home.webp") 0 0 no-repeat;
+  background: url("../img/3-ebooks/ebook-img-nvo.webp") 0 0 no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -3518,9 +3569,9 @@ button.nav-item {
   height: 100%;
   padding: 53px 0;
   background: #ffffff;
-  background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255, 0.8) 100%);
-     background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
-          background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255, 0.9) 80%);
+     background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 80%);
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 80%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=0);
 }
 
@@ -3528,10 +3579,10 @@ button.nav-item {
   display: block;
   width: 50%;
   padding: 5px 0;
-  font-size: var(--subtitulo) !important;
+  font-size: var(--subtitulo-tlf) !important;
   color: var(--blanco) !important;
   border-radius: 10px;
-  background: #a0008d !important;
+  background: var(--fucsia-osc2) !important;
 }
 
 /*=====================================
@@ -3550,8 +3601,6 @@ button.nav-item {
 .hero-contacto {
   margin-bottom: 0 !important;
   padding: 0;
-  border-bottom-left-radius: 110px;
-  border-bottom-right-radius: 110px;
   background: #ffffff;
   background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(191, 119, 183, 1) 68%);
 }
@@ -3559,7 +3608,7 @@ button.nav-item {
   font-size: 72px;
   font-weight: 400 !important;
   letter-spacing: 3px;
-  color: var(--fucsia-osc);
+  color: var(--fucsia-osc2);
 }
 .wrapper-contactos {
   padding-top: 5px !important;
@@ -3585,7 +3634,7 @@ button.nav-item {
 .bg-icon-contac,
 .bg-mis-vis {
   border-radius: 10px;
-  background: var(--fucsia);
+  background: var(--fucsia-1);
 }
 
 .btn-icon {
