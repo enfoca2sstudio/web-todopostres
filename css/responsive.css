@@ -120,6 +120,52 @@ Footer
     /*-------------------------------------
             4.  Hero home
     --------------------------------------*/
+    .item-carru-home1 {
+        background: url(../img/1-home/hero-img-nvo.webp) -559px center no-repeat;
+        background-size: 1084px;
+    }
+    .item-carru-home2 {
+        background: url(../img/1-home/hero-img-nvo-1.webp) center right no-repeat;
+        background-size: cover;
+    }
+    .item-carru-home3 {
+        background: url(../img/1-home/hero-img-nvo-2.webp) -599px center no-repeat;
+        background-size: cover;
+    }
+
+    .item-carru-home1 .row-hero-home {
+        background: #ffffff;
+        background: -webkit-linear-gradient(360deg, rgba(255, 255, 255, 1) 40%, rgba(245, 245, 245, 0) 80%);
+           background: -moz-linear-gradient(360deg, rgba(255, 255, 255, 1) 40%, rgba(245, 245, 245, 0) 80%);
+                background: linear-gradient(360deg, rgba(255, 255, 255, 1) 40%, rgba(245, 245, 245, 0) 80%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#F5F5F5", GradientType=1);
+    }
+    .item-carru-home2 .row-hero-home {
+        background: #820041;
+        background: -webkit-linear-gradient(360deg, rgba(130, 0, 65, 1) 45%, rgba(245, 245, 245, 0) 80%);
+           background: -moz-linear-gradient(360deg, rgba(130, 0, 65, 1) 45%, rgba(245, 245, 245, 0) 80%);
+                background: linear-gradient(360deg, rgba(130, 0, 65, 1) 45%, rgba(245, 245, 245, 0) 80%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#820041", endColorstr="#F5F5F5", GradientType=1);
+    }
+    .item-carru-home3 .row-hero-home {
+        background: #ffffff;
+        background: -webkit-linear-gradient(360deg, rgba(255, 255, 255, 1) 45%, rgba(245, 245, 245, 0) 75%);
+           background: -moz-linear-gradient(360deg, rgba(255, 255, 255, 1) 45%, rgba(245, 245, 245, 0) 75%);
+                background: linear-gradient(360deg, rgba(255, 255, 255, 1) 45%, rgba(245, 245, 245, 0) 75%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#F5F5F5", GradientType=1);
+    }
+
+    .txts-hero-home {
+        width: auto;
+        font-size: 14px;
+        text-align: left;
+        line-height: 16px;
+        color: var(--negro);
+    }
+    .txt-hero-home {
+        font-size: var(--parrafo-tlf);
+        color: var(--rosado-osc);
+    }
     .contain-video-hero {
         height: auto;
         padding: 51px 0 !important;
@@ -153,8 +199,14 @@ Footer
         padding: 0 !important;
     }
     .col-hero-home1 {
-        padding-right: 15px !important;
-        padding-left: 15px !important;
+        -ms-flex: 0 0 88%;
+            flex: 0 0 88%;
+        max-width: 100%;
+        padding: 0 !important;
+        margin-top: 281px;
+    }
+    .col-hero-home2 {
+        display: none;
     }
 
     .img-hero-home {
@@ -174,21 +226,39 @@ Footer
     }
 
     .titu-hero-home {
-        font-size: 35px;
+        font-size: 25px;
         text-align: center;
-        line-height: 37px;
+        line-height: 27px;
     }
 
     .link-hero-home {
-        width: 61%;
+        width: 49%;
         margin: auto !important;
-        padding: 0 28px;
-        font-size: 27px;
+        padding: 6px 18px;
+        font-size: 19px;
+    }
+    .item-carru-home2 .link-hero-home {
+        width: 51%;
+        margin: auto !important;
+        margin-right: 100% !important;
+    }
+    .item-carru-home3 .link-hero-home {
+        width: 51%;
+        margin: auto !important;
+        margin-right: 100% !important;
+    }
+
+    .texto {
+    	font-size: 14px;
     }
 
     /*-------------------------------------
             5.  Contador
     --------------------------------------*/
+    .container-cursos-home {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
     .contain-cursos-home {
         padding-top: 34px !important;
         padding-bottom: 27px !important;
@@ -209,6 +279,9 @@ Footer
             flex: 0 0 100% !important;
         max-width: 100% !important;
     }
+    .col-contador-1 {
+        margin-bottom: 24px !important;
+    }
 
     .img-somos {
         width: 247px;
@@ -224,18 +297,20 @@ Footer
         font-size: var(--parrafo-tlf);
     }
     .txt-nos-home {
+        margin-bottom: 12px !important;
         text-align: center;
+        line-height: 15px;
     }
 
     .bg-contador h1,
     .bg-contador h6 {
-        margin-bottom: 0 !important;
+        margin-bottom: 10px !important;
     }
 
     .contain-contador {
-        -ms-flex: 0 0 37% !important;
-            flex: 0 0 37% !important;
-        max-width: 37% !important;
+        -ms-flex: 0 0 45% !important;
+            flex: 0 0 45% !important;
+        max-width: 45% !important;
         margin: 4px !important;
     }
 
@@ -246,9 +321,17 @@ Footer
         background-color: var(--rosado-cla);
     }
 
+    .txt-contado {
+        font-size: 11px;
+    }
+
     /*-------------------------------------
             6.  Cursos/Talleres home
     --------------------------------------*/
+    .txt-cursos {
+        width: 143px;
+        font-size: var(--subtitulo-tlf);
+    }
     .item-curs-home {
         width: auto;
         height: auto;
@@ -304,10 +387,12 @@ Footer
     }
 
     .contain-titus-novedades {
-        margin-bottom: -7px !important;
+        margin-bottom: -28px !important;
     }
 
     .txt-novedades {
+        width: 143px;
+        font-size: var(--subtitulo-tlf);
         margin-bottom: 0 !important;
     }
 
@@ -317,11 +402,10 @@ Footer
     }
 
     .titu-novedades {
-        width: 94%;
+        width: 81%;
         margin: auto;
-        font-size: 24px;
-        line-height: 26px;
-        margin-bottom: 0 !important;
+        font-size: 21px;
+        line-height: 25px;
     }
 
     .titu-noveda {
@@ -341,15 +425,15 @@ Footer
     }
 
     .txt-ebooks {
-        font-size: var(--parrafo-tlf);
-        margin-bottom: 0 !important;
+        width: 143px;
+        font-size: var(--subtitulo-tlf);
     }
     
     .titu-ebooks {
+        width: 81%;
         margin: auto;
-        font-size: var(--titulo-tlf);
-        line-height: 29px;
-        margin-bottom: 0 !important;
+        font-size: 21px;
+        line-height: 25px;
     }
 
     #carousel-container {
@@ -390,7 +474,7 @@ Footer
     }
 
     .container-valores {
-        margin-top: 60px;
+        margin-top: 88px;
     }
 
     .row-valor {
@@ -398,13 +482,15 @@ Footer
     }
 
     .txt-valores {
-        font-size: var(--parrafo-tlf);
+        width: 143px;
+        font-size: var(--subtitulo-tlf);
     }
 
     .titu-valores {
+        width: 81%;
         margin: auto;
-        font-size: var(--titulo-tlf);
-        line-height: 29px;
+        font-size: 21px;
+        line-height: 25px;
     }
 
     .col-list-valo {
@@ -416,11 +502,29 @@ Footer
         width: 102px !important;
     }
 
-    .valor-carousel .owl-nav {
+    .txt-valores-curso {
+        width: 291px;
+        font-size: var(--parrafo);
+        font-weight: 600 !important;
+        color: var(--fucsia-osc1);
+    }
+
+    /* .valor-carousel .owl-nav {} */
+    .valor-carousel .owl-dots {
         display: none;
     }
-    .valor-carousel .owl-dots {
-        display: block;
+
+    .valor-carousel .owl-nav .owl-prev {
+        margin-left: -17px;
+    }
+    .valor-carousel .owl-nav .owl-next {
+        margin-right: -17px;
+    }
+
+    .valor-carousel .owl-nav .owl-prev,
+    .valor-carousel .owl-nav .owl-next {
+        border: 2px solid var(--rosado-osc);
+        background: var(--rosado-osc);
     }
 
     .titus-valo-curso {
@@ -460,6 +564,10 @@ Footer
         padding-bottom: 16px;
     }
 
+    .col-testimo {
+        padding: 0 12px !important;
+    }
+
     .section-titu-testi {
         text-align: center;
     }
@@ -472,6 +580,8 @@ Footer
     }
 
     .txt-info-testimo {
+        width: 326px;
+        margin: auto !important;
         text-align: center;
         margin-bottom: 22px !important;
     }
@@ -485,7 +595,9 @@ Footer
     }
 
     .cont-testimo {
-        padding: 21px !important;
+        padding: 5px !important;
+        border: 2px solid var(--fucsia-1);
+        background: var(--blanco);
     }
 
     .testimonial-carousel .icon-cita {
@@ -495,11 +607,6 @@ Footer
     .txt-testimos {
         font-size: var(--parrafo-tlf);
         line-height: 15px;
-    }
-
-    .cont-testimo {
-        border: 2px solid var(--fucsia-osc);
-        background: var(--blanco);
     }
 
     /*-------------------------------------
@@ -512,6 +619,7 @@ Footer
     }
 
     .section-titu-conta {
+        width: auto;
         text-align: center;
     }
 
@@ -521,15 +629,15 @@ Footer
     }
 
     .txt-suscrip {
-        font-size: var(--parrafo-tlf);
-        margin-bottom: 0 !important;
+        width: 143px;
+        font-size: var(--subtitulo-tlf);
     }
 
     .titu-suscrip {
-        width: 80%;
-        margin: 7px auto 0 !important;
-        font-size: var(--titulo-tlf);
-        line-height: 29px;
+        width: 81%;
+        margin: auto;
+        font-size: 21px;
+        line-height: 25px;
     }
 
     .info-suscript-home {

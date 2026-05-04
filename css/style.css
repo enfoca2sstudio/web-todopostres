@@ -2794,7 +2794,7 @@ button.nav-item {
   position: absolute;
   width: 135px;
   height: 60px;
-  top: -47px;
+  top: 17px;
   right: -12px;
   display: flex;
   z-index: 1;
@@ -2811,16 +2811,16 @@ button.nav-item {
   margin: 0 6px;
   font-size: 18px;
   color: var(--blanco);
-  border: 2px solid var(--purpura-osc);
+  border: 2px solid var(--fucsia-1);
   border-radius: 100%;
-  background: var(--purpura-osc);
+  background: var(--fucsia-1);
   transition: .5s;
 }
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
-  color: var(--purpura-osc);
-  border: 2px solid var(--purpura-osc);
+  color: var(--fucsia-1);
+  border: 2px solid var(--fucsia-1);
   background: transparent;
 }
 
