@@ -1583,8 +1583,10 @@ button.nav-item {
 }
 
 .txt-mis-vis {
+  margin-top: 33px;
+  margin-bottom: -1px;
   font-size: var(--parrafo);
-  color: var(--fucsia);
+  color: var(--fucsia-1);
 }
 .txt-mis-vis::before {
   position: absolute !important;
@@ -1665,7 +1667,7 @@ button.nav-item {
 
 .subtitu-somos {
   font-size: 20px;
-  color: var(--fucsia-osc);
+  color: var(--fucsia-osc1);
 }
 
 /*-------------------------------------
@@ -3485,6 +3487,7 @@ button.nav-item {
     16. Ebooks Hero
 --------------------------------------*/
 .hero-ebooks {
+  margin-bottom: 22px !important;
   background: url("../img/3-ebooks/hero-ebooks.webp") 0 0 no-repeat;
   background-position: center;
   background-size: cover;

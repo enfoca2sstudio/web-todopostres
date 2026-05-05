@@ -430,7 +430,7 @@ Footer
     }
     
     .titu-ebooks {
-        width: 81%;
+        width: 294px;
         margin: auto;
         font-size: 21px;
         line-height: 25px;
@@ -487,7 +487,7 @@ Footer
     }
 
     .titu-valores {
-        width: 81%;
+        width: 294px;
         margin: auto;
         font-size: 21px;
         line-height: 25px;
@@ -653,11 +653,40 @@ Footer
     /*-------------------------------------
             12. Cursos Hero
     --------------------------------------*/
+    .col-hero-cursos {
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+        max-width: 100% !important;
+        padding: 65px 0 !important;
+    }
+    .col-hero-cursos1 {
+        display: none;
+    }
     .hero-cursos {
-        padding: 44px 0;
-        margin-bottom: 109px;
+        margin-bottom: 51px;
         border-bottom-left-radius: 69px;
         border-bottom-right-radius: 69px;
+        background: url("../img/2-cursos/2-1-cursos/header-cursos-nvo.webp") no-repeat center -116px;
+        background-size: 575px;
+    }
+
+    .cont-hero-curso {
+        background: #ffffff;
+        background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+           background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+                background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=1);
+    }
+
+    .txt-hero-cursos {
+        margin-left: 124px !important;
+        margin-bottom: -7px !important;
+        font-size: 23px;
+    }
+
+    .titu-hero-cursos {
+        font-size: 89px;
+        text-align: center;
     }
 
     .img-hero-cursos {
@@ -683,7 +712,11 @@ Footer
         width: 100%;
         height: 100%;
         margin: auto !important;
-        padding: 22px 0 !important;
+        padding: 40px 0 !important;
+    }
+
+    .col-items-cursos:nth-child(1) .txt-firma-front {
+        height: 390px;
     }
 
     .col-items-cursos .titus-front2 .font-base {
@@ -707,12 +740,13 @@ Footer
     }
 
     .titu-modal-curs-head {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .cont-precio-modal {
         width: 25%;
         margin-bottom: 3px !important;
+        padding: 5px 0;
     }
 
     .contain-info-curs {
@@ -720,10 +754,8 @@ Footer
     }
 
     .titu-curs-modal {
-        margin-bottom: 9px !important;
-        font-family: 'Heading Now Trial 66';
-        font-size: 20px;
-        color: var(--fucsia-osc);
+        font-size: 17px;
+        color: var(--fucsia-1);
     }
 
     .list-cont-modal {
@@ -731,7 +763,6 @@ Footer
         width: 100%;
         margin: auto;
         margin-bottom: 1px;
-        border: 1px solid red;
     }
 
     .list-item-modal {
@@ -744,7 +775,7 @@ Footer
     }
 
     .titu-contain-modal1 {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .txt-contain-modal, .list-contain-modal {
@@ -776,14 +807,30 @@ Footer
             14. Certificaciones Hero
     --------------------------------------*/
     .hero-certifica {
-        padding: 44px 0;
-        margin-bottom: 109px;
-        border-bottom-left-radius: 69px;
-        border-bottom-right-radius: 69px;
+        margin-bottom: 51px;
+        background: url("../img/2-cursos/2-1-cursos/header-cursos-nvo.webp") no-repeat center -114px;
+        background-size: 719px;
     }
 
-    .img-hero-certifi {
-        width: 365px;
+    .cont-hero-certifica {
+        background: #ffffff;
+        background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+           background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+                background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=1);
+    }
+
+    .txt-hero-certifica {
+        margin-bottom: 3px !important;
+        margin-left: 37%;
+        font-size: 21px;
+    }
+
+    .titu-hero-certifica {
+        font-size: 60px;
+        font-style: normal !important;
+        line-height: 52px;
+        color: var(--fucsia-osc2);
     }
 
     /*-------------------------------------
@@ -799,6 +846,15 @@ Footer
         margin: 0 !important;
         padding-top: 14px !important;
         padding-bottom: 14px !important;
+    }
+
+    .col-certifica {
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .col-certifica1 {
+        margin-bottom: 24px !important;
     }
 
     .cursos-carousel {
@@ -852,11 +908,19 @@ Footer
     .row-container-hero {
         margin: auto;
         padding: 0 7px !important;
+        background: #ffffff;
+        background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.87) 80%);
+           background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.87) 80%);
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.87) 80%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=1);
     }
     .container-ebook {
         margin: 0 !important;
         padding-top: 14px !important;
         padding-bottom: 50px !important;
+    }
+    .contain-ebook {
+        margin-top: 39px;
     }
     .item-hero-ebooks {
         -ms-flex: 0 0 100%;
@@ -887,6 +951,11 @@ Footer
 
     .overlay-ebooks {
         padding: 29px 0;
+        background: #ffffff;
+        background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 20%, rgb(255, 255, 255, 0.9) 80%);
+           background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.9) 80%);
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.9) 80%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=0);
     }
 
     .btn-ebooks {
