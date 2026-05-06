@@ -168,13 +168,12 @@ Footer
     }
     .contain-video-hero {
         height: auto;
-        padding: 51px 0 !important;
     }
     .vid-hero {
         display: block;
         margin: auto;
         width: 360px !important;
-        height: 202px !important;
+        height: auto !important;
     }
 
     .cont-marquee {
