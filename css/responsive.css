@@ -314,13 +314,6 @@ Footer
         margin: 4px !important;
     }
 
-    .contain-contador .bg-contador {
-        padding: 4px;
-        border: 1px solid var(--fucsia);
-        border-radius: 10px;
-        background-color: var(--rosado-cla);
-    }
-
     .txt-contado {
         font-size: 11px;
     }
@@ -975,8 +968,7 @@ Footer
         padding: 0;
     }
 
-    .wrapper-somos,
-    .wrapper-mis-vis {
+    .wrapper-somos {
         margin: 0 !important;
         padding-top: 14px !important;
         padding-bottom: 14px !important;
@@ -992,10 +984,6 @@ Footer
         text-align: center;
     }
 
-    .wrapper-mis-vis {
-        margin-top: -58px !important;
-    }
-
     .contador-somos {
         padding: 24px 11px !important;
     }
@@ -1003,9 +991,82 @@ Footer
     .bg-mis-vis {
         background-color: var(--fucsia);
     }
+    /*=====================================
+        E.  Nosotros
+    =======================================*/
+    /*-------------------------------------
+            18. Contenido Nosotros
+    --------------------------------------*/
+    .col-somos-popup {
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        max-width: 100%;
+    }
 
-    .cont-misvis p {
+    .img-somos-popup {
+        display: block;
+        width: 100%;
+        margin: auto;
+        transform: scaleX(-1);
+    }
+
+    .titu-noso-popup {
+        margin-top: 24px;
+        font-size: 27px;
+        text-align: center;
+        line-height: 31px;
+    }
+
+    .txt-noso-popup {
+        width: auto;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .contain-contador-popup {
+        padding: 25px 0 !important;
+        background: #fff7fa;
+    }
+
+    .contain-contador-popup .col-contado {
+        -ms-flex: 0 0 38% !important;
+            flex: 0 0 38% !important;
+        max-width: 100% !important;
+        margin: 5px !important;
+    }
+
+    .wrapper-mis-vis {
+        width: 100% !important;
+    }
+
+    .txt-mis-vis {
+        margin-top: 18px;
+        margin-bottom: -1px;
         font-size: var(--parrafo-tlf);
+        font-weight: 700 !important;
+        color: var(--fucsia-1);
+    }
+
+    .titu-mis-vis {
+        font-size: 25px;
+        color: var(--marro-gris);
+    }
+
+    .text-mis-vis, .subtitu-somos,
+    .txt-somos {
+        font-size: 13px;
+        line-height: 16px;
+        color: var(--marro-gris);
+    }
+
+    .subtitu-somos {
+        margin-bottom: 0 !important;
+    }
+
+    .text-misvis-firma {
+        font-size: 13px;
+        line-height: 16px;
+        color: var(--fucsia-osc2);
     }
 
     /*=====================================
