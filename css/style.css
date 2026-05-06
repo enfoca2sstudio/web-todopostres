@@ -1348,21 +1348,10 @@ button.nav-item {
   z-index: 1;
 }
 
-.overlay-top::before {
-  top: 0;
-  background: url(../img/overlay-top.png) top center no-repeat;
-  background-size: contain;
-}
-
-.overlay-bottom::after {
-  bottom: 0;
-  background: url(../img/overlay-bottom.png) bottom center no-repeat;
-  background-size: contain;
-}
 .contain-video-hero {
   height: 324px;
-  background: url(../img/1-home/hero-img.webp) center center no-repeat;
-  background-size: cover;
+  /* background: url(../img/1-home/hero-img.webp) center center no-repeat;
+  background-size: cover; */
 }
 
 .titus-hero-home {
