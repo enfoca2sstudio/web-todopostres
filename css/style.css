@@ -3488,6 +3488,67 @@ button.nav-item {
   margin: 6px;
 }
 
+.col-certifica:nth-child(1) .contain-front-cursos {
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+  background: url("../img/2-cursos/2-2-certificados/certifica-img-nvo-01.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.col-certifica:nth-child(2) .contain-front-cursos {
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+  background: url("../img/2-cursos/2-2-certificados/certifica-img-nvo-02.webp") 0 0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.col-certifica .txt-firma-front {
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  font-family: 'Heading Now Trial 65';
+  font-size: 11px;
+  font-weight: 400 !important;
+  line-height: 13px;
+  color: var(--marro-gris);
+  border: none !important;
+  background: none !important;
+}
+.col-certifica .txt-firma-front {
+  width: 100%;
+  background: none !important;
+}
+
+.wrapper-modal-certifica .modal-content-curs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 645px !important;
+  margin: auto;
+  padding-bottom: 47px;
+  border: transparent;
+  background: transparent !important;
+  outline: 0;
+  overflow-y: scroll;
+  pointer-events: auto;
+}
+
+.col-certifica .contain-front-cursos {
+  width: 351px;
+  height: 509px;
+  margin: auto !important;
+  padding: 22px 0 !important;
+}
+
+.img-certificaciones {
+  display: block;
+  width: 447px;
+  margin: auto;
+}
+
 /*=====================================
   D.  Ebooks
 =======================================*/
