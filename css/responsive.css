@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*=========== TABLE OF CONTENTS ===========
 1.  CSS General
 2.  Header
@@ -1190,4 +1191,1198 @@ Footer
         width: 14px;
         height: 14px;
     }
+=======
+/*=========== TABLE OF CONTENTS ===========
+1.  CSS General
+2.  Header
+A.  Home
+  3.  Pop-up home
+  4.  Hero home
+  5.  Contador
+  6.  Cursos/Talleres home
+  7.  Novedades
+  8.  Ebooks
+  9.  Valores
+  10. Testimonios
+  11. Sucripción
+B.  Cursos
+  12. Cursos Hero
+  13. Contenido cursos
+C.  Certificaciones
+  14. Certificaciones Hero
+  15. Contenido certificaciones
+D.  Ebooks
+  16. Ebooks Hero
+  17. Ebooks Contenido
+E.  Nosotros
+  18. Contenido Nosotros
+F.  Contacto
+  19. Contenido contacto
+Footer
+===========================================*/
+@media (max-width: 768px) {
+    /*=====================================
+        1.  CSS General
+    =======================================*/
+    .underline-ver-1 {
+        width: 100px;
+    }
+
+    .underline-dots,
+    .underline-dots-1,
+    .underline-dots-2 {
+        width: 114px;
+    }
+
+    .circul {
+        width: 9px;
+        height: 9px;
+    }
+
+    .back-to-top {
+        right: 24px;
+    }
+
+    .btn-colapse {
+        right: 18px;
+    }
+
+    .desk {
+        display: none !important;
+    }
+    .tlf {
+        display: block !important;
+    }
+
+    .campo-form:nth-child(2) {
+        border-top-left-radius: 10px !important;
+        border-bottom-left-radius: 10px !important;
+    }
+
+    /*=====================================
+        2.  Header
+    =======================================*/
+    .navbar {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: left;
+    }
+
+    .logo-head {
+        width: 119px;
+        height: auto;
+    }
+
+    /*=====================================
+        A.  Home
+    =======================================*/
+    /*-------------------------------------
+            3.  Pop-up home
+    --------------------------------------*/
+    .modal-dialog {
+        margin-top: 22px;
+    }
+    .popup-content {
+    	width: 342px;
+    	padding: 20px 9px;
+    }
+
+    .heading-popup {
+    	font-size: var(--titulo-tlf) !important;
+    }
+
+    .pop-titu {
+    	top: 17%;
+    	font-size: 26px !important;
+    }
+
+    .pop-titu1 {
+	    font-size: 32px !important;
+        line-height: 34px !important;
+    }
+
+    .txt-popup {
+    	font-size: 18px !important;
+    }
+
+    .card-pop:hover .pop-titu {
+        top: -13%;
+    }
+
+    /*-------------------------------------
+            4.  Hero home
+    --------------------------------------*/
+    .item-carru-home1 {
+        background: url(../img/1-home/hero-img-nvo.webp) -559px center no-repeat;
+        background-size: 1084px;
+    }
+    .item-carru-home2 {
+        background: url(../img/1-home/hero-img-nvo-1.webp) center right no-repeat;
+        background-size: cover;
+    }
+    .item-carru-home3 {
+        background: url(../img/1-home/hero-img-nvo-2.webp) -599px center no-repeat;
+        background-size: cover;
+    }
+
+    .item-carru-home1 .row-hero-home {
+        background: #ffffff;
+        background: -webkit-linear-gradient(360deg, rgba(255, 255, 255, 1) 40%, rgba(245, 245, 245, 0) 80%);
+           background: -moz-linear-gradient(360deg, rgba(255, 255, 255, 1) 40%, rgba(245, 245, 245, 0) 80%);
+                background: linear-gradient(360deg, rgba(255, 255, 255, 1) 40%, rgba(245, 245, 245, 0) 80%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#F5F5F5", GradientType=1);
+    }
+    .item-carru-home2 .row-hero-home {
+        background: #820041;
+        background: -webkit-linear-gradient(360deg, rgba(130, 0, 65, 1) 45%, rgba(245, 245, 245, 0) 80%);
+           background: -moz-linear-gradient(360deg, rgba(130, 0, 65, 1) 45%, rgba(245, 245, 245, 0) 80%);
+                background: linear-gradient(360deg, rgba(130, 0, 65, 1) 45%, rgba(245, 245, 245, 0) 80%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#820041", endColorstr="#F5F5F5", GradientType=1);
+    }
+    .item-carru-home3 .row-hero-home {
+        background: #ffffff;
+        background: -webkit-linear-gradient(360deg, rgba(255, 255, 255, 1) 45%, rgba(245, 245, 245, 0) 75%);
+           background: -moz-linear-gradient(360deg, rgba(255, 255, 255, 1) 45%, rgba(245, 245, 245, 0) 75%);
+                background: linear-gradient(360deg, rgba(255, 255, 255, 1) 45%, rgba(245, 245, 245, 0) 75%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#F5F5F5", GradientType=1);
+    }
+
+    .txts-hero-home {
+        width: auto;
+        font-size: 14px;
+        text-align: left;
+        line-height: 16px;
+        color: var(--negro);
+    }
+    .txt-hero-home {
+        font-size: var(--parrafo-tlf);
+        color: var(--rosado-osc);
+    }
+    .contain-video-hero {
+        height: auto;
+    }
+    .vid-hero {
+        display: block;
+        margin: auto;
+        width: 360px !important;
+        height: auto !important;
+    }
+
+    .cont-marquee {
+        padding: 3px 0 !important;
+    }
+
+    .marquee__item {
+	    font-size: 11px !important;
+    }
+
+    .hero-home {
+        margin-bottom: 0 !important;
+    }
+    .row-hero-home {
+        width: auto;
+        height: 600px;
+        overflow: hidden;
+        margin-bottom: -31px !important;
+    }
+
+    .col-hero-home {
+        padding: 0 !important;
+    }
+    .col-hero-home1 {
+        -ms-flex: 0 0 88%;
+            flex: 0 0 88%;
+        max-width: 100%;
+        padding: 0 !important;
+        margin-top: 281px;
+    }
+    .col-hero-home2 {
+        display: none;
+    }
+
+    .img-hero-home {
+        top: 0;
+        left: 0;
+        width: 314px;
+    }
+
+    .row-dots-hero {
+        width: 155px;
+        margin: auto !important;
+    }
+    .dots-hero {
+        width: 17px !important;
+        height: 17px !important;
+        padding: 0 !important;
+    }
+
+    .titu-hero-home {
+        font-size: 25px;
+        text-align: center;
+        line-height: 27px;
+    }
+
+    .link-hero-home {
+        width: 49%;
+        margin: auto !important;
+        padding: 6px 18px;
+        font-size: 19px;
+    }
+    .item-carru-home2 .link-hero-home {
+        width: 51%;
+        margin: auto !important;
+        margin-right: 100% !important;
+    }
+    .item-carru-home3 .link-hero-home {
+        width: 51%;
+        margin: auto !important;
+        margin-right: 100% !important;
+    }
+
+    .texto {
+    	font-size: 14px;
+    }
+
+    /*-------------------------------------
+            5.  Contador
+    --------------------------------------*/
+    .container-cursos-home {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .contain-cursos-home {
+        padding-top: 34px !important;
+        padding-bottom: 27px !important;
+    }
+    .seccion-titu-conta {
+        text-align: center;
+    }
+    .titu-noso-home {
+        width: 80%;
+        margin: auto;
+        font-size: var(--titulo-tlf);
+        line-height: 29px;
+        text-align: center;
+    }
+
+    .col-contador {
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .col-contador-1 {
+        margin-bottom: 24px !important;
+    }
+
+    .img-somos {
+        width: 247px;
+        height: auto;
+    }
+
+    .seccion-titu-conta {
+        margin-bottom: 0 !important;
+    }
+
+    .txt-noso-home,
+    .txt-nos-home {
+        font-size: var(--parrafo-tlf);
+    }
+    .txt-nos-home {
+        margin-bottom: 12px !important;
+        text-align: center;
+        line-height: 15px;
+    }
+
+    .bg-contador h1,
+    .bg-contador h6 {
+        margin-bottom: 10px !important;
+    }
+
+    .contain-contador {
+        -ms-flex: 0 0 45% !important;
+            flex: 0 0 45% !important;
+        max-width: 45% !important;
+        margin: 4px !important;
+    }
+
+    .txt-contado {
+        font-size: 11px;
+    }
+
+    /*-------------------------------------
+            6.  Cursos/Talleres home
+    --------------------------------------*/
+    .txt-cursos {
+        width: 143px;
+        font-size: var(--subtitulo-tlf);
+    }
+    .item-curs-home {
+        width: auto;
+        height: auto;
+    }
+    .img-item-curs-home {
+        width: 259px;
+        height: 404px;
+        margin: auto !important;
+    }
+
+    .contain-back-cursos {
+        padding: 6px 15px;
+        background: var(--fucsia-cla);
+    }
+
+    .titu-cursos-back {
+        font-size: var(--subtitulo-tlf);
+        line-height: 24px;
+    }
+
+    .txt-descrip-cursos {
+        margin-top: 16px !important;
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    .list-descrip-back {
+        margin-top: 11px;
+        margin-bottom: 16px !important;
+    }
+
+    .cont-precio {
+        margin-top: -9px !important;
+    }
+
+    .col-precio-back {
+        -ms-flex: 0 0 33%;
+            flex: 0 0 33%;
+        max-width: 100%;
+    }
+    .col-precio-back a {
+        width: 105px;
+        padding: 6px;
+        font-size: var(--parrafo-tlf);
+    }
+
+    /*-------------------------------------
+            7.  Novedades
+    --------------------------------------*/
+    .container-titus-novedades {
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .contain-titus-novedades {
+        margin-bottom: -28px !important;
+    }
+
+    .txt-novedades {
+        width: 143px;
+        font-size: var(--subtitulo-tlf);
+        margin-bottom: 0 !important;
+    }
+
+    .courses-carousel {
+        width: 93%;
+        margin: auto !important;
+    }
+
+    .titu-novedades {
+        width: 81%;
+        margin: auto;
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .titu-noveda {
+        font-size: var(--subtitulo-tlf);
+    }
+
+    /*-------------------------------------
+            8.  Ebooks
+    --------------------------------------*/
+    .container-ebooks {
+        margin-top: -45px !important;
+        margin-bottom: 72px !important;
+    }
+    .container-titus-ebooks {
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .txt-ebooks {
+        width: 143px;
+        font-size: var(--subtitulo-tlf);
+    }
+    
+    .titu-ebooks {
+        width: 294px;
+        margin: auto;
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    #carousel-container {
+        width: 154px;
+        height: 103px;
+    }
+
+    #carousel {
+        height: 250px;
+    }
+
+    .carousel-ebook {
+        width: 130px;
+        height: 163px;
+    }
+
+    .cont-ebook {
+        padding: 12px 0;
+    }
+
+    #carousel .item {
+        width: 150px;
+        margin-left: -75px;
+    }
+    
+    .btn-ebook {
+        width: 58%;
+        font-size: var(--parrafo-tlf) !important;
+    }
+
+    /*-------------------------------------
+            9.  Valores
+    --------------------------------------*/
+    .wrapper-valor {
+        margin-top: 0;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .container-valores {
+        margin-top: 88px;
+    }
+
+    .row-valor {
+        padding: 0 25px;
+    }
+
+    .txt-valores {
+        width: 143px;
+        font-size: var(--subtitulo-tlf);
+    }
+
+    .titu-valores {
+        width: 294px;
+        margin: auto;
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .col-list-valo {
+        margin-bottom: 86px;
+    }
+
+    .cont-img-valor {
+        padding: 23px;
+        width: 102px !important;
+    }
+
+    .txt-valores-curso {
+        width: 291px;
+        font-size: var(--parrafo);
+        font-weight: 600 !important;
+        color: var(--fucsia-osc1);
+    }
+
+    /* .valor-carousel .owl-nav {} */
+    .valor-carousel .owl-dots {
+        display: none;
+    }
+
+    .valor-carousel .owl-nav .owl-prev {
+        margin-left: -17px;
+    }
+    .valor-carousel .owl-nav .owl-next {
+        margin-right: -17px;
+    }
+
+    .valor-carousel .owl-nav .owl-prev,
+    .valor-carousel .owl-nav .owl-next {
+        border: 2px solid var(--rosado-osc);
+        background: var(--rosado-osc);
+    }
+
+    .titus-valo-curso {
+        margin-top: -74px;
+        margin-bottom: -65px;
+    }
+
+    .valor-carousel {
+        margin-bottom: 47px;
+    }
+
+    .valor-carousel .owl-dots .owl-dot span {
+        background-color: rgba(155, 0, 137, 0.4);
+    }
+
+    .valor-carousel .owl-dots .owl-dot:hover span,
+    .valor-carousel .owl-dots .owl-dot.active span {
+        background-color: var(--purpura-osc);
+    }
+
+    /*-------------------------------------
+            10.  Testimonios
+    --------------------------------------*/
+    .wrapper-testimo {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+        background: #C800A7;
+        background: -webkit-linear-gradient(180deg, rgba(200, 0, 167, 1) 0%, rgba(255, 255, 255, 0.7) 95%);
+           background: -moz-linear-gradient(180deg, rgba(200, 0, 167, 1) 0%, rgba(255, 255, 255, 0.7) 95%);
+                background: linear-gradient(180deg, rgba(200, 0, 167, 1) 0%, rgba(255, 255, 255, 0.7) 95%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#C800A7", endColorstr="#FFFFFF", GradientType=0);
+    }
+
+    .container-testimo {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .col-testimo {
+        padding: 0 12px !important;
+    }
+
+    .section-titu-testi {
+        text-align: center;
+    }
+
+    .txt-testimo,
+    .txt-info-testimo {
+        margin-bottom: 0 !important;
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    .txt-info-testimo {
+        width: 326px;
+        margin: auto !important;
+        text-align: center;
+        margin-bottom: 22px !important;
+    }
+    
+    .titu-testimo {
+        width: 90%;
+        margin: auto;
+        font-size: var(--titulo-tlf);
+        line-height: 29px;
+        margin-bottom: 0 !important;
+    }
+
+    .cont-testimo {
+        padding: 5px !important;
+        border: 2px solid var(--fucsia-1);
+        background: var(--blanco);
+    }
+
+    .testimonial-carousel .icon-cita {
+        font-size: 35px;
+    }
+
+    .txt-testimos {
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+
+    /*-------------------------------------
+            11. Sucripción
+    --------------------------------------*/
+    .wrapper-contacto {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .section-titu-conta {
+        width: auto;
+        text-align: center;
+    }
+
+    .contain-sucrp {
+        width: auto;
+        padding: 0 10px;
+    }
+
+    .txt-suscrip {
+        width: 143px;
+        font-size: var(--subtitulo-tlf);
+    }
+
+    .titu-suscrip {
+        width: 81%;
+        margin: auto;
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .info-suscript-home {
+        width: 90%;
+        margin-top: 20px !important;
+        font-size: var(--parrafo);
+        line-height: 17px;
+    }
+
+    /*=====================================
+        B.  Cursos
+    =======================================*/
+    /*-------------------------------------
+            12. Cursos Hero
+    --------------------------------------*/
+    .col-hero-cursos {
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+        max-width: 100% !important;
+        padding: 65px 0 !important;
+    }
+    .col-hero-cursos1 {
+        display: none;
+    }
+    .hero-cursos {
+        margin-bottom: 51px;
+        border-bottom-left-radius: 69px;
+        border-bottom-right-radius: 69px;
+        background: url("../img/2-cursos/2-1-cursos/header-cursos-nvo.webp") no-repeat center -116px;
+        background-size: 575px;
+    }
+
+    .cont-hero-curso {
+        background: #ffffff;
+        background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+           background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+                background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=1);
+    }
+
+    .txt-hero-cursos {
+        margin-left: 124px !important;
+        margin-bottom: -7px !important;
+        font-size: 23px;
+    }
+
+    .titu-hero-cursos {
+        font-size: 89px;
+        text-align: center;
+    }
+
+    .img-hero-cursos {
+        width: 86%;
+    }
+
+    /*-------------------------------------
+            13. Contenido cursos
+    --------------------------------------*/
+    .wrapper-cursos {
+        margin: 0 !important;
+        margin-top: -55px !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+    .container-cursos    {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .col-items-cursos .contain-front-cursos {
+        width: 100%;
+        height: 100%;
+        margin: auto !important;
+        padding: 40px 0 !important;
+    }
+
+    .col-items-cursos:nth-child(1) .txt-firma-front {
+        height: 390px;
+    }
+
+    .col-items-cursos .titus-front2 .font-base {
+        font-size: 35px;
+        font-style: normal !important;
+    }
+    .col-items-cursos3 .titus-front2 .font-base {
+        margin-top: 1px !important;
+        font-size: 54px;
+        color: var(--blanco);
+    }
+
+    .modal-content-curs {
+        width: 90%;
+        height: 609px !important;
+    }
+
+    .wrapper-info-curs {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .titu-modal-curs-head {
+        font-size: 14px;
+    }
+
+    .cont-precio-modal {
+        width: 25%;
+        margin-bottom: 3px !important;
+        padding: 5px 0;
+    }
+
+    .contain-info-curs {
+        padding: 0 12px !important;
+    }
+
+    .titu-curs-modal {
+        font-size: 17px;
+        color: var(--fucsia-1);
+    }
+
+    .list-cont-modal {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 1px;
+    }
+
+    .list-item-modal {
+        font-size: var(--parrafo-tlf);
+        line-height: 16px;
+    }
+
+    .contain-curs-modal {
+        padding: 12px 20px;
+    }
+
+    .titu-contain-modal1 {
+        font-size: 17px;
+    }
+
+    .txt-contain-modal, .list-contain-modal {
+        font-size: var(--parrafo-tlf);
+        line-height: 16px;
+    }
+
+    .titu-contain-modal2 {
+        font-size: var(--parrafo-tlf);
+    }
+
+    .txt-condicio {
+        width: 91%;
+        margin-top: 15px;
+        font-size: var(--parrafo-tlf);
+        line-height: 16px;
+    }
+
+    .link-curs {
+        width: 228px;
+        margin-top: 16px;
+        font-size: var(--subtitulo-tlf);
+    }
+
+    /*=====================================
+        C.  Certificaciones
+    =======================================*/
+    /*-------------------------------------
+            14. Certificaciones Hero
+    --------------------------------------*/
+    .hero-certifica {
+        margin-bottom: 51px;
+        background: url("../img/2-cursos/2-1-cursos/header-cursos-nvo.webp") no-repeat center -114px;
+        background-size: 719px;
+    }
+
+    .cont-hero-certifica {
+        background: #ffffff;
+        background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+           background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+                background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=1);
+    }
+
+    .txt-hero-certifica {
+        margin-bottom: 3px !important;
+        margin-left: 37%;
+        font-size: 21px;
+    }
+
+    .titu-hero-certifica {
+        font-size: 60px;
+        font-style: normal !important;
+        line-height: 52px;
+        color: var(--fucsia-osc2);
+    }
+
+    /*-------------------------------------
+            15. Contenido certificaciones
+    --------------------------------------*/
+    .wrapper-certificacion {
+        margin: 0 !important;
+        margin-top: -55px !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+    .container-certificacion {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .col-certifica {
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .col-certifica1 {
+        margin-bottom: 24px !important;
+    }
+
+    .cursos-carousel {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .nav-carru-curso {
+        display: flex;
+        width: auto;
+    }
+    .curso-item {
+        width: 300px;
+        height: 300px;
+    }
+    .curso-item .cursos-text,
+    .courses-list-item .cursos-text {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cursos-text h4 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .col-nav-curso {
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .contain-nav {
+        width: 96px;
+        border: 3px solid var(--fucsia);
+    }
+
+    /*=====================================
+        D.  Ebooks
+    =======================================*/
+    /*-------------------------------------
+            16. Ebooks Hero
+    --------------------------------------*/
+    .wrapper-ebook {
+        margin: 0 !important;
+        margin-top: -55px !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+    .row-container-hero {
+        margin: auto;
+        padding: 0 7px !important;
+        background: #ffffff;
+        background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.87) 80%);
+           background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.87) 80%);
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.87) 80%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=1);
+    }
+    .container-ebook {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 50px !important;
+    }
+    .contain-ebook {
+        margin-top: 39px;
+    }
+    .item-hero-ebooks {
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .titus-hero-ebooks1, .titus-hero-ebooks3 {
+        font-size: 28px;
+    }
+    .titus-hero-ebooks2 {
+        font-size: 68px;
+        line-height: 46px;
+    }
+
+    /*-------------------------------------
+            17. Ebooks Contenido
+    --------------------------------------*/
+    .container-ebook {
+        width: 100% !important;
+    }
+    .row-ebooks {
+        display: flex;
+        width: auto;
+        flex-wrap: wrap;
+    }
+    .col-ebooks {
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .overlay-ebooks {
+        padding: 29px 0;
+        background: #ffffff;
+        background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 20%, rgb(255, 255, 255, 0.9) 80%);
+           background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.9) 80%);
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.9) 80%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=0);
+    }
+
+    .btn-ebooks {
+        font-size: 23px !important;
+    }
+
+    /*=====================================
+        E.  Nosotros
+    =======================================*/
+    /*-------------------------------------
+            18. Contenido Nosotros
+    --------------------------------------*/
+    .modal-body {
+        padding: 0;
+    }
+
+    .wrapper-somos {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .container-somos {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .seccion-titu-somos {
+        text-align: center;
+    }
+
+    .contador-somos {
+        padding: 24px 11px !important;
+    }
+
+    .bg-mis-vis {
+        background-color: var(--fucsia);
+    }
+    /*=====================================
+        E.  Nosotros
+    =======================================*/
+    /*-------------------------------------
+            18. Contenido Nosotros
+    --------------------------------------*/
+    .col-somos-popup {
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .img-somos-popup {
+        display: block;
+        width: 100%;
+        margin: auto;
+        transform: scaleX(-1);
+    }
+
+    .titu-noso-popup {
+        margin-top: 24px;
+        font-size: 27px;
+        text-align: center;
+        line-height: 31px;
+    }
+
+    .txt-noso-popup {
+        width: auto;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .contain-contador-popup {
+        padding: 25px 0 !important;
+        background: #fff7fa;
+    }
+
+    .contain-contador-popup .col-contado {
+        -ms-flex: 0 0 38% !important;
+            flex: 0 0 38% !important;
+        max-width: 100% !important;
+        margin: 5px !important;
+    }
+
+    .wrapper-mis-vis {
+        width: 100% !important;
+    }
+
+    .txt-mis-vis {
+        margin-top: 18px;
+        margin-bottom: -1px;
+        font-size: var(--parrafo-tlf);
+        font-weight: 700 !important;
+        color: var(--fucsia-1);
+    }
+
+    .titu-mis-vis {
+        font-size: 25px;
+        color: var(--marro-gris);
+    }
+
+    .text-mis-vis, .subtitu-somos,
+    .txt-somos {
+        font-size: 13px;
+        line-height: 16px;
+        color: var(--marro-gris);
+    }
+
+    .subtitu-somos {
+        margin-bottom: 0 !important;
+    }
+
+    .text-misvis-firma {
+        font-size: 13px;
+        line-height: 16px;
+        color: var(--fucsia-osc2);
+    }
+
+    /*=====================================
+        F.  Contacto
+    =======================================*/
+    /*-------------------------------------
+            19. Contenido contacto
+    --------------------------------------*/
+    .wrapper-contactos {
+        margin: 0 !important;
+        padding-top: 14px !important;
+        padding-bottom: 70px !important;
+    }
+
+    .container-contactos {
+        margin-bottom: -107px !important;
+    }
+    
+    .cont-contacto {
+        height: 344px !important;
+        padding-right: 14px !important;
+        padding-left: 14px !important;
+    }
+
+    .titus-contac {
+        margin-bottom: 0 !important;
+        font-size: var(--subtitulo-tlf);
+    }
+
+    .txts-contac {
+        font-size: var(--parrafo-tlf);
+    }
+
+    .btn-icon {
+        width: 57px;
+        height: 57px;
+    }
+
+    .info-suscript {
+        margin-top: 15px !important;
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .titu-hero-conta {
+        font-size: 36px;
+    }
+
+    .col-contacto {
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .row-contacto {
+        margin-top: 39px;
+    }
+
+    /*=====================================
+        Footer
+    =======================================*/
+    .container-footer {
+        margin-top: 35px !important;
+        padding-top: 0 !important;
+    }
+    .col-footer-top {
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+        max-width: 100%;
+        padding: 11px 6px;
+    }
+    .col-footer-top:nth-child(1),
+    .col-footer-top:nth-child(4) {
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-footer-top:nth-child(4) .contain-footer {
+        flex-direction: row;
+    }
+
+    .titu-footer-top {
+        margin-bottom: 5px !important;
+        font-size: 17px;
+    }
+
+    .col-footer-top p,
+    .link-footer {
+        font-size: var(--parrafo-tlf);
+        margin-bottom: 0 !important;
+    }
+
+    .link-footer-web {
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+        max-width: 100%;
+    }
+
+    .row-rrss-foot {
+        margin-top: 10px !important;
+    }
+
+    .rrss-foter {
+        font-size: 9px;
+    }
+
+    .container-footer-bot p {
+        font-size: var(--parrafo-tlf);
+        line-height: 15px;
+    }
+}
+
+@media (min-width: 1500px) {
+    /*=====================================
+        1.  CSS General
+    =======================================*/
+    .underline-ver-1 {
+        width: 540px;
+    }
+    .circul {
+        width: 14px;
+        height: 14px;
+    }
+>>>>>>> 41eb70095e40f8a5945980a3444e758d5a32adcb
 }
