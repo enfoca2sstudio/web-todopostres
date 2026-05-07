@@ -135,6 +135,29 @@
         }
     });
 
+    // Cursos carousel
+    $(".ebooks-home").owlCarousel({
+        autoplay: false,
+        loop: true,
+        dots: true,
+        nav : false,
+        cener: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:1
+            },
+            768:{
+                items:3
+            },
+            992:{
+                items:3
+            }
+        }
+    });
+
     // Courses carousel
     $(".courses-carousel").owlCarousel({
         autoplay: true,

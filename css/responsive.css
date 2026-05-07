@@ -320,9 +320,13 @@ Footer
     /*-------------------------------------
             6.  Cursos/Talleres home
     --------------------------------------*/
+    .cursos-home {
+        margin-top: 20px !important;
+        margin-bottom: -46px !important;
+    }
     .txt-cursos {
         width: 143px;
-        font-size: var(--subtitulo-tlf);
+        font-size: 16px;
     }
     .item-curs-home {
         width: auto;
@@ -384,7 +388,7 @@ Footer
 
     .txt-novedades {
         width: 143px;
-        font-size: var(--subtitulo-tlf);
+        font-size: 16px;
         margin-bottom: 0 !important;
     }
 
@@ -407,6 +411,15 @@ Footer
     /*-------------------------------------
             8.  Ebooks
     --------------------------------------*/
+    .container-ebooks-desk {
+        display: none;
+    }
+    .wrapper-ebook-home {
+        margin: 0 !important;
+        margin-top: -20px !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
     .container-ebooks {
         margin-top: -45px !important;
         margin-bottom: 72px !important;
@@ -416,9 +429,13 @@ Footer
         padding-bottom: 14px !important;
     }
 
+    .ebooks-home {
+        margin-top: -37px !important;
+    }
+
     .txt-ebooks {
         width: 143px;
-        font-size: var(--subtitulo-tlf);
+        font-size: 16px;
     }
     
     .titu-ebooks {
@@ -443,7 +460,8 @@ Footer
     }
 
     .cont-ebook {
-        padding: 12px 0;
+        width: 100%;
+        padding: 40px 0;
     }
 
     #carousel .item {
@@ -452,8 +470,45 @@ Footer
     }
     
     .btn-ebook {
-        width: 58%;
-        font-size: var(--parrafo-tlf) !important;
+        display: block;
+        width: 45%;
+        margin: auto !important;
+        font-size: 20px !important;
+    }
+
+    .ebooks-home .item-curs-home {
+        width: 300px;
+        height: 375px;
+        display: flex;
+        align-items: flex-end;
+        font-size: 2em;
+        color: white;
+        background-color: #3498db;
+        border-radius: 5px;
+        cursor: grab;
+        user-select: none;
+        border: 1px solid red;
+    }
+
+    .ebooks-home .item-curs-home:nth-child(1) {
+        background: url("../img/3-ebooks/ebook-img-nvo.webp") no-repeat center;
+        background-size: contain;
+    }
+    .ebooks-home .item-curs-home:nth-child(2) {
+        background: url("../img/3-ebooks/ebooks-img-nvo.webp") no-repeat center;
+        background-size: contain;
+    }
+    .ebooks-home .item-curs-home:nth-child(3) {
+        background: url("../img/3-ebooks/ebooks-img-nvo.webp") no-repeat center;
+        background-size: contain;
+    }
+    .ebooks-home .item-curs-home:nth-child(4) {
+        background: url("../img/3-ebooks/ebooks-img-nvo.webp") no-repeat center;
+        background-size: contain;
+    }
+    .ebooks-home .item-curs-home:nth-child(5) {
+        background: url("../img/3-ebooks/ebooks-img-nvo.webp") no-repeat center;
+        background-size: contain;
     }
 
     /*-------------------------------------
@@ -475,7 +530,7 @@ Footer
 
     .txt-valores {
         width: 143px;
-        font-size: var(--subtitulo-tlf);
+        font-size: 16px;
     }
 
     .titu-valores {
@@ -557,6 +612,7 @@ Footer
     }
 
     .col-testimo {
+        margin-bottom: 11px;
         padding: 0 12px !important;
     }
 
@@ -581,9 +637,10 @@ Footer
     .titu-testimo {
         width: 90%;
         margin: auto;
+        margin-top: 15px;
+        margin-bottom: 0 !important;
         font-size: var(--titulo-tlf);
         line-height: 29px;
-        margin-bottom: 0 !important;
     }
 
     .cont-testimo {
@@ -1142,6 +1199,9 @@ Footer
     /*=====================================
         Footer
     =======================================*/
+    .logo-footer {
+        width: 155px;
+    }
     .container-footer {
         margin-top: 35px !important;
         padding-top: 0 !important;
