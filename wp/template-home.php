@@ -93,93 +93,90 @@
                 <!-- Cuerpo del pop-up (contenido) -->
                 <div class="modal-body">
                     <!-- Nosotros Start -->
-                    <div class="wrapper-somos container-fluid py-5">
-                        <div class="container-somos container py-5">
-                            <div class="row">
-                                <div class="col-lg-12">
+                    <div class="wrapper-somos-popup container-fluid">
+                        <div class="container-somos-popup container">
+                            <div class="row row-somos-popup align-items-center justify-content-center">
+                                <div class="col-6 col-somos-popup col-somos-popup1">
+                                    <img src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/4-somos/rosmeri.webp" alt="#" class="img-somos-popup">
+                                </div>
+
+                                <div class="col-6 col-somos-popup col-somos-popup2">
                                     <div class="section-title seccion-titu-somos position-relative">
-                                        <h6 class="txt-noso-home d-inline-block position-relative text-uppercase pb-2">Todo Postres</h6>
-
-                                        <h1 class="font-heading-66 titu-noso-home">Soy yo… Mi nombre es Rosmeri</h1>
+                                        <h6 class="font-heading-66 d-inline-block position-relative text-uppercase titu-noso-popup">¡Hola!...<br><span class="txt-acent-mc">Soy Rosmeri</span></h6>
                                     </div>
 
-                                    <p class="font-mont txt-nos-home">Venezolana y Dominicana. Además de ser Chef Pastelera, soy Licenciada en Administración Comercial. Mi pasión siempre ha estado en la gastronomía dulce y hoy pongo a tu disposición mis más de 15 años de experiencia formando a miles de emprendedores en Latinoamérica, Estados Unidos y Europa. </p>
-
-                                    <div class="row row-contador mx-0 justify-content-center">
-                                        <div class="contain-contador col-contado px-0">
-                                            <div class="bg-contador text-center">
-                                                <h1 class="font-georgia txt-conta-num" data-toggle="counter-up">3000</h1>
-
-                                                <h6 class="font-georgia txt-contado text-uppercase">Estudiantes<span class="d-block">satisfechos</span></h6>
-                                            </div>
-                                        </div>
-                        
-                                        <div class="contain-contador col-contado px-0">
-                                            <div class="bg-contador text-center">
-                                                <h1 class="font-georgia txt-conta-num" data-toggle="counter-up">18</h1>
-
-                                                <h6 class="font-georgia txt-contado text-uppercase">Programas de<span class="d-block">Capacitación</span></h6>
-                                            </div>
-                                        </div>
-                        
-                                        <div class="contain-contador col-contado px-0">
-                                            <div class="bg-contador text-center">
-                                                <h1 class="font-georgia txt-conta-num" data-toggle="counter-up">1</h1>
-
-                                                <h6 class="font-georgia txt-contado text-uppercase">Millón De<span class="d-block">Followers</span></h6>
-                                            </div>
-                                        </div>
-                        
-                                        <div class="contain-contador col-contado px-0">
-                                            <div class="bg-contador text-center">
-                                                <h1 class="font-georgia txt-conta-num" data-toggle="counter-up">14</h1>
-
-                                                <h6 class="font-georgia txt-contado text-uppercase">Años de<span class="d-block">Experiencia</span></h6>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <p class="font-heading-64 txt-noso-popup">Venezolana y Dominicana. Además de ser <span class="txt-acent-rosaosc">Chef Pastelera</span>, soy Licenciada en Administración Comercial. Mi pasión siempre ha estado en la gastronomía dulce y hoy pongo a tu disposición más de <span class="txt-acent-rosaosc"><span class="font-myriad">15</span> años de mi experiencia</span> formando a miles de emprendedores en Latinoamérica, Estados Unidos y Europa.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- Nosotros End -->
 
+                    <!-- Contador del pop-up -->
+                    <div class="contain-contador-popup">
+                        <div class="row row-contador mx-0 justify-content-center">
+                            <div class="contain-contador col-contado px-0">
+                                <div class="bg-contador text-center">
+                                    <h1 class="font-georgia txt-conta-num" data-toggle="counter-up">3000</h1>
+
+                                    <h6 class="font-georgia txt-contado text-uppercase">Estudiantes<span class="d-block">satisfechos</span></h6>
+                                </div>
+                            </div>
+                        
+                            <div class="contain-contador col-contado px-0">
+                                <div class="bg-contador text-center">
+                                    <h1 class="font-georgia txt-conta-num" data-toggle="counter-up">18</h1>
+
+                                    <h6 class="font-georgia txt-contado text-uppercase">Programas de<span class="d-block">Capacitación</span></h6>
+                                </div>
+                            </div>
+                        
+                            <div class="contain-contador col-contado px-0">
+                                <div class="bg-contador text-center">
+                                    <h1 class="font-georgia txt-conta-num" data-toggle="counter-up">1</h1>
+
+                                    <h6 class="font-georgia txt-contado text-uppercase">Millón De<span class="d-block">Followers</span></h6>
+                                </div>
+                            </div>
+                        
+                            <div class="contain-contador col-contado px-0">
+                                <div class="bg-contador text-center">
+                                    <h1 class="font-georgia txt-conta-num" data-toggle="counter-up">14</h1>
+
+                                    <h6 class="font-georgia txt-contado text-uppercase">Años de<span class="d-block">Experiencia</span></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Feature Start -->
                     <div class="wrapper-mis-vis container-fluid">
                         <div class="container">
-                            <div class="row">
-                                <div class="col-lg-7 mb-5 mb-lg-0">
-                                    <div class="section-title position-relative mb-4">
-                                        <h6 class="font-georgia txt-mis-vis d-inline-block position-relative text-uppercase pb-2">Conóceme</h6>
+                            <div class="section-title position-relative mb-4">
+                                <h6 class="font-georgia txt-mis-vis d-inline-block position-relative text-uppercase pb-2">Conóceme</h6>
 
-                                        <h1 class="font-heading-66 titu-mis-vis">Sobre Todo Postres Ve</h1>
-                                    </div>
+                                <h1 class="font-heading-66 titu-mis-vis">Sobre Todo Postres Ve</h1>
+                            </div>
 
-                                    <p class="font-heading-64 mb-4 pb-2 txt-somos">Nacimos con una visión clara: No enseñar recetas sueltas… sino enseñar a pensar como profesionales.<br><br>Por eso nuestro método se basa en estructura académica, comprensión técnica y enfoque emprendedor. Aquí nuestros estudiantes no solo aprenden a hacer un pastel; aprenden a entender los ingredientes, dominar las técnicas y construir productos que realmente se venden.</p>
+                            <p class="font-heading-64 mb-4 pb-2 txt-somos">Nacimos con una visión clara: <span class="txt-acent-fucsi2">No enseñar recetas sueltas...</span> sino enseñar a pensar como profesionales.<br><br>Por eso nuestro método se basa en estructura académica, comprensión técnica y enfoque emprendedor. Aquí nuestros estudiantes no solo aprenden a hacer un pastel; aprenden a entender los ingredientes, dominar las técnicas y construir productos que realmente se venden.</p>
 
-                                    <div class="cont-misvis d-flex align-items-center mb-3">
-                                        <div class="mt-n1">
-                                            <h4 class="font-georgia subtitu-somos">Misión</h4>
+                            <div class="cont-misvis d-flex align-items-center mb-3">
+                                <div class="mt-n1">
+                                    <h4 class="font-heading-66 subtitu-somos">Misión</h4>
 
-                                            <p class="font-heading-64 text-mis-vis">Brindar capacitación técnica y de excelencia orientada al desarrollo de competencias gastronómicas para formar recursos humanos capaces de crear y comercializar productos de gastronomía bien sea para desarrollar su propio negocio o para trabajar en: restaurants, hoteles entre otros.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="cont-misvis d-flex align-items-center mb-3">
-                                        <div class="mt-n1">
-                                            <h4 class="font-georgia subtitu-somos">Visión</h4>
-
-                                            <p class="font-heading-64 text-mis-vis">Ser una institución de formación y consultoría, en capacitación de recursos humanos que cultiven la excelencia, la creatividad y la innovación en los procesos gastronómicos con el fin de asegurar un alto estándar de calidad que les permita desempeñar eficientemente su actividad profesional.<br><br>Puedes estudiar el Programa de Certificación en Maestro Pastelero, en matricula regular o especial, es decir tenemos horarios para los días hábiles de semana y los días sábados.  En el caso del programa sabatino puedes empezar por uno de los certificados que lo componen, en función del interés que tengas hacia determinada área.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-5" style="min-height: 500px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute w-100 h-100" src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/feature.jpg" style="object-fit: cover;">
-                                    </div>
+                                    <p class="font-heading-64 text-mis-vis">Brindar capacitación técnica y de excelencia orientada al desarrollo de competencias gastronómicas para formar recursos humanos capaces de crear y comercializar productos de gastronomía bien sea para desarrollar su propio negocio o para trabajar en: restaurants, hoteles entre otros.</p>
                                 </div>
                             </div>
+
+                            <div class="cont-misvis d-flex align-items-center mb-3">
+                                <div class="mt-n1">
+                                    <h4 class="font-heading-66 subtitu-somos">Visión</h4>
+
+                                    <p class="font-heading-64 text-mis-vis">Ser una institución de formación y consultoría, en capacitación de recursos humanos que cultiven la excelencia, la creatividad y la innovación en los procesos gastronómicos con el fin de asegurar un alto estándar de calidad que les permita desempeñar eficientemente su actividad profesional.<br><br>Puedes estudiar el Programa de Certificación en Maestro Pastelero, en matricula regular o especial, es decir tenemos horarios para los días hábiles de semana y los días sábados.  En el caso del programa sabatino puedes empezar por uno de los certificados que lo componen, en función del interés que tengas hacia determinada área.</p>
+                                </div>
+                            </div>
+
+                            <p class="font-heading-64 text-misvis-firma">Puedes estudiar el <span class="txt-acento">Programa de Certificación en Maestro Pastelero</span>, en matricula regular o especial, es decir tenemos horarios para los días hábiles de semana y los días sábados. En el caso del programa sabatino puedes empezar por uno de los certificados que lo componen, en función del interés que tengas hacia determinada área.</p>
                         </div>
                     </div>
                     <!-- Feature Start -->
@@ -337,15 +334,13 @@
 
     <!-- Header Start -->
     <div class="contain-video-hero d-flex align-items-center justify-content-center">
-        <h1 class="titus-hero-home">dulces</h1>
-
-        <video class="vid-hero d-none" autoplay playsinline width="1350" height="759">
-            <source src="img/ACALI HORIZONTAL.mp4">
+        <video class="desk vid-hero" autoplay playsinline loop muted>
+            <source src="img/1-home/video-home.webm" type="video/webm">
         </video>
 
-        <!-- <video class="vid-hero" controls autoplay width="625" height="351">
-            <source src="img/ACALI HORIZONTAL.mp4">
-        </video> -->
+        <video class="tlf vid-hero" autoplay playsinline loop muted width="1350" height="759">
+            <source src="img/1-home/video-home-tlf.webm" type="video/webm">
+        </video>
     </div>
 
     <div class="jumbotron jumbotron-fluid position-relative owl-carousel owl-theme hero-home">
@@ -458,7 +453,7 @@
             <div class="row row-somos-home align-items-center justify-content-center">
                 <div class="col-lg-5 mb-5 mb-lg-0 col-contador col-contador-1">
                     <div class="cont-img-somos">
-                        <img class="img-somos" src="https://todopostresve.com/stage/wp-content/themes/bAstra/assets/img/1-home/somos-img.webp" style="object-fit: cover;">
+                        <img class="img-somos" src="img/1-home/somos-img.webp" style="object-fit: cover;">
                     </div>
                 </div>
 
@@ -1682,7 +1677,7 @@
             <div class="section-title text-center position-relative mb-5">
                 <h6 class="font-georgia txt-valores d-inline-block position-relative text-uppercase pb-2">valores</h6>
 
-                <h1 class="titu-valores">Hecho a mano es sinónimo de<br>hecho con el corazón</h1>
+                <h1 class="font-heading-64 titu-valores">Hecho a mano es sinónimo de<br>hecho con el corazón</h1>
             </div>
 
             <div class="row row-valor container-valores aling-items-center justify-content-evenly">

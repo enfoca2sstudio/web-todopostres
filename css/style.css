@@ -621,6 +621,7 @@ body {
   color: #6B6A75;
   text-align: left;
   background-color: #FFFFFF;
+  overflow-x: hidden;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -1362,6 +1363,7 @@ button.nav-item {
 }
 
 .vid-hero {
+  width: 100%;
   display: block;
   margin: auto;
 }
@@ -1419,23 +1421,23 @@ button.nav-item {
 
 .item-carru-home1 .row-hero-home {
   background: #ffffff;
-  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 30%, rgba(245, 245, 245, 0) 75%);
-     background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 30%, rgba(245, 245, 245, 0) 75%);
-          background: linear-gradient(90deg, rgba(255, 255, 255, 1) 30%, rgba(245, 245, 245, 0) 75%);
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 45%, rgba(245, 245, 245, 0) 80%);
+     background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 45%, rgba(245, 245, 245, 0) 80%);
+          background: linear-gradient(90deg, rgba(255, 255, 255, 1) 45%, rgba(245, 245, 245, 0) 80%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#F5F5F5", GradientType=1);
 }
 .item-carru-home2 .row-hero-home {
   background: #820041;
-  background: -webkit-linear-gradient(90deg, rgba(130, 0, 65, 1) 58%, rgba(245, 245, 245, 0) 75%);
-     background: -moz-linear-gradient(90deg, rgba(130, 0, 65, 1) 58%, rgba(245, 245, 245, 0) 75%);
-          background: linear-gradient(90deg, rgba(130, 0, 65, 1) 58%, rgba(245, 245, 245, 0) 75%);
+  background: -webkit-linear-gradient(90deg, rgba(130, 0, 65, 1) 58%, rgba(245, 245, 245, 0) 80%);
+     background: -moz-linear-gradient(90deg, rgba(130, 0, 65, 1) 58%, rgba(245, 245, 245, 0) 80%);
+          background: linear-gradient(90deg, rgba(130, 0, 65, 1) 58%, rgba(245, 245, 245, 0) 80%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#820041", endColorstr="#F5F5F5", GradientType=1);
 }
 .item-carru-home3 .row-hero-home {
   background: #ffffff;
-  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 58%, rgba(245, 245, 245, 0) 75%);
-     background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 58%, rgba(245, 245, 245, 0) 75%);
-          background: linear-gradient(90deg, rgba(255, 255, 255, 1) 58%, rgba(245, 245, 245, 0) 75%);
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 58%, rgba(245, 245, 245, 0) 80%);
+     background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 58%, rgba(245, 245, 245, 0) 80%);
+          background: linear-gradient(90deg, rgba(255, 255, 255, 1) 58%, rgba(245, 245, 245, 0) 80%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#F5F5F5", GradientType=1);
 }
 
@@ -1592,8 +1594,8 @@ button.nav-item {
 /*-------------------------------------
     5.  Contador
 --------------------------------------*/
-.container-cursos-home {
-  margin-top: -1px !important;
+.container-curs-home {
+  margin-top: 46px !important;
 }
 
 .titu-noso-home {
@@ -2981,26 +2983,38 @@ button.nav-item {
   background-size: cover;
 }
 .col-items-cursos:nth-child(2) .contain-front-cursos {
-  background: url("../img/2-cursos/2-1-cursos/curs-fron-02.webp") 0 0 no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+  background: url("../img/2-cursos/2-1-cursos/curso-img-nvo-02.webp") 0 0 no-repeat;
   background-position: center;
   background-size: cover;
 }
 .col-items-cursos:nth-child(3) .contain-front-cursos {
-  background: url("../img/2-cursos/2-1-cursos/curs-fron-03.webp") 0 0 no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+  background: url("../img/2-cursos/2-1-cursos/curso-img-nvo-03.webp") 0 0 no-repeat;
   background-position: center;
   background-size: cover;
 }
 .col-items-cursos:nth-child(4) .contain-front-cursos {
-  background: url("../img/2-cursos/2-1-cursos/curs-fron-04.webp") 0 0 no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+  background: url("../img/2-cursos/2-1-cursos/curso-img-nvo-04.webp") 0 0 no-repeat;
   background-position: center;
   background-size: cover;
 }
 .col-items-cursos:nth-child(5) .contain-front-cursos {
-  background: url("../img/2-cursos/2-1-cursos/curs-fron-05.webp") 0 0 no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+  background: url("../img/2-cursos/2-1-cursos/curso-img-nvo-05.webp") 0 0 no-repeat;
   background-position: center;
   background-size: cover;
 }
-.col-items-cursos:nth-child(6) .contain-front-cursos {
+/* .col-items-cursos:nth-child(6) .contain-front-cursos {
   background: url("../img/2-cursos/2-1-cursos/curs-fron-06.webp") 0 0 no-repeat;
   background-position: center;
   background-size: cover;
@@ -3054,7 +3068,7 @@ button.nav-item {
   background: url("../img/2-cursos/2-1-cursos/curs-fron-16.webp") 0 0 no-repeat;
   background-position: center;
   background-size: cover;
-}
+} */
 
 .col-items-cursos .contain-front-cursos {
   width: 351px;
@@ -3152,7 +3166,7 @@ button.nav-item {
   border: none !important;
   background: none !important;
 }
-.col-items-cursos:nth-child(1) .txt-firma-front {
+.col-items-cursos .txt-firma-front {
   width: 100%;
   background: none !important;
 }
@@ -3633,8 +3647,11 @@ button.nav-item {
 }
 
 .contain-contador-popup {
+  position: relative;
+  margin-top: -20px;
   padding: 25px 0 !important;
   background: #fff7fa;
+  z-index: 999;
 }
 
 .contain-contador-popup .col-contado {
