@@ -1349,9 +1349,7 @@ button.nav-item {
 }
 
 .contain-video-hero {
-  height: 324px;
-  /* background: url(../img/1-home/hero-img.webp) center center no-repeat;
-  background-size: cover; */
+  height: auto;
 }
 
 .titus-hero-home {
