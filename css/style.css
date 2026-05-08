@@ -2712,7 +2712,7 @@ button.nav-item {
 --------------------------------------*/
 .wrapper-testimo {
   padding: 0 !important;
-  margin: 90px 0;
+  margin: 90px 0 36px;
   background: #E10079;
   background: -webkit-linear-gradient(90deg, rgba(225, 0, 121, 1) 28%, rgba(245, 245, 245, 0) 80%);
      background: -moz-linear-gradient(90deg, rgba(225, 0, 121, 1) 28%, rgba(245, 245, 245, 0) 80%);
