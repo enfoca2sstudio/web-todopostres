@@ -3851,6 +3851,10 @@ button.nav-item {
   background: var(--rosado-cla);
 }
 
+.row-footer-top {
+  padding-top: 28px;
+}
+
 .col-footer-top:nth-child(1) {
   display: flex;
   align-items: center;
